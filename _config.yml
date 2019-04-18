@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gurucharan"
+title                    : "Gurucharan Subramani - This is my blog"
 title_separator          : "-"
 name                     : "Gurucharan Subramani"
-description              : "Gurucharan94's blog"
+description              : "I am Gurucharan Subramani, aka Gurucharan94. I am a programmer, tech speaker, casual blogger and a community buff."
 url                      : "https://www.gurucharan.in/"
 baseurl                  : "blog"
 repository               : "GuruCharan94/blog"
 #teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo.png"
-masthead_title           : "Blog"
+masthead_title           : "Gurucharan's Blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
