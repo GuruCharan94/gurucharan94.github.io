@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gurucharan94"
+title                    : "Gurucharan"
 title_separator          : "-"
 name                     : "Gurucharan Subramani"
 description              : "Gurucharan94's blog"
 url                      : "https://www.gurucharan.in/"
-baseurl                  : "/blog"
+baseurl                  : "blog"
 repository               : "GuruCharan94/blog"
 #teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo.png"
@@ -76,10 +76,10 @@ search_provider          : lunr
 #   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
 #   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : k_yVXly_gCfHfxCfirzHqNFWnt6ZU5f0L88m351p3fk
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+# google_site_verification :
+# bing_site_verification   :
+# yandex_site_verification :
+# naver_site_verification  :
 
 # Social Sharing
 twitter:
@@ -94,6 +94,7 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : Person
   name                   : "Gurucharan Subramani"
+  alternateName          : "Gurucharan94"
   links:
    - "https://www.linkedin.com/in/gurucharan94"
    - "https://twitter.com/gurucharan94"
@@ -101,9 +102,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google-gtag
   google:
-    tracking_id          :
+    tracking_id          : "UA-89662853-2"
     anonymize_ip         : # true, false (default)
 
 
@@ -111,7 +112,7 @@ analytics:
 author:
   name             : "Gurucharan Subramani"
   avatar           : "assets/images/gurucharan94.jpeg"
-  bio              : "I am an amazing person."
+  bio              : "EV Chargers @ABB | .NET, Azure, DevOps | Community Buff"
   location         : "Bangalore, India"
   email            :
   links:
