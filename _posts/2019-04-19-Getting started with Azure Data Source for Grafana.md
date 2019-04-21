@@ -1,12 +1,12 @@
 ---
-title: "Getting Started with Azure Monitor Data Source for Grafana"
+title: "Up your Azure game with the Azure Monitor Data Source for Grafana"
 categories:
   - Azure
 tags:
   - Azure Monitor
   - Grafana
   - Application Insights
-excerpt: "This is a complete end-to-end guide covering everything you need to know about using Azure Monitor Data Source for Grafana to monitor your Azure Resources"
+excerpt: "An end-to-end guide covering everything you need to know about getting started with the Azure Monitor Data Source for Grafana to monitor your Azure Resources"
 ---
 
 The Azure Monitor Data Source for Grafana is a Grafana plugin for Azure which lets you consume and visualize metrics from Azure Monitor, Application Insights and Log Analytics on Grafana. In case you haven't heard, [Grafana](https://grafana.com/grafana/) is the leading open source platform for beautiful time series analytics, visualization and monitoring like the one you see below.
@@ -24,24 +24,48 @@ You can install and run Grafana on Windows, Linux or Mac and there is even a doc
 - Create a Ubuntu VM on Azure (duh!)
 - Register an application on Azure Active Directory and provide it access to the resources (subscription / resource group / resource ) you would like to monitor.
 
-### Step 1 : Create an Ubuntu VM on Azure
+### **Step 1 : Create an Ubuntu VM on Azure**
 
-I assume that you are familiar with creating a VM on Azure and so I will not spend time explaining the steps in detail. Here is a link to the [official docs on creating a linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal) in case you need it. For the purpose of this tutorial you can create a Ubuntu 18.04 LTS server on Azure, open up ports 80 (http) and 22 (ssh) and choose an appropriate size of VM that meets [the minimum system requirements](https://community.grafana.com/t/hardware-sizing-guidlines-for-grafana/3059)  to run grafana which is 255 mb RAM and a single CPU. This is the cloud, you can anyways scale up later if needed. So hit create and wait till the VM is created and in the meanwhile, go grab a coffee or something.
+I assume that you are familiar with creating a VM on Azure and so I will not spend time explaining the steps in detail. Here is a link to the [official docs on creating a linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal) in case you need it. For the purpose of this tutorial you can create a Ubuntu 18.04 LTS image, choose a name, **open up ports 80 (http) and 22 (ssh)** and choose the **Standard B1s** size which is the smallest size that meets [the minimum system requirements](https://community.grafana.com/t/hardware-sizing-guidlines-for-grafana/3059) to run grafana which is **255 MB RAM and a single CPU**. This is the cloud, you can anyways scale up later if needed. So hit create and wait till the VM is created and in the meanwhile, go grab a coffee or something.
 
 ![Grafana VM Configuration](/assets/images/grafana/grafana-create-vm.png)
 
-## Step 2 : Install Grafana and set-up the Azure Plugin
+### **Step 2 : Install Grafana and set-up the Azure Plugin**
 
 Now that the VM is created successfully, browse to the VM, get the IP address to connect to, fire up a terminal and ssh into the machine. Finally we are getting somewhere. Now it's time to install Grafana. As of writing, [the latest version available in 6.1.4](https://grafana.com/grafana/download?platform=linux) and you can run below commands inside your VM to install said version.
 
 ```bash
-wget https://dl.grafana.com/oss/release/grafana_6.1.4_amd64.deb 
-sudo dpkg -i grafana_6.1.4_amd64.deb 
+## Download and install Grafana
+wget https://dl.grafana.com/oss/release/grafana_6.1.4_amd64.deb
+sudo apt-get install -y adduser libfontconfig1
+sudo dpkg -i grafana_6.1.4_amd64.deb
+
+## Start grafana as a systemd service
+systemctl daemon-reload
+systemctl start grafana-server
+
+## Enable the systemd service so that Grafana starts at boot.
+sudo systemctl enable grafana-server.service
+
+## Check grafana status
+systemctl status grafana-server
+curl http://localhost:3000
+```
+
+If you did not encounter any errors till here, you have successfully installed Grafana as a systemd service and it is responding to requests from it's default port 3000. The next step is to run it from port 80. You can do that by modifying the config files located at `/etc/grafana/grafana.ini`. Open the configuration file in any text editor, find the line which says `;http_port=3000` and change it to `http_port=80`. Save and exit. **Remember to delete the semi-colon at the beginning of the line.**
+
+```bash
+# Gives grafana permissions to run on port 80
+sudo setcap 'cap_net_bind_service=+ep' /usr/sbin/grafana-server
+
+# Restart Grafana for the configurations to get updated
+sudo systemctl restart grafana-server
+systemctl status grafana-server
 ```
 
 
-- systemctl commands / path of config file.
-- ssh and move to port 80.
+- Browse to the public ip of your vm and you see grafana.
+- Login with the default admin, admin credentials and reset the credentials.
 - password gotcha
 - create app in azure AD
 - install plugin
