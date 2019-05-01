@@ -40,7 +40,7 @@ You can install and run Grafana on Windows, Linux or Mac and there is even a doc
 
 I assume that you are familiar with creating a VM on Azure and so I will not spend time explaining the steps in detail. Here is a link to the [official docs on creating a linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal) in case you need it. For the purpose of this tutorial you can create a Ubuntu 18.04 LTS image, choose a name, **open up ports 80 (http) and 22 (ssh)** and choose the **Standard B1s** size which is the smallest size that meets [the minimum system requirements](https://community.grafana.com/t/hardware-sizing-guidlines-for-grafana/3059) to run grafana which is **255 MB RAM and a single CPU**. This is the cloud, you can anyways scale up later if needed. So hit create and wait till the VM is created and in the meanwhile, go grab a coffee or something.
 
-![Grafana VM Configuration](/assets/images/grafana/grafana-create-vm.png)
+![Grafana VM Configuration](/assets/images/grafana/grafana-vm.png)
 
 ### **Step 2 : Install Grafana on the Machine**
 
