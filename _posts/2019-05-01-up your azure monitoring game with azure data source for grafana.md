@@ -180,7 +180,7 @@ There are tons of other nuances and configurable options like the [panels custom
 
 Like I said at the start, Grafana offers a lot of customization options but the deciding factor for me to move from Azure Dashboards to Grafana **is the ability to create dynamic charts with variables**. The notifications supports a lot of integrations out of the box but limited to Azure Monitor Queries only right now and this is something to consider as well.
 
-#### **Did you like this post ?**
+**Did you like this post ?**
 
 Please take some time to provide feedback with the reaction buttons below. If you think that something that can be better explained or done differently / better, leave a comment.
 
