@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gurucharan Subramani - This is my blog where I write about .NET, Azure and the related tech eco-system"
+title                    : "Gurucharan94's Blog"
 title_separator          : "-"
 name                     : "Gurucharan Subramani"
 description              : "I am Gurucharan Subramani, aka Gurucharan94. I am a programmer, tech speaker, casual blogger and a community buff. This is my blog."
@@ -25,7 +25,7 @@ baseurl                  : ""
 repository               : "GuruCharan94/gurucharan94.github.io"
 #teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo.png"
-masthead_title           : "Gurucharan's Blog"
+masthead_title           : "Gurucharan94's Blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
