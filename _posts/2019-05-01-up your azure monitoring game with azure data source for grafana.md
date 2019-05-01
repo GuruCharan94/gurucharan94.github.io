@@ -1,8 +1,8 @@
 ---
 title: "Up your Azure monitoring game with Azure Data Source for Grafana"
 header:
-  teaser: /assets/images/grafana/grafana.jpg
-  og_image: /assets/images/grafana/grafana.jpg
+  teaser: assets/images/grafana/grafana.jpg
+  og_image: assets/images/grafana/grafana.jpg
 categories:
   - Azure
 tags:
