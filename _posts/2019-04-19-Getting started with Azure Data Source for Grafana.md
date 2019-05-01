@@ -167,14 +167,13 @@ The Azure Monitor Data Source supports alerts only for Azure Monitor Queries as 
 
 I have configured a slack as a notification channel for this post. You can then configure alert rules in the individual panels. Each panel supports multiple alert conditions (or rules) that can be chained together using **AND / OR** operators. Each alert can also be sent to multiple channels like Email, Slack etc., as expected.
 
-
 The alert thresholds are also visible in the panels and whenever the alerts are firing, you can see a blinking red border around the alerting panel, giving a real sense of urgency.
 
 ![Grafana Alert Rules](/assets/images/grafana/grafana-alert-rules.png)
 
 ## Closing Remarks
 
-There are tons of other nuances and configurable options like the [panels customizations](https://grafana.com/docs/features/panels/graph/), [playlists](https://grafana.com/docs/reference/playlist/), [annotations](https://grafana.com/docs/reference/annotations/) and [authentication using single sign-on](https://grafana.com/docs/auth/overview/) etc., The grafana docs are super detailed about these configurations and I'll let you explore them on your own [from the official docs](https://grafana.com/docs).
+There are tons of other nuances and configurable options like the [panels customization](https://grafana.com/docs/features/panels/graph/), [playlists](https://grafana.com/docs/reference/playlist/), [annotations](https://grafana.com/docs/reference/annotations/) and [authentication using single sign-on](https://grafana.com/docs/auth/overview/) etc., The grafana docs are super detailed about these configurations and I'll let you explore them on your own [from the official docs](https://grafana.com/docs).
 
 Like I said at the start, Grafana offers a lot of customization options but the deciding factor for me to move from Azure Dashboards to Grafana **is the ability to create dynamic charts with variables**. The notifications supports a lot of integrations out of the box but limited to Azure Monitor Queries only right now and this is something to consider as well.
 
