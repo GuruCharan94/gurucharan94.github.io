@@ -1,5 +1,5 @@
 ---
-title: "Up your Azure monitoring game with the Azure Data Source for Grafana"
+title: "Up your Azure monitoring game with Azure Data Source for Grafana"
 categories:
   - Azure
 tags:
