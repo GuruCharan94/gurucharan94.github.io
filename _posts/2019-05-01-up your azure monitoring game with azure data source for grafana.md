@@ -1,5 +1,6 @@
 ---
 title: "Up your Azure monitoring game with Azure Data Source for Grafana"
+date: 2019-05-01
 header:
   teaser: assets/images/grafana/grafana.jpg
   og_image: assets/images/grafana/grafana.jpg
@@ -9,7 +10,7 @@ tags:
   - Azure Monitor
   - Grafana
   - Application Insights
-excerpt: "An end-to-end guide covering everything you need to know about using Azure Monitor Data Source for Grafana to visualize and monitor your Azure Resources"
+excerpt: "An end-to-end guide covering everything you need to know about using Azure Monitor Data Source for Grafana to create rich, interactive and dynamic dashboards to visualize and monitor metrics from your Azure Resources."
 ---
 
 The Azure Data Source for Grafana is a Grafana plugin which lets you consume and visualize metrics from Azure Monitor, Application Insights and Log Analytics on Grafana. In case you haven't heard, [Grafana](https://grafana.com/grafana) is the leading open source platform for beautiful time series analytics, visualization and monitoring. With the Azure Data Source, you can easily and quickly build nice, meaningful dashboards without making any changes to your application / infrastructure.
@@ -67,6 +68,7 @@ sudo systemctl enable grafana-server.service
 ## Check grafana status
 systemctl status grafana-server
 ```
+
 You should see a message stating Grafana service is loaded and active (running). You have successfully installed Grafana as a systemd service and it is responding to requests from it's default port 3000. Port 3000 is great but I really don't like typing in a port number in my browser's address bar. Let's fix that and get Grafana to run on port 80.
 
 You can do that by modifying the config files located at `/etc/grafana/grafana.ini`. Open the configuration file in your favorite text editor, find the line which says **`;http_port=3000`** and change it to **`http_port=80`**. Save and exit
