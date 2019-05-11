@@ -14,20 +14,22 @@ tags:
 excerpt: "An quick guide to help you get started with the different features of the Secure DevOps Kit for Azure (AzSK) to help improve the security posture of your Azure Workloads and adopt a security first mindset."
 ---
 
-[The Secure DevOps Kit for Azure (AzSK)](https://azsk.azurewebsites.net/) is a free and open source toolkit that checks your Azure resources for operational and security best practices.The kit in it's core is a Powershell Module that caters to the end to end Azure subscription and resource security needs by checking key areas like
+[The Secure DevOps Kit for Azure (AzSK)](https://azsk.azurewebsites.net/) is a free and open source toolkit that checks your Azure resources for operational and security best practices. The kit in it's core is a Powershell Module that caters to the end to end Azure subscription and resource security needs by checking key areas like
 
-- **Subscription Security** - ARM Policies, RBAC, Security Center Configurations
-- **Resource Security Scan** - Https Configurations, Firewall Rules, Key Rotation, Token Expiration, Backup and Disaster Recovery Configuration and many others.
+- **Subscription Security** - ARM Policies, RBAC (Role Based Access Control), Security Center Configurations
+- **Resource Security** - Https Configurations, Firewall Rules, Key Rotation, Token Expiration, Backup and Disaster Recovery Configuration and many others.
 
-This post helps you get started with the core features of the Secure DevOps Kit for Azure like
+This post helps you get started with the core features of the Secure DevOps Kit by showing you how to
 
-- Installing AzSK and running your first scan
-- Understanding the scan results.
-- Pushing scan results to Azure Log Analytics and visualizing scan results like below screenshot
-- Links and guides to some interesting advanced features
-  - Customizing the security checks
-  - Azure DevOps (VSTS) and Jenkins integrations to include these checks in your deployment pipeline.
-  - Continuous security monitoring post deployment
+- Install AzSK and running your first scan
+- Understand the scan results.
+- Push scan results to Azure Log Analytics and visualizing scan results like below screenshot
+
+I have further provided links to the official docs if you want to try out some of the advanced features such as
+
+- Customizing the security checks
+- Azure DevOps (VSTS) and Jenkins integrations to include these checks in your deployment pipeline.
+- Continuous security monitoring post deployment.
 
 ![AzSK-Log Analytics](/assets/images/AzSK/AzSK-LogAnalytics.png)
 
@@ -35,17 +37,17 @@ This post helps you get started with the core features of the Secure DevOps Kit 
 
 I am assuming you, dear reader, have basic knowledge of Powershell. In case you need to get started or brush up on your Powershell, the AzSK team have done a fantastic job to help you with [this crash course](https://azsk.azurewebsites.net/Blogs/Blog1.html).
 
-Ensure you have **PowerShell version 5** or higher installed on your machine. You can check the version of Powershell installed on your machine by running `$PSVersionTable` on your PowerShell window. Update your PowerShell version if you need to. The update is mostly straight-forward. Google is your best friend here :)
+Ensure you have **PowerShell version 5** or higher installed on your machine. You can check the version of Powershell installed on your machine by running `$PSVersionTable` on your PowerShell window. Update your PowerShell version if you need to. The update is mostly straight-forward. Google is your best friend here :blush:
 
 ![Powershell Version Screenshot](/assets/images/AzSK/PSVersion.png)
 
-Once you have the right version of Powershell installed the next step is that you **trust me, copy and paste scripts** into your Powershell ISE Window and run them :). The scripts use the new Azure Powershell (Az) Modules extensively. I have included an overview of what the script attempts to accomplish and also in-line comments wherever necessary.
+Once you have the right version of Powershell installed the next step is that you **trust me, copy and paste scripts** into your Powershell ISE Window and run them. :blush: The scripts use the new Azure Powershell (Az) Modules extensively. I have included an overview of what the script attempts to accomplish and also in-line comments wherever necessary.
 
 ### **Copy and Paste - Drill 1**
 
 Drill 1 involves the installation of The Secure DevOps Kit for Azure. The installation does not need admin privileges and installs the modules for the currently logged in user. The Azure Security Kit relies heavily on the new Azure Powershell (Az) Modules. You can run the below scripts to install AzSK on your machine. The installation might take some time and in the meanwhile, you can take a look at the [official setup instructions](https://azsk.azurewebsites.net/00a-Setup/Readme.html) which contains answers to frequent installation problems.
 
-```PowerShell
+```powershell
 # Install AzSK
 Install-Module AzSK -Scope CurrentUser -AllowClobber -Force
 
@@ -70,7 +72,7 @@ The script below
 
 Save the below script in a file called **AzSK-setup.ps1**. From your Powershell ISE window which you already have open, you can run `.\AzSK-setup.ps1 -SubscriptionName "your-subscription-name"`
 
-```PowerShell
+```powershell
 Param
 (
     [Parameter(Mandatory=$true)] [string]$SubscriptionName,
@@ -140,7 +142,7 @@ This is the fun part where we can finally scan our Azure Workloads and compare t
 
 Save the below script in a file called **AzSK-Scan.ps1**. From your Powershell ISE window which you already have open, you can run `.\AzSK-Scan.ps1 -SubscriptionName "your-subscription-name"`
 
-```PowerShell
+```powershell
 Param
 (
     [Parameter(Mandatory=$true)][string]$SubscriptionName
@@ -174,10 +176,9 @@ The fix scripts are also generated thanks to the `GenerateFixScript` argument. *
 
 You can head over to the Azure Portal and navigate to the Log Analytics Workspace and see that the scan results are also pushed to the Log Analytics workspace that was configured. [It usually takes around 30 minutes on your first scan for the scan results to show up in Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-ingestion-time). The subsequent results show up much faster.
 
-**Pro Tip**
-The built-in visualization of the log analytics shows only the baseline controls for the last 3 days. Base line controls are the most important security controls that ensure a decent basic level of security.
+**Pro Tip :** The built-in visualization of the log analytics **shows only the baseline controls for the last 3 days**. Base line controls are the most important security controls that ensure a decent basic level of security.
 
-To match the results in the .csv file you have to edit the workspace and specifically modify the queries across every blade and specifically remove the `where TimeGenerated > ago(3d)` and the `IsBaselineControl_b == true` parts from the query. You can also add / remove / edit the blades to customize the AzSK Solution for Log Analytics.
+To match the results in the .csv file you have to edit the workspace and specifically modify the queries across every blade and specifically remove the **`where TimeGenerated > ago(3d)`** and the **`IsBaselineControl_b == true`** parts from the query. You can also add / remove / edit the blades to customize the AzSK Solution for Log Analytics.
 
 ![AzSK-Edit-Queries](/assets/images/AzSK/Edit-AzSK-Queries.png)
 
