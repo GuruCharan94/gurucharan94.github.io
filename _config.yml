@@ -24,7 +24,7 @@ url                      : "https://www.gurucharan.in/"
 baseurl                  : ""
 repository               : "GuruCharan94/gurucharan94.github.io"
 #teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-#logo                     : "assets/images/logo.png"
+logo                     : "assets/images/logo.png"
 masthead_title           : "{{Gurucharan94}}"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -112,8 +112,9 @@ analytics:
 author:
   name             : "Gurucharan Subramani"
   avatar           : "assets/images/gurucharan94.jpeg"
-  bio              : "Develop | Debug | Collaborate| Ship | Automate | Speak | Blog | Community"
+  bio              : "Develop | Debug | Collaborate | Ship | Automate | Speak | Blog | Community"
   location         : "Bangalore, India"
+  twitter          : "@gurucharan94"
   email            :
   links:
     - label: "Website"
