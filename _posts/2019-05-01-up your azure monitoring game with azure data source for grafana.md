@@ -13,11 +13,14 @@ tags:
 excerpt: "An end-to-end guide covering everything you need to know about using Azure Monitor Data Source for Grafana to create rich, interactive and dynamic dashboards to visualize and monitor metrics from your Azure Resources."
 ---
 
-The Azure Data Source for Grafana is a Grafana plugin which lets you consume and visualize metrics from Azure Monitor, Application Insights and Log Analytics on Grafana. In case you haven't heard, [Grafana](https://grafana.com/grafana) is the leading open source platform for beautiful time series analytics, visualization and monitoring. With the Azure Data Source, you can easily and quickly build nice, meaningful dashboards without making any changes to your application / infrastructure.
+[Grafana](https://grafana.com/grafana) is the leading open source platform for beautiful time series analytics, visualization and monitoring. The Azure Monitor Data Source for Grafana is a Grafana plugin which lets you consume and visualize metrics from Azure Monitor, Application Insights and Log Analytics on Grafana. With the Azure Data Source, you can easily and quickly build rich, eye-catching & impactful dashboards **without making any changes to your application / infrastructure.**
 
-![Sample Grafana Dashboard](/assets/images/grafana/grafana.jpg "Grafana Dashboard with Azure Monitor Data Source")
+<figure>
+  <img src="/assets/images/grafana/grafana.jpg" alt="Grafana Dashboard"/>
+  <figcaption>Grafana Dashboard with Azure Monitor Data Source</figcaption>
+</figure>
 
-The picture above is a screenshot of a sample dashboard. After playing around with Grafana, I found that the Grafana dashboards offer additional capabilities when compared to Azure's built-in dashboards. Some features that Grafana excels at are
+The picture above is a screenshot of a sample dashboard. The Grafana dashboards offer additional capabilities when compared to Azure's built-in dashboards. Some features that Grafana excels at are
 
 - Great customization options (colour, stacking, legends etc.,)
 - Ability to zoom-in / out and drill down on charts
@@ -181,7 +184,7 @@ You can find more details about variables and macros [here](https://grafana.com/
 
 ## Alerting Options
 
-The Azure Monitor Data Source supports alerts only for Azure Monitor Queries as of writing. [Alerts for Application Insights and Log Analytics Queries should be available in a future release]((https://github.com/grafana/azure-monitor-datasource/issues/11#issuecomment-471567717)). You can configure an alert notification channel as shown below. Grafana offers multiple alerting integrations out of the box like E-mail, Webhooks, Slack, MS Teams, PagerDuty, OpsGenie etc.
+The Azure Monitor Data Source supports alerts only for Azure Monitor Queries as of writing. [Alerts for Application Insights and Log Analytics Queries should be available in a future release](https://github.com/grafana/azure-monitor-datasource/issues/11#issuecomment-471567717). You can configure an alert notification channel as shown below. Grafana offers multiple alerting integrations out of the box like E-mail, Webhooks, Slack, MS Teams, PagerDuty, OpsGenie etc.
 
 ![Grafana Alerts](/assets/images/grafana/grafana-azure-alerts.png)
 
