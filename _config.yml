@@ -114,7 +114,7 @@ author:
   avatar           : "assets/images/gurucharan94.jpeg"
   bio              : "Develop | Debug | Collaborate | Ship | Automate | Speak | Blog | Community"
   location         : "Bangalore, India"
-  twitter          : "@gurucharan94"
+  twitter          : 
   email            :
   links:
     - label: "Website"
