@@ -77,7 +77,7 @@
   p,
   li,
   dl {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   /* paragraph indents */
@@ -247,9 +247,9 @@
    ========================================================================== */
 
 .page__meta {
-  color: $text-color;
+  color: $dark-gray;
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: 0.85em;
 
   p {
     margin: 0;
