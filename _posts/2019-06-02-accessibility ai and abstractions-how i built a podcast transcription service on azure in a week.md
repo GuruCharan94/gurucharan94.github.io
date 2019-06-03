@@ -6,15 +6,10 @@ header:
   og_image: "/assets/images/hanselminutes-clone/v1.jpg"
 categories:
   - Azure
-  - AI
-  - Accessibility
 tags:
   - Azure Functions
   - Azure Cognitive Services
-  - Azure Storage
   - Azure Logic Apps
-  - Azure Web Apps
-  - ASP.NET Core
   - Azure CosmosDB
 excerpt: "This is the story of how I built an initial prototype for a promising podcast transcription service in a week on Azure thanks to the power of Serverless and AI Abstractions."
 ---

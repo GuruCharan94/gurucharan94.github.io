@@ -226,6 +226,7 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
+    border: 1px solid $text-color;
   }
 
   > a {
@@ -264,7 +265,7 @@ figure {
 figcaption {
   margin: 0 auto 0.5em auto;
   color: $muted-text-color;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
 
   a {
     -webkit-transition: $global-transition;
