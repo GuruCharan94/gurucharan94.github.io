@@ -20,9 +20,9 @@ Transcripts provide multiple benefits for the podcast host as well as the listen
 
 If you want to see this in action, take a look at [Hanselminutes++](http://hanselminutesplusplus.azurewebsites.net) which is a minimal clone of the popular [Hanselminutes podcast](https://www.hanselminutes.com/) with synchronized transcripts. You can find the source code [on github](https://github.com/GuruCharan94/az-podcast-transcriber).
 
-The transcripts for HanselMinutes are Artificial Intelligence powered and is about 85% accurate (rough calculation), but then again, I didn't expect 100% accurate transcripts from a machine, especially on a technology podcast like Hanselminutes. **If you are a podcast host and are willing to pay some money to self-host a transcription service on the cloud that provides 85%-90% accurate transcripts and and decide to later correct the incorrect portions manually by yourself and also accept contributions from your listeners then you might be interested in this blog post.**
+The transcripts for HanselMinutes are Artificial Intelligence powered and is about 85%-90% accurate (rough calculation) and extremely affordable at approximately 1 USD / hour of audio when done. **If you are a podcast host willing to self-host a transcription service on the cloud that provides said accuracy at said cost then you might be interested in this blog post.** You still have the option to later make corrections manually by yourself and also potentially accept contributions from your listeners.
 
-If you are willing to pay 5x-10x the price for 100% accurate transcripts because you are short on time, then maybe this does not suit you so much but I still recommend you continue reading. Maybe, I can convince you to change your mind.
+If you are willing to pay a higher price that can go upto 60 USD / hour for 100% accurate transcripts because you are short on time,then this does not suit you so much but I still recommend you continue reading. Maybe, I can convince you to change your mind.
 
 ## Story Time
 
@@ -50,11 +50,11 @@ I realized that I had to input valid Azure Blob SAS URI for the `recordingsUrl` 
 
 Every episode of Hanselminutes is 30 minutes long and it took almost the same time to transcribe each episode. I learnt that I can register a [webhook](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/webhooks) where the results will be POSTed once they are completed and avoid constantly polling the API to check if transcription is completed.
 
-**Side Comment:** I tried transcribing all the Hanselminutes episodes from 2018 and 2019 but there were issues transcribing certain episodes and [I have a question on StackOverflow about it.](https://stackoverflow.com/questions/56329927/azure-cognitive-services-batch-transcription-api-responds-with-error-message) I have other questions about request limits and support for blob storage that are not clear from the docs and I don't know the right person to ask. If you know someone, please put me in touch with them.
+**Side Comment:** I tried transcribing all the Hanselminutes episodes from 2018 and 2019 but there were issues transcribing certain episodes and [I have a question on StackOverflow about it.](https://stackoverflow.com/questions/56329927/azure-cognitive-services-batch-transcription-api-responds-with-error-message) I also have questions about request throttling and support for blob storage that are not clear for me from the docs.
 
 ### 2. Azure Functions
 
-I made good progress and when I wanted to look at transcripts from several episodes it quickly became a tedious task to download mp3 files, upload to Azure Storage and then fire off transcription requests. My developer brain was screaming out for something like [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) and so it I wrote some. I was beginning to [get into my zone](https://slate.com/technology/2014/06/coders-high-the-intense-feeling-of-absorption-exclusive-to-programmers.html).
+I got my first transcription result and I was happy with what I saw. Now, I wanted to transcribe several episodes and realized that it quickly became a tedious task to download mp3 files, upload to Azure Storage and then fire off transcription requests. My developer brain was screaming out for something like [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) and so it I wrote some. I was beginning to [get into my zone](https://slate.com/technology/2014/06/coders-high-the-intense-feeling-of-absorption-exclusive-to-programmers.html).
 
 #### 2.1 Http Triggered Function
 
