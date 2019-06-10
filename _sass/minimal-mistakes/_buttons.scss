@@ -38,7 +38,6 @@
   (danger, $danger-color),
   (info, $info-color),
   (facebook, $facebook-color),
-  (twitter, $twitter-color),
   (linkedin, $linkedin-color);
 
   @each $buttoncolor, $color in $buttoncolors {
@@ -94,4 +93,9 @@
   &--small {
     font-size: $type-size-7;
   }
+}
+
+.btn--twitter {
+  background-color: #448abe !important;
+  color: #fff;
 }
