@@ -3,6 +3,7 @@ title: "Up your Azure monitoring game with Azure Data Source for Grafana"
 date: 2019-05-01
 header:
   teaser: assets/images/grafana/grafana.jpg
+  thumbnail: assets/images/grafana/grafana-thumbnail.jpg
   og_image: assets/images/grafana/grafana.jpg
 categories:
   - Azure

@@ -3,6 +3,7 @@ title: "Accessibility, AI and Abstractions : How I (accidentally) built a podcas
 date: 2019-06-04
 header:
   teaser: "/assets/images/hanselminutes-clone/v1.jpg"
+  thumbnail: "/assets/images/hanselminutes-clone/v1-thumbnail.jpg"
   og_image: "/assets/images/hanselminutes-clone/v1.jpg"
 categories:
   - Azure

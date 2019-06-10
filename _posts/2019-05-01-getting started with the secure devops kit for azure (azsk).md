@@ -3,6 +3,7 @@ title: "How to Improve Your Azure Security with the Secure DevOps Kit for Azure 
 date: 2019-04-30
 header:
   teaser: assets/images/AzSK/AzSK-LogAnalytics.png
+  thumbnail: assets/images/AzSK/AzSK-LogAnalytics-thumbnail.png
   og_image: assets/images/AzSK/AzSK-LogAnalytics.png
 categories:
   - Azure
