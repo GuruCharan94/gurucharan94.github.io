@@ -95,10 +95,8 @@ I searched the internet to see if Hanselminutes already had transcriptions and I
 Right now, this is how the initial version looks like and please not the numbers in the blog post have no relation to the numbers in the diagram.
 
 <figure>
-  <img src="/assets/images/hanselminutes-clone/v1.jpg" alt="High level overview of the initial version"/>
-  <figcaption>
-  High Level Overview of the Initial Version
-  </figcaption>
+  <img class="lazyload" data-src="/assets/images/hanselminutes-clone/v1.jpg" src="/assets/images/loadingicon.gif" alt="High level overview of the initial version"/>
+  <figcaption> High Level Overview of the Initial Version</figcaption>
 </figure>
 
 ## Costs
@@ -129,7 +127,8 @@ Right now, this is how the initial version looks like and please not the numbers
 I expect the next version to shape up like the picture below and once the project reaches there, the transcription costs will be available at approx **1 USD / hour** which is how much Azure Transcription Service cost. The rest of the value add stuff which complements your workflow is available at a paltry budget. No more of that submit your file for transcription and we will email you transcripts in 24 hours that you can later add to your website.
 
 <figure>
-  <img src="/assets/images/hanselminutes-clone/v2.jpg" alt="Pictorial overview of the next version"/>
+  <img class="lazyload" data-src="/assets/images/hanselminutes-clone/v2.jpg" 
+  src="/assets/images/loadingicon.gif" alt="Pictorial overview of the next version"/>
   <figcaption>
   High Level Overview of the Next Version
   </figcaption>

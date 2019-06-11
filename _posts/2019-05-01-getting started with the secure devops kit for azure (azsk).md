@@ -32,7 +32,11 @@ I have further provided links to the official docs if you want to try out some o
 - Azure DevOps (VSTS) and Jenkins integrations to include these checks in your deployment pipeline.
 - Continuous security monitoring post deployment.
 
-![AzSK-Log Analytics](/assets/images/AzSK/AzSK-LogAnalytics.png)
+<figure>
+  <img class="lazyload" data-src="/assets/images/AzSK/AzSK-LogAnalytics.png" 
+  src="/assets/images/loadingicon.gif" alt="AzSK-Log Analytics"/>
+  <figcaption>AzSK-Log Analytics</figcaption>
+</figure>
 
 ## **Installing AzSK and Running your First Scan**
 
@@ -40,7 +44,11 @@ I am assuming you, dear reader, have basic knowledge of Powershell. In case you 
 
 Ensure you have **PowerShell version 5** or higher installed on your machine. You can check the version of Powershell installed on your machine by running `$PSVersionTable` on your PowerShell window. Update your PowerShell version if you need to. The update is mostly straight-forward. Google is your best friend here :blush:
 
-![Powershell Version Screenshot](/assets/images/AzSK/PSVersion.png)
+<figure>
+  <img class="lazyload" data-src="/assets/images/AzSK/PSVersion.png"
+  src="/assets/images/loadingicon.gif" alt="Powershell Version"/>
+  <figcaption>Powershell Version</figcaption>
+</figure>
 
 Once you have the right version of Powershell installed the next step is that you **trust me, copy and paste scripts** into your Powershell ISE Window and run them. :blush: The scripts use the new Azure Powershell (Az) Modules extensively. I have included an overview of what the script attempts to accomplish and also in-line comments wherever necessary.
 
@@ -181,7 +189,11 @@ You can head over to the Azure Portal and navigate to the Log Analytics Workspac
 
 To match the results in the .csv file you have to edit the workspace and specifically modify the queries across every blade and specifically remove the **`where TimeGenerated > ago(3d)`** and the **`IsBaselineControl_b == true`** parts from the query. You can also add / remove / edit the blades to customize the AzSK Solution for Log Analytics.
 
-![AzSK-Edit-Queries](/assets/images/AzSK/Edit-AzSK-Queries.png)
+<figure>
+  <img class="lazyload" data-src="/assets/images/AzSK/Edit-AzSK-Queries.png"
+  src="/assets/images/loadingicon.gif" alt="AzSK-Edit-Queries"/>
+  <figcaption>AzSK-Edit-Queries</figcaption>
+</figure>
 
 ## **Advanced Features**
 
@@ -195,7 +207,11 @@ To match the results in the .csv file you have to edit the workspace and specifi
 
 - **[CI/CD Integration with Azure DevOps and Jenkins](https://azsk.azurewebsites.net/03-Security-In-CICD/Readme.html)** - Running these security scans periodically from a PS console is great but integrating them in your CI / CD pipeline is even better. AzSK provides extensions for Azure DevOps (formerly VSTS) and Jenkins.
 
-![AzSK-AzureDevOps](/assets/images/AzSK/AZSK-AzureDevOps.png)
+<figure>
+  <img class="lazyload" data-src="/assets/images/AzSK/AZSK-AzureDevOps.png"
+  src="/assets/images/loadingicon.gif" alt="AzSK-AzureDevOps"/>
+  <figcaption>AzSK-AzureDevOps</figcaption>
+</figure>
 
 With configurable security policies, auto generated fixes, multiple results formats, CI/CD extension and out of the box Log Analytics dashboards with querying and alerting capabilities, the Secure DevOps Kit for Azure is a must have tool for teams working with Azure to adopt a security first mindset and create secure workloads on Azure.
 
