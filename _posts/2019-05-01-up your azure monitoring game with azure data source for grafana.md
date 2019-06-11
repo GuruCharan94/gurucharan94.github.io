@@ -17,7 +17,7 @@ excerpt: "An end-to-end guide covering everything you need to know about using A
 [Grafana](https://grafana.com/grafana) is the leading open source platform for beautiful time series analytics, visualization and monitoring. The Azure Monitor Data Source for Grafana is a Grafana plugin which lets you consume and visualize metrics from Azure Monitor, Application Insights and Log Analytics on Grafana. With the Azure Data Source, you can easily and quickly build rich, eye-catching & impactful dashboards **without making any changes to your application / infrastructure.**
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/grafana.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Grafana Dashboard"/>
+  <img class="lazyload" data-src="/assets/images/grafana/grafana.jpg" src="/assets/images/loadingicon.gif" alt="Grafana Dashboard"/>
   <figcaption>Grafana Dashboard with Azure Monitor Data Source</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ I assume that you are familiar with the process creating a VM on Azure and so I 
 This is the cloud, you can anyways scale up later if needed. So hit create and wait till the VM is created and in the meanwhile, go grab a coffee or something.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/grafana-vm.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Grafana VM Configuration"/>
+  <img class="lazyload" data-src="/assets/images/grafana/grafana-vm.png" src="/assets/images/loadingicon.gif" alt="Grafana VM Configuration"/>
   <figcaption>Grafana Vitual Machine Configuration</figcaption>
 </figure>
 
@@ -106,21 +106,21 @@ Give the app an appropriate name and take note of the following properties of th
 Now you need to provide **Log Analytics Reader** Permission to the newly created AD app on the Subscription / Resource Group that you want to monitor like in the screenshot below. **The resources you would like to monitor can be a completely different subscription to the one that you host Grafana in.**
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/grafana-iam.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Subscription Access Management"/>
+  <img class="lazyload" data-src="/assets/images/grafana/grafana-iam.png" src="/assets/images/loadingicon.gif" alt="Subscription Access Management"/>
   <figcaption>Subscription Access Management</figcaption>
 </figure>
 
 If you have an app insights instance lying around, take note of the Application ID and API Key as shown below.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/ai.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Application Insights Configuration"/>
+  <img class="lazyload" data-src="/assets/images/grafana/ai.png" src="/assets/images/loadingicon.gif" alt="Application Insights Configuration"/>
   <figcaption>Application Insights Configuration</figcaption>
 </figure>
 
 The final step is to configure the Azure Monitor Data Source to use the Azure AD App that we just created. To do that, head over to your grafana instance, **click the gear icon on the left navigation pane and choose Data Sources**. Select the Azure Monitor Data Source and enter appropriate details which is available from the previous step. As far as the Log Analytics API configuration is concerned, you can enable the **same details as above** switch.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/final-config.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Successfully Configured"/>
+  <img class="lazyload" data-src="/assets/images/grafana/final-config.png" src="/assets/images/loadingicon.gif" alt="Successfully Configured"/>
   <figcaption>Successfully Configured Azure Data Source</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ When you hit save and test, you should finally see a green banner saying everyth
 You can read about the basic building blocks of Grafana from their [getting started guide.](https://grafana.com/docs/guides/getting_started). Then **create a new dashboard by clicking on the + icon** on the left pane, click on choose query on the panel. You can create a sample query like the one shown in below diagram.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/azure-monitor-query.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Azure Monitor Query"/>
+  <img class="lazyload" data-src="/assets/images/grafana/azure-monitor-query.png" src="/assets/images/loadingicon.gif" alt="Azure Monitor Query"/>
   <figcaption>Azure Monitor Query</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ Choosing Azure Monitor for the service drop down allows you to choose the resour
 As far as log analytics is concerned, you can bring your existing queries and get it to work inside Grafana seamlessly. **The only catch is that you need to sort the results by timestamp while fetching it from Azure**. It makes sense to fetch the data in a sorted fashion rather than let Grafana do the sorting.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/azure-monitor-query.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Azure Monitor Query"/>
+  <img class="lazyload" data-src="/assets/images/grafana/azure-monitor-query.png" src="/assets/images/loadingicon.gif" alt="Azure Monitor Query"/>
   <figcaption>Azure Monitor Query</figcaption>
 </figure>
 
@@ -187,7 +187,7 @@ With variables, your queries can be parameterized and the parameter values can b
 - **Interval** - You can use this to override the `$__interval` variable which is default time grain calculator without editing your queries every single time you choose a different time window.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/variables.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Azure Data Source Variables"/>
+  <img class="lazyload" data-src="/assets/images/grafana/variables.png" src="/assets/images/loadingicon.gif" alt="Azure Data Source Variables"/>
   <figcaption>Azure Data Source Variables</figcaption>
 </figure>
 
@@ -209,7 +209,7 @@ You can find more details about the different [variables and macros](https://gra
 The Azure Monitor Data Source supports alerts only for Azure Monitor Queries as of writing. [Alerts for Application Insights and Log Analytics Queries should be available in a future release](https://github.com/grafana/azure-monitor-datasource/issues/11#issuecomment-471567717). You can configure an alert notification channel as shown below. Grafana offers multiple alerting integrations out of the box like E-mail, Webhooks, Slack, MS Teams, PagerDuty, OpsGenie etc.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/grafana-azure-alerts.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Grafana Alerts"/>
+  <img class="lazyload" data-src="/assets/images/grafana/grafana-azure-alerts.png" src="/assets/images/loadingicon.gif" alt="Grafana Alerts"/>
   <figcaption>Grafana Alerts</figcaption>
 </figure>
 
@@ -218,7 +218,7 @@ I have configured a slack as a notification channel for this post. You can then 
 The alert thresholds are also visible in the panels and whenever the alerts are firing, you can see a blinking red border around the alerting panel, giving a real sense of urgency.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/grafana/grafana-alert-rules.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Grafana Alert Rules"/>
+  <img class="lazyload" data-src="/assets/images/grafana/grafana-alert-rules.png" src="/assets/images/loadingicon.gif" alt="Grafana Alert Rules"/>
   <figcaption>Grafana Alert Rules</figcaption>
 </figure>
 
