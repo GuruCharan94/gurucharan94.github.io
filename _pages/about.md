@@ -5,7 +5,6 @@ permalink: /about/
 classes: wide
 author_profile: true
 ---
-
 Hi, I am Gurucharan from Bangalore, India. I am a Software Engineer currently working on the Electric Vehicle (EV) Chargers team at ABB focusing specifically on their cloud efforts. I can do .NET, Azure and Azure Devops.
 
 Outside of work, I co-chair the Azure User Group in Bangalore, I am a member of the .NET Foundation and quickly becoming an all-round community buff.
