@@ -123,6 +123,7 @@ Right now, this is how the initial version looks like and please not the numbers
 **Import your transcript :arrow_right: Make corrections :arrow_right: Export. Send a pull request.**
 
 - The ability to distinguish between speakers would be great but "not today"...
+**[ Update 17 June,2019 ] : Azure Speech Services now supports [Speaker Diarization](https://cognitive.uservoice.com/forums/555925-speaker-recognition-api/suggestions/34823824-add-support-for-speaker-diarization-for-untrained?tracking_code=d20ff299ba13b35ae06e9d299e59bf73).**
 
 I expect the next version to shape up like the picture below and once the project reaches there, the transcription costs will be available at approx **1 USD / hour** which is how much Azure Transcription Service cost. The rest of the value add stuff which complements your workflow is available at a paltry budget. No more of that submit your file for transcription and we will email you transcripts in 24 hours that you can later add to your website.
 
