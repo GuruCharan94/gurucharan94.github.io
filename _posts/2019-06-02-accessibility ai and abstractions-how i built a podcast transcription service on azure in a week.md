@@ -12,6 +12,7 @@ tags:
   - Azure Cognitive Services
   - Azure Logic Apps
   - Azure CosmosDB
+  - Accessibility
 excerpt: "This is the story of how I built an initial prototype for a promising podcast transcription service in a week on Azure thanks to the power of Serverless and AI Abstractions."
 ---
 
