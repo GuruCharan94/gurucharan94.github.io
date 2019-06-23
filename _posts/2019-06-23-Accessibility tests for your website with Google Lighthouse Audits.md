@@ -44,6 +44,6 @@ There was another interesting trend that I noticed on the 20 or so websites that
 - Almost all websites scored 90 or higher on Performance, SEO, and Best Practices.
 - Less than half of them crossed the 80 mark on Accessibility
 
-I think the results boils down to the fact that **we understand that accessibility is important but it is not always clear how to make our sites more accessible.** This is where accessibility testing tools like Google LightHouse and others plays a big role in simplifying things. I can run these test from the command line and that means I can now add accessibility tests to my pipelines and make this an equal priority as the other functional or performance tests.
+I think the results boils down to the fact that **we understand that accessibility is important but it is not always clear how to make our sites more accessible.** This is where accessibility testing tools like Google LightHouse and others can play a big role in simplifying things. I can run these test from the command line and that means I can now add accessibility tests to my pipelines and make this an equal priority as the other functional or performance tests.
 
 If you want to read more on accessibility, [The A11Y Project](https://a11yproject.com/) is a nice website with a fantastic collections of blog posts, videos and tools that you can use to make the web more accessible.
