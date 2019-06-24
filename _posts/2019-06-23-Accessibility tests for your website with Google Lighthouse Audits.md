@@ -12,9 +12,9 @@ tags:
 excerpt: "This post shows you how to check your website for accessibility issues and fix them with Google LightHouse"
 ---
 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source tool for auditing performance,accessibility and SEO of your web-pages. You give Lighthouse a URL to audit, it runs a series of audits against the page, and then it generates a report on how well the page did. Each audit has a doc explaining the audit rule and how to fix it.
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source tool for auditing performance,accessibility and SEO of your web-pages. You give Lighthouse a URL to audit, it runs a series of audits against the page, and then it generates a report on how well the page did.
 
-You can run Lighthouse from the command line, or as a Node module but the easiest way is to **F12 :arrow_right: Audit Tab :arrow_right: Run Audit**
+You can run Lighthouse from the command line, or as a Node module but the easiest way is to run it from within Chrome. **Navigate to your Website :arrow_right: F12 :arrow_right: Audit Tab :arrow_right: Run Audit.** The audit runs for a couple of minutes and you get a nice scorecard like the one below. Each category of audit has a detailed list of rules and links to supporting documentation explaining the individual audit rules and what you can do to pass the audit and improve your overall score.
 
 <figure>
   <img class="lazyload" data-src="/assets/images/google-lighthouse/score.png"
