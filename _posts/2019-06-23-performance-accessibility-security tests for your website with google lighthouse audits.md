@@ -1,5 +1,5 @@
 ---
-title: "Accessibility tests for your website with Google Lighthouse"
+title: "Test Performance, Security and Accessibility Concerns of your website with Google Lighthouse"
 date: 2019-06-23
 header:
   teaser: "/assets/images/google-lighthouse/score.png"
@@ -9,7 +9,9 @@ categories:
   - Web
 tags:
   - Accessibility
-excerpt: "This post shows you how to check your website for accessibility issues and fix them with Google LightHouse"
+  - SEO
+  - Security
+excerpt: "This post shows you how to check your website for accessibility, performance and security issues and fix them with Google LightHouse"
 ---
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source tool for auditing performance,accessibility and SEO of your web-pages. You give Lighthouse a URL to audit, it runs a series of audits against the page, and then it generates a report on how well the page did.
