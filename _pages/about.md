@@ -15,7 +15,7 @@ It was mid 2015 when I began my career as a .NET developer at [Infosys](https://
 
 The .NET docs always had a **hey, you can do this with Microsoft Azure too** and I followed suit by signing up for Azure. I began to appreciate the benefits of the cloud and I stumbled upon Visual Studio Team Services (VSTS), now Azure DevOps. The idea of the cloud, DevOps & Continuous Delivery was exciting and I never looked back. My .NET skills are complemented well by my Azure knowledge and I think has made me well-balanced overall.
 
-By early 2018, I joined ABB to work on their Industrial Internet of Things (IIoT) platform and then moved to the [Electric Vehicle Chargers team](https://new.abb.com/abb-ability/transport/electric-vehicles) building sustainable E-Mobility solutions. The role is around Azure, Azure DevOps and focused on making [our systems operable](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-operations). It is a fantastic experience working with a distributed team. My colleagues are from USA, Europe, China and I am the only person on the team working from the offices in India.
+By early 2018, I joined ABB to work on their Industrial Internet of Things (IIoT) platform and then moved to the [Electric Vehicle (EV) Chargers team](https://new.abb.com/abb-ability/transport/electric-vehicles) building sustainable E-Mobility solutions. I work on Azure & Azure DevOps and focus on making [our systems operable](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-operations) and best in class for the EV industry and beyond. It is a fantastic experience working with a distributed team. I work remotely from the offices in Bangalore, India.
 
 ### Community
 
