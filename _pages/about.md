@@ -17,7 +17,7 @@ The .NET docs always had a **hey, you can do this with Microsoft Azure too** and
 
 By early 2018, I joined ABB to work on their Industrial Internet of Things (IIoT) platform and then moved to the [Electric Vehicle (EV) Chargers team](https://new.abb.com/abb-ability/transport/electric-vehicles) building sustainable E-Mobility solutions. I work on Azure & Azure DevOps and focus on making [our systems operable](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-operations) and best in class for the EV industry and beyond. It is a fantastic experience working with a distributed team. I work remotely from the offices in Bangalore, India.
 
-### Community
+### Community Participation
 
 It was plain luck that [my colleague](https://www.linkedin.com/in/ilyasf/) runs the Bangalore Azure User Group. I've always wanted to go to those meetups and learn new things and this was great way to get started. What started as me helping around with meetup logistics quickly ended with me becoming a regular speaker and a part of the organizers.
 
