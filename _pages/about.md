@@ -5,21 +5,25 @@ permalink: /about/
 classes: wide
 author_profile: true
 ---
-Hi, I am Gurucharan from Bangalore, India. I am a Software Engineer currently working on the [Electric Vehicle (EV) Chargers team at ABB](https://new.abb.com/ev-charging) focusing specifically on their cloud efforts. I do .NET, Azure and Azure Devops.
+Hi, I am Gurucharan from Bangalore, India. I am a Software Engineer currently working on the [Electric Vehicle (EV) Chargers team at ABB](https://new.abb.com/ev-charging) focusing specifically on their cloud efforts. I work in the interesting space where .NET, Azure & Azure DevOps meet and dance.
 
-Outside of work, I co-chair the [Azure User Group](https://www.meetup.com/Microsoft-Azure-Bangalore/) in Bangalore, I am a member of [the .NET Foundation](https://dotnetfoundation.org) and a community buff.
+Outside of work, I co-chair the [Azure User Group](https://www.meetup.com/Microsoft-Azure-Bangalore/) in Bangalore, a member of [the .NET Foundation](https://dotnetfoundation.org) and blog, contribute to open-source on GitHub and hang-out in more slack channels than I should.
 
-## My Story
+## Long Version
 
-It was mid 2015 when I began my career as a .NET developer building web applications with ASP.NET MVC. My early years were a great experience where I understood the importance of writing good code rather than the ones that merely got the job done. I had built up enough expertise to become a Microsoft Certified Specialist in ASP.NET MVC and Web development.
+It was mid 2015 when I began my career as a .NET developer at [Infosys](https://www.infosys.com/) building web applications with C#, ASP.NET MVC, Web API and Entity Framework. I did some amount of front-end work with HTML, CSS and Javascript as well. I guess I can call that "full-stack" development but I was mostly having fun with .NET. My early years were a great experience where I understood the importance of writing good code rather than the ones that merely got the job done. I had built up enough expertise to become a [Microsoft Certified Specialist in ASP.NET MVC and Web development](https://www.youracclaim.com/badges/f1ac7afe-508a-4fff-ab78-f4eba3010d03/public_url).
 
 The .NET docs always had a **hey, you can do this with Microsoft Azure too** and I followed suit by signing up for Azure. I began to appreciate the benefits of the cloud and I stumbled upon Visual Studio Team Services (VSTS), now Azure DevOps. The idea of the cloud, DevOps & Continuous Delivery was exciting and I never looked back. My .NET skills are complemented well by my Azure knowledge and I think has made me well-balanced overall.
 
-By early 2018, I changed jobs and was just plain lucky that my [colleague](https://www.linkedin.com/in/ilyasf/) runs the Bangalore Azure User Group. I've always wanted to go to those meetups and engage with the community and this was great way to get started. What started as me helping around with meetup logistics quickly ended with me becoming a regular speaker and eventually an organizer of the community.
+By early 2018, I joined ABB to work on their Industrial Internet of Things (IIoT) platform and then moved to the [Electric Vehicle Chargers team](https://new.abb.com/abb-ability/transport/electric-vehicles) building sustainable E-Mobility solutions. The role is around Azure, Azure DevOps and focused on making [our systems operable](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-operations). It is a fantastic experience working with a distributed team. My colleagues are from USA, Europe, China and I am the only person on the team working from the offices in India.
 
-My first talk was him basically convincing me that my idea / voice was good enough & deserves to be heard. It was the stuff of nightmares. My imposter syndrome just cranked up to level 12. Who am I to tell ~100 people how to do something on Azure ? But I went through with this anyway, gave a decent talk and several people did give me positive feedback after the talk. In fact, one member of the audience even asked me if I can do this talk for his user group. I did that as well, then one thing led to the other, and then I did some more talks and eventually I got better at it and the experience has been incredibly rewarding. It is a great way to make new friends, meet people with similar interests and showcase my expertise.
+### Community
 
-My speaking engagements and other community contributions have led to me becoming a voting member of the .NET foundation. I want to see what I can do there.
+It was plain luck that [my colleague](https://www.linkedin.com/in/ilyasf/) runs the Bangalore Azure User Group. I've always wanted to go to those meetups and learn new things and this was great way to get started. What started as me helping around with meetup logistics quickly ended with me becoming a regular speaker and a part of the organizers.
+
+My first talk was basically him convincing (read: forcing) me to give a talk on [Secure DevOps Kit for Azure](https://azsk.azurewebsites.net). My imposter syndrome cranked up to level 12. Who am I to tell ~100 people how to do security on Azure? But I went through with this anyway and several people gave me positive feedback after the talk. One member of the audience asked me if I can do this talk at a different event. I did that, then one thing led to the other, and before I realized I was a regular public speaker. It is a great way to make new friends, meet people with similar interests, showcase my expertise and thus far the experience has been incredibly rewarding.
+
+My speaking engagements and other community contributions have led to me becoming a member of the [.NET Foundation](https://dotnetfoundation.org). I am looking forward to contributing to the open-source dotnet ecosystem as part of the membership, meetups and outreach Action Groups.
 
 ## Contact Me
 
