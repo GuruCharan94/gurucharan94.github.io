@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Speaking Engagements"
 layout: single
 permalink: /speaking-engagements/
 classes: wide

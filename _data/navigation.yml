@@ -2,7 +2,7 @@
 main:
   - title: "About Me"
     url: /about/
-  - title: "Speaking Engagements"
+  - title: "Talks"
     url: /speaking-engagements/
   # - title: "Sample Posts"
   #   url: /year-archive/
