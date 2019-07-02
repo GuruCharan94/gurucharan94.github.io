@@ -1,13 +1,12 @@
 ---
 title: "About Me"
 layout: single
-permalink: /talks/
+permalink: /speaking-engagements/
 classes: wide
 author_profile: true
 ---
 
 {% include talks.html %}
-
 
 - July 22, 2018 - DevSecOps - .NET / Azure / Azure DevOps
 - September 8, 2018 - MSFT - App Innovation (Day Long WorkShop on Azure DevOps)
