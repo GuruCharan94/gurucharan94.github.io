@@ -8,7 +8,7 @@
     <tbody>
         {% assign talkssorted = (site.data.talks.completed | sort: 'date' ) %}
         {% for talk in talkssorted %}
-        {% include talkRow.html title=talk.title date=talk.date eventLink=talk.eventLink group=talk.group description=talk.description sessionLink=talk.sessionLink location=talk.location slidesLink=talk.slidesLink codeLink=talk.codeLink videoLink=talk.videoLink %}
+        {% include talkrow.html title=talk.title date=talk.date eventLink=talk.eventLink group=talk.group description=talk.description sessionLink=talk.sessionLink location=talk.location slidesLink=talk.slidesLink codeLink=talk.codeLink videoLink=talk.videoLink %}
         {% endfor %}
     </tbody>
 </table>
