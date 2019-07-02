@@ -7,7 +7,7 @@ author_profile: true
 ---
 Hi, I am Gurucharan from Bangalore, India. I am a Software Engineer currently working on the [Electric Vehicle (EV) Chargers team at ABB](https://new.abb.com/ev-charging) focusing specifically on their cloud efforts. I work in the interesting space where .NET, Azure & Azure DevOps meet and dance. On some days I am Dev, on other days I am Ops, frequently many things in between and surely always excited about the possibilities and the power of software.
 
-Outside of work, I am a member of the .NET Foundation, co-chair the [Azure User Group](https://www.meetup.com/Microsoft-Azure-Bangalore/) in Bangalore, speak, blog and hang-out in more slack channels than I should.
+Outside of work, I am a member of the [.NET Foundation](https://dotnetfoundation.org), co-chair the [Azure User Group](https://www.meetup.com/Microsoft-Azure-Bangalore/) in Bangalore, speak, blog and hang-out in more slack channels than I should.
 
 ## Long Version
 
@@ -21,7 +21,7 @@ By early 2018, I joined ABB to work on their Industrial Internet of Things (IIoT
 
 It was plain luck that [my colleague](https://www.linkedin.com/in/ilyasf/) runs the Bangalore Azure User Group. I've always wanted to go to those meetups and learn new things and this was great way to get started. What started as me helping around with meetup logistics quickly ended with me becoming a regular speaker and a part of the organizers.
 
-My first talk was basically him convincing (read: forcing) me to give a talk on [Secure DevOps Kit for Azure](https://azsk.azurewebsites.net). My imposter syndrome cranked up to level 12. Who am I to tell ~100 people how to do security on Azure? But I went through with this anyway and several people gave me positive feedback after the talk. One member of the audience asked me if I can do this talk at a different event. I did that, then one thing led to the other, and before I realized I was a regular public speaker. It is a great way to make new friends, meet people with similar interests, showcase my expertise and thus far the experience has been incredibly rewarding.
+My first talk was basically him convincing (read: forcing) me to give a talk on [Secure DevOps Kit for Azure](https://azsk.azurewebsites.net). My imposter syndrome cranked up to level 12. Who am I to tell ~100 people how to do security on Azure ? But I went through with this anyway and several people gave me positive feedback after the talk. One member of the audience asked me if I can do this talk at a different event. I did that, then one thing led to the other, and before I realized I was a regular public speaker. It is a great way to make new friends, meet people with similar interests, showcase my expertise and thus far the experience has been incredibly rewarding.
 
 My speaking engagements and other community contributions have led to me becoming a member of the [.NET Foundation](https://dotnetfoundation.org). I am looking forward to helping [strengthen the future of the .NET ecosystem](https://www.hanselman.com/blog/OpenSourceIsAThanklessJobWeDoItAnyway.aspx) as part of the membership, meetups and outreach Action Groups.
 
