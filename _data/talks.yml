@@ -20,6 +20,14 @@ completed:
     eventLink: https://www.meetup.com/SoftwareSecurityBangalore/events/252413494/
     location: Bangalore, India.
 
+  - title: "Building an App Sec Pipeline"
+    date: 2018-12-15
+    group: DevopsDays, India.
+    description: "I am at DevopsDays India and this was my first conference. I saw a spot open up for a lightning talk and needless to say, I jumped in and gave a 10 minute talk on building an AppSec pipeline. Best first conference ever !!!!"
+    sessionLink: https://twitter.com/GuruCharan94/status/1071805720989859840
+    eventLink: http://devopsdaysindia.org
+    location: Bangalore, India.
+
   - title: "Continuous Integration & Deployment with Azure Pipelines"
     date: 2018-12-15
     group: Azure User Group, Bangalore

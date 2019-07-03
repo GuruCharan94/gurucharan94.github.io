@@ -8,13 +8,6 @@ author_profile: true
 
 {% include talks.html %}
 
-- July 22, 2018 - DevSecOps - .NET / Azure / Azure DevOps
-- September 8, 2018 - MSFT - App Innovation (Day Long WorkShop on Azure DevOps)
-- September 22 - Software Security Bangalore - Azure Security Kit
-- December 1 - DevOps Community Launch - Intro to Devops Concepts
-- December 10 - DevOps Days India - AppSec Lightning Talk
-- December 15 - DevOps Community Launch - Safe Deployment Practices (Blue Green / Ring Rollout / Feature Flags / DevOps for DB)
-- December 15 - DevSecOps - .NET / Azure / Azure DevOps
 - April 27, 2019 - Azure Data Source for Grafana
 
 - August - Building a fun real-world application with Azure Speech Services, Azure Functions, Azure Logic Apps, Cosmos DB.
