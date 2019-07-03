@@ -1,8 +1,35 @@
 completed:
-  - title: "DevSecOps with Azure, Azure DevOps and .NET"
+  - title: "Secure DevOps Practices with Azure & VSTS (Visual Studio Team Services)"
     date: 2018-07-12
-    group: Azure Bangalore User Group
-    description: "DevSecOps with Azure, Azure DevOps and .NET"
-    sessionLink: http://www.meetup.com/
-    eventLink: http://www.meetup.com/
+    group: Bangalore Azure User Group
+    description: "I describe the security best practices related to Azure and how to smoothly integrate them in your DevOps Pipelines. I walk through some of the tools and best practices that will help you to building security first mindset. This was a 2 hour deep-dive and my first speaking experience."
+    eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/252270039/
     location: Bangalore, India
+  
+  - title: "DevOps with MS or open source tools & technologies"
+    date: 2018-09-07
+    group: Microsoft App Innovation
+    description: "This was the craziest talk experience. The original speaker cancelled the day before and I was called in to deal with the situation. I had 10 hours prep time to give a day-long workshop for ~70 people on VSTS. What could possibly go wrong ?"
+    eventLink: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x4678238abcd&wt.mc_id=AID730486_EML_5689863
+    location: Bangalore, India.
+  
+  - title: "Test Driven Security with the Secure Devops Kit for Azure (AzSK)"
+    date: 2018-09-22
+    group: Software Security, Bangalore
+    description: "After my first talk, one member of the audience asked if I could do a 45 minute talk on Azure Security with AzSK for his meetup. I explain AzSK, show them how to get started and scan their Azure Workloads for Security / Operational best practices in 45 minutes."
+    eventLink: https://www.meetup.com/SoftwareSecurityBangalore/events/252413494/
+    location: Bangalore, India.
+
+  - title: "Continuous Integration & Deployment with Azure Pipelines"
+    date: 2018-12-15
+    group: Azure User Group, Bangalore
+    description: "VSTS is now Azure DevOps and as part of [Azure Devops Launch](https://www.azuredevopslaunch.com/), I organized and spoke about how to get started with Continuous Integration / Deployment with Azure Pipelines."
+    eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/255764942/
+    location: Bangalore, India.
+
+  - title: "Safe Deployment Practices with Azure Devops"
+    date: 2018-12-15
+    group: Azure User Group, Bangalore
+    description: "This was my 2nd talk on the same day. I discussed Blue /Green Deployments with Deployment Slots, Deployment Rings, Feature Flags and introduced DevOps for Database."
+    eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/255764942/
+    location: Bangalore, India.
