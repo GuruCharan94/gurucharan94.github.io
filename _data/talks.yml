@@ -1,7 +1,7 @@
 completed:
   - title: "Secure DevOps Practices with Azure & VSTS (Visual Studio Team Services)"
     date: 2018-07-12
-    group: Bangalore Azure User Group
+    group: Bangalore Azure User Group Meetup
     description: "I describe the security best practices related to Azure and how to smoothly integrate them in your DevOps Pipelines. I walk through some of the tools and best practices that will help you to building security first mindset. This was a 2 hour deep-dive and my first speaking experience."
     eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/252270039/
     location: Bangalore, India
@@ -15,7 +15,7 @@ completed:
   
   - title: "Test Driven Security with the Secure Devops Kit for Azure (AzSK)"
     date: 2018-09-22
-    group: Software Security, Bangalore
+    group: Software Security Bangalore Meetup
     description: "After my first talk, one member of the audience asked if I could do a 45 minute talk on Azure Security with AzSK for his meetup. I explain AzSK, show them how to get started and scan their Azure Workloads for Security / Operational best practices in 45 minutes."
     eventLink: https://www.meetup.com/SoftwareSecurityBangalore/events/252413494/
     location: Bangalore, India.
@@ -30,14 +30,21 @@ completed:
 
   - title: "Continuous Integration & Deployment with Azure Pipelines"
     date: 2018-12-15
-    group: Azure User Group, Bangalore
+    group: Bangalore Azure User Group Meetup
     description: "VSTS is now Azure DevOps and as part of [Azure Devops Launch](https://www.azuredevopslaunch.com/), I organized and spoke about how to get started with Continuous Integration / Deployment with Azure Pipelines."
     eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/255764942/
     location: Bangalore, India.
 
   - title: "Safe Deployment Practices with Azure Devops"
     date: 2018-12-15
-    group: Azure User Group, Bangalore
-    description: "This was my 2nd talk on the same day. I discussed Blue /Green Deployments with Deployment Slots, Deployment Rings, Feature Flags and introduced DevOps for Database."
+    group: Bangalore Azure User Group Meetup
+    description: "This was my 2nd talk on the same day. I discussed Blue / Green Deployments with Deployment Slots, Deployment Rings, Feature Flags and introduced DevOps for Database."
     eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/255764942/
+    location: Bangalore, India.
+  
+  - title: "Up your monitoring game with Azure Data Source for Grafana"
+    date: 2019-04-27
+    group: Global Azure Bootcamp, Bangalore.
+    description: "This talk was a walk through on how to setup Grafana which is a popular open source software to observe, visualize and monitor Azure workloads and how it overcomes the limitations of Azure Dashboards. I spoke on configuring Grafana for Single Sign On with Azure AD, visualizing metrics and different alerting possibilities."
+    eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/258760167/
     location: Bangalore, India.
