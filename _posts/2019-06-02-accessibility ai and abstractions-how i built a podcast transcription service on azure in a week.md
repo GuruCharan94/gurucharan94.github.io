@@ -5,7 +5,6 @@ header:
   teaser: "/assets/images/hanselminutes-clone/v1.jpg"
   thumbnail: "/assets/images/hanselminutes-clone/v1-thumbnail.jpg"
   og_image: "/assets/images/hanselminutes-clone/v1.jpg"
-redirectfrom: "/hanselminutes-plus-plus/"
 categories:
   - Azure
 tags:
