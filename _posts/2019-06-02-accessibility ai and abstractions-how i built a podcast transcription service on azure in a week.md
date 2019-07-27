@@ -5,6 +5,8 @@ header:
   teaser: "/assets/images/hanselminutes-clone/v1.jpg"
   thumbnail: "/assets/images/hanselminutes-clone/v1-thumbnail.jpg"
   og_image: "/assets/images/hanselminutes-clone/v1.jpg"
+redirectfrom: "/azure/accessibility-ai-and-abstractions-how-i-built-a-podcast-transcription-service-on-azure-in-a-week"
+permalink: /hanselminutes-plus-plus/
 categories:
   - Azure
 tags:
