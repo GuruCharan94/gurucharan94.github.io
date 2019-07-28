@@ -50,8 +50,15 @@ completed:
     location: Bangalore, India.
   
   - title: "Overview of the .NET Foundation"
-    date: 2019-04-27
-    group: BDotnet, Bangalore.
-    description: "This talk was a walk through on how to setup Grafana which is a popular open source software to observe, visualize and monitor Azure workloads and how it overcomes the limitations of Azure Dashboards. I spoke on configuring Grafana for Single Sign On with Azure AD, visualizing metrics and different alerting possibilities."
-    eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/258760167/
+    date: 2019-07-20
+    group: BDotnet - .NET User Group.
+    description: "This talk was a gentle overview of the .NET Foundation and its activities."
+    eventLink: https://www.meetup.com/BDotNetUG/events/262892444/
+    location: Bangalore, India.
+  
+  - title: "Having Serverless fun with Azure Functions and Azure Speech Services"
+    date: 2019-07-27
+    group: Bangalore Azure User Group Meetup
+    description: "I explained how you can leverage the Serverless / AI offerings on Azure as a powerful programming model to build intelligent event driven applications."
+    eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/262938339/
     location: Bangalore, India.
