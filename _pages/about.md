@@ -19,7 +19,7 @@ By early 2018, I joined ABB to work on their Industrial Internet of Things (IIoT
 
 ### Community Participation
 
-It was plain luck that [my colleague](https://www.linkedin.com/in/ilyasf/) runs the Bangalore Azure User Group. I've always wanted to go to those meetups and learn new things and this was great way to get started. What started as me helping around with meetup logistics quickly ended with me becoming a regular speaker and a part of the organizers.
+It was plain luck that [my colleague](https://www.linkedin.com/in/ilyasf/) was involved with the Bangalore Azure User Group. I've always wanted to go to those meetups and learn new things and this was great way to get started. What started as me helping around with meetup logistics quickly ended with me becoming a regular speaker and a part of the organizers.
 
 My first talk was basically him convincing (read: forcing) me to give a talk on [Secure DevOps Kit for Azure](https://azsk.azurewebsites.net). My imposter syndrome cranked up to level 12. Who am I to tell ~100 people how to do security on Azure ? But I went through with this anyway and several people gave me positive feedback after the talk. One member of the audience asked me if I can do this talk at a different event. I did that, then one thing led to the other, and before I realized I was a regular public speaker. It is a great way to make new friends, meet people with similar interests, showcase my expertise and thus far the experience has been incredibly rewarding.
 
