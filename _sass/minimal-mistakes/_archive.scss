@@ -52,6 +52,7 @@
 
   a {
     text-decoration: none;
+    font-weight: 400;
   }
 
   a + a {
@@ -69,7 +70,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
 
   & + p {
     text-indent: 0;
@@ -206,7 +207,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-4;
     }
   }
 
