@@ -70,8 +70,9 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: 0.7em;
-
+  font-size: 0.9em;
+  color: #757575;
+  
   & + p {
     text-indent: 0;
   }
