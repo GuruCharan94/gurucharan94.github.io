@@ -8,16 +8,12 @@ header:
   og_image: "/assets/images/undraw/about-me.png"
 ---
 
-<figure>
-  <img class="lazyload" data-src="/assets/images/undraw/programming.png"
-  src="/assets/images/loadingicon.gif" alt="A Programmer's Monitor Setup"/>
-</figure>
-
 ## Short Version
 
 Hi, I am Gurucharan from Bangalore, India. I am a Software Engineer and I work in the interesting space where .NET, Azure & Azure DevOps meet and dance. On some days I am Dev, on other days I am Ops and frequently many things in between.
 
 Outside of work, I am a member of the [.NET Foundation](https://dotnetfoundation.org), co-chair the [Azure User Group](https://www.meetup.com/Microsoft-Azure-Bangalore/) in Bangalore, speak, blog and have more side-projects than I should.
+
 
 ## Long Version
 
