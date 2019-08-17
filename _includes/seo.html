@@ -38,7 +38,7 @@
   {%- assign author_twitter = author.twitter | replace: "@", "" -%}
 {%- endif -%}
 
-{%- assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.header.image -%}
+{%- assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.header.image | default: site.og_image -%}
 {%- unless page_large_image contains '://' -%}
   {%- assign page_large_image = page_large_image | absolute_url -%}
 {%- endunless -%}
@@ -133,17 +133,6 @@
 {% endif %}
 {% if paginator.next_page %}
   <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
-{% endif %}
-
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site_og_image | jsonify }}
-    }
-  </script>
 {% endif %}
 
 {% if site.social %}

@@ -4,6 +4,8 @@ layout: single
 permalink: /speaking-engagements/
 classes: wide
 author_profile: true
+header:
+  og_image: "/assets/images/undraw/talks.png"
 ---
 
 {% include talks.html %}
