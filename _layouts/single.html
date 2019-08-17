@@ -23,7 +23,7 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
-    {% if page.url != "/about" %}
+    {% if page.url != "/about/" %}
       <div class="page__inner-wrap">
         {% unless page.header.overlay_color or page.header.overlay_image %}
           <header>
@@ -35,7 +35,7 @@ layout: default
         {% endunless %}
     {% endif %}
 
-    {% if page.url != "/about" %}
+    {% if page.url != "/about/" %}
       <section class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
