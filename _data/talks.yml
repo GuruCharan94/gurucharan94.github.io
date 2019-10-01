@@ -5,14 +5,14 @@ completed:
     description: "I describe the security best practices related to Azure and how to smoothly integrate them in your DevOps Pipelines. I walk through some of the tools and best practices that will help you to building security first mindset. This was a 2 hour deep-dive and my first speaking experience."
     eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/252270039/
     location: Bangalore, India
-  
+
   - title: "DevOps with MS or open source tools & technologies"
     date: 2018-09-07
     group: Microsoft App Innovation
     description: "This was the craziest talk experience. The original speaker cancelled the day before and I was called in to deal with the situation. I had 10 hours prep time to give a day-long workshop for ~70 people on VSTS. What could possibly go wrong ?"
     eventLink: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x4678238abcd&wt.mc_id=AID730486_EML_5689863
     location: Bangalore, India.
-  
+
   - title: "Test Driven Security with the Secure Devops Kit for Azure (AzSK)"
     date: 2018-09-22
     group: Software Security Bangalore Meetup
@@ -41,24 +41,38 @@ completed:
     description: "This was my 2nd talk on the same day. I discussed Blue / Green Deployments with Deployment Slots, Deployment Rings, Feature Flags and introduced DevOps for Database."
     eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/255764942/
     location: Bangalore, India.
-  
+
   - title: "Up your monitoring game with Azure Data Source for Grafana"
     date: 2019-04-27
     group: Global Azure Bootcamp, Bangalore.
     description: "This talk was a walk through on how to setup Grafana which is a popular open source software to observe, visualize and monitor Azure workloads and how it overcomes the limitations of Azure Dashboards. I spoke on configuring Grafana for Single Sign On with Azure AD, visualizing metrics and different alerting possibilities."
     eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/258760167/
     location: Bangalore, India.
-  
+
   - title: "Overview of the .NET Foundation"
     date: 2019-07-20
     group: BDotnet - .NET User Group.
     description: "This talk was a gentle overview of the .NET Foundation and its activities."
     eventLink: https://www.meetup.com/BDotNetUG/events/262892444/
     location: Bangalore, India.
-  
+
   - title: "Having Serverless fun with Azure Functions and Azure Speech Services"
     date: 2019-07-27
     group: Bangalore Azure User Group Meetup
     description: "I explained how you can leverage the Serverless / AI offerings on Azure as a powerful programming model to build intelligent event driven applications."
     eventLink: https://www.meetup.com/Microsoft-Azure-Bangalore/events/262938339/
+    location: Bangalore, India.
+
+  - title: "Managing Feature Flags in .NET Applications"
+    date: 2010-10-12
+    group: Dotnet Conf Bangalore, 2019
+    description: "Feature flag management is a modern software-development practice that decouples feature release from code deployment. I explain how you can manage feature flags 'natively' on dotnet applications and Azure Integrations around it."
+    eventLink:
+    location: Bangalore, India.
+
+  - title: "Actionable DevSecOps Guide to running secure apps in the Cloud"
+    date: 2020-02-01
+    group: Experts Live India
+    description: "I explain a simple DevSecOps pipeline for a web application running on the cloud. I break down the different phases of the SDLC of a web application and looks at how you can embed security. I then explain the shared responsibility models for IaaS, PaaS, and SaaS applications."
+    eventLink:
     location: Bangalore, India.
