@@ -64,15 +64,15 @@ completed:
     location: Bangalore, India.
 
   - title: "Managing Feature Flags in .NET Applications"
-    date: 2010-10-12
+    date: 2020-10-19
     group: Dotnet Conf Bangalore, 2019
     description: "Feature flag management is a modern software-development practice that decouples feature release from code deployment. I explain how you can manage feature flags 'natively' on dotnet applications and Azure Integrations around it."
-    eventLink:
+    eventLink: https://www.meetup.com/BDotNetUG/events/264080067/
     location: Bangalore, India.
 
-  - title: "Actionable DevSecOps Guide to running secure apps in the Cloud"
+  - title: "Actionable DevSecOps Guide : Running securely in the Cloud"
     date: 2020-02-01
     group: Experts Live India
     description: "I explain a simple DevSecOps pipeline for a web application running on the cloud. I break down the different phases of the SDLC of a web application and looks at how you can embed security. I then explain the shared responsibility models for IaaS, PaaS, and SaaS applications."
-    eventLink:
-    location: Bangalore, India.
+    eventLink: http://expertslive.co.in/
+    location: Hyderabad, India.
