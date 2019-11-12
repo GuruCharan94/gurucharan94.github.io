@@ -2,10 +2,10 @@
 title: "Benefits of Setting up Grafana on Azure Web App for Containers"
 date: 2019-09-20
 header:
-  teaser: "/assets/images/grafana/grafana-azure-alerts.png"
-  thumbnail: "/assets/images/grafana/grafana-azure-alerts.png"
-  og_image: "/assets/images/grafana/grafana-azure-alerts.png"
-  image: "/assets/images/grafana/grafana-azure-alerts.png"
+  teaser: "/assets/images/grafana/grafana-containers.jpg"
+  thumbnail: "/assets/images/grafana/grafana-containers.jpg"
+  og_image: "/assets/images/grafana/grafana-containers.jpg"
+  image: "/assets/images/grafana/grafana-containers.jpg"
 categories:
   - Azure
 tags:
