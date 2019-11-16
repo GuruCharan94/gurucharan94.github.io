@@ -3,8 +3,8 @@ title: "Five CosmosDB tools that make you productive"
 date: 2019-10-10
 header:
   teaser: "/assets/images/cosmos-tools/teaser.png"
-  thumbnail: "/assets/images/cosmos-tools/teaser.png"
-  og_image: "/assets/images/cosmos-tools/teaser-thumbnail.png"
+  thumbnail: "/assets/images/cosmos-tools/teaser-thumbnail.png"
+  og_image: "/assets/images/cosmos-tools/teaser.png"
   image: "/assets/images/cosmos-tools/teaser.png"
 categories:
   - Azure

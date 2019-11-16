@@ -52,7 +52,8 @@
 
   a {
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
+  ;
   }
 
   a + a {
@@ -72,7 +73,7 @@
   margin-top: 0;
   font-size: 0.9em;
   color: #757575;
-  
+
   & + p {
     text-indent: 0;
   }

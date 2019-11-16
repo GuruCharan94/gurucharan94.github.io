@@ -3,7 +3,7 @@ title: "Benefits of Setting up Grafana on Azure Web App for Containers"
 date: 2019-09-20
 header:
   teaser: "/assets/images/grafana/grafana-containers.jpg"
-  thumbnail: "/assets/images/grafana/grafana-containers.jpg"
+  thumbnail: "/assets/images/grafana/grafana-containers-thumbnail.jpg"
   og_image: "/assets/images/grafana/grafana-containers.jpg"
   image: "/assets/images/grafana/grafana-containers.jpg"
 categories:
@@ -24,7 +24,7 @@ From the [Grafana docs](https://grafana.com/docs/tutorials/ha_setup/),
 
 While I could get the [Bitnami Multi-Tier Grafana MarketPlace Setup for Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/bitnami.multi-tier-manageddb-grafana?tab=Overview) to work, I found that this was a bit of an overkill for me. I have 2 Virtual Machine's inside an availability set, an Application Gateway that is expensive (why not a simple load balancer ?) and **no https** out-of-the-box and a dedicated MySQL Database.
 
-Having been a Azure PaaS person, this didn't really click for me. Especially the no https by default and the management overhead of a VM.
+Having been a Azure PaaS person, this didn't really click for me. Especially the no https by default and the management overhead of the Virtual Machines.
 
 I knew grafana had a docker image available and so I began to wonder if I can run Grafana on Azure Web App for Containers. [Someone already did it, as always](https://www.phillipsj.net/posts/an-easy-grafana-setup-using-azure-app-service-for-linux/). The system is really simple
 
