@@ -41,6 +41,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+  h2 {
+    margin-top: 0;
+  }
   a::before {
     content: '';
     position: absolute;
