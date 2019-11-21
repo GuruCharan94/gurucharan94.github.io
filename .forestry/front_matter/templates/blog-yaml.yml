@@ -1,0 +1,35 @@
+---
+label: Blog Yaml
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: file
+    name: teaser
+    label: teaser
+  - type: file
+    name: thumbnail
+    label: thumbnail
+  - type: file
+    name: og_image
+    label: og_image
+  - type: file
+    name: image
+    label: image
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: textarea
+  name: excerpt
+  label: excerpt
