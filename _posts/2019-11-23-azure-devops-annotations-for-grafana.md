@@ -49,7 +49,7 @@ Then you continue to the final page of the configuration steps and enter appropr
 
 The last thing you have to do to get the annotations to show up in your graph panels is head to your instance of Grafana and open dashboard settings. You can choose an appropriate colour for your annotation markers and filter what tags show up in your dashboards. Here is a screenshot of a sample configuration.
 
-{% include figure image_path="/assets/images/grafana-azure-devops/grafana-annotation-3.png" alt="Adding Grafana Service Hooks on Azure Devops -Step 3" caption="Adding Grafana Service Hooks on Azure Devops - Step 3" %}
+{% include figure image_path="/assets/images/grafana-azure-devops/grafana-settings-annotations.png" alt="Grafana Annotation Configuration" caption="Grafana Annotation Configuration" %}
 
 Now, the next time a deployment occurs on the configured pipeline, you should see a nice marker with rich data that you can trace back to your deployments inside Azure Devops. This is very useful in situations where your production environment metrics begin to act strange and you have to decide if a recent deployment may have played a role without having to search for information in multiple places.
 
