@@ -1,12 +1,11 @@
 ---
 title: Annotate Grafana Dashboards with Deployment Details from Azure Pipelines
 date: 2019-11-23
-draft: true
 header:
-  teaser: '/assets/images/grafana-azure-devops/teaser.png'
-  thumbnail: '/assets/images/grafana-azure-devops/teaser-thumbnail.png'
-  og_image: '/assets/images/grafana-azure-devops/teaser.png'
-  image: '/assets/images/grafana-azure-devops/teaser.png'
+  teaser: "/assets/images/grafana-azure-devops/teaser.png"
+  thumbnail: "/assets/images/grafana-azure-devops/teaser-thumbnail.png"
+  og_image: "/assets/images/grafana-azure-devops/teaser.png"
+  image: "/assets/images/grafana-azure-devops/teaser.png"
 categories:
 - azure devops
 - grafana
@@ -16,14 +15,17 @@ tags:
 - devops
 - azure
 - pipelines
-excerpt: 'A complete guide on how to annotate Grafana Dashboards with rich information about your deployments in Azure Pipelines. This feature is extremely useful in situations where your production environment metrics begins to act strange and you have to decide if a recent deployment may have played a role.'
+excerpt: A complete guide on how to annotate Grafana Dashboards with rich information
+  about your deployments in Azure Pipelines. This feature is extremely useful in situations
+  where your production environment metrics begins to act strange and you have to
+  decide if a recent deployment may have played a role.
 
 ---
 This blog post shows you how to add rich information from your Azure Devops deployments inside your Grafana time-series charts.
 
 {% include figure image_path="/assets/images/grafana-azure-devops/deployment-annotation.png" alt="Azure Devops meets Grafana Annotations" caption="Azure Devops meets Grafana Annotations" %}
 
-If you are new to Azure integrations on Grafana, you should read my blog posts on configuring [Azure Monitor Data Source for Grafana](https://www.gurucharan.in/azure/up-your-azure-monitoring-game-with-azure-data-source-for-grafana/) and how to[run Grafana using Azure Web App for Containers](https://www.gurucharan.in/azure/running-grafana-on-azure-app-service/).
+If you are new to Azure integrations on Grafana, you should read my blog posts on configuring [Azure Monitor Data Source for Grafana](https://www.gurucharan.in/azure/up-your-azure-monitoring-game-with-azure-data-source-for-grafana/) and how to[ run Grafana using Azure Web App for Containers](https://www.gurucharan.in/azure/running-grafana-on-azure-app-service/).
 
 ## Grafana Annotations
 
@@ -33,7 +35,7 @@ Now that we have covered the basics of annotations, we can look at how to depict
 
 {% include figure image_path="/assets/images/grafana-azure-devops/grafana-annotation-1.png" alt="Adding Grafana Service Hooks on Azure Devops - Step 1" caption="Adding Grafana Service Hooks on Azure Devops - Step 1" %}
 
-*If the Grafana option does not show up, try refreshing a couple of times. The new UI for Service Hooks has some bugs.*
+_If the Grafana option does not show up, try refreshing a couple of times. The new UI for Service Hooks has some bugs._
 
 {% include figure image_path="/assets/images/grafana-azure-devops/grafana-404.png" alt="Grafana option missing on Azure Devops" caption="Grafana Option missing on Azure Devops" %}
 
@@ -49,6 +51,6 @@ The last thing you have to do to get the annotations to show up in your graph pa
 
 {% include figure image_path="/assets/images/grafana-azure-devops/grafana-annotation-3.png" alt="Adding Grafana Service Hooks on Azure Devops -Step 3" caption="Adding Grafana Service Hooks on Azure Devops - Step 3" %}
 
-Now, the next time a deployment occurs on the configured pipeline, you should see a nice marker with rich data that you can trace back to your deployments inside Azure Devops. This is very useful in situations where your production environment metrics begins to act strange and you have to decide if a recent deployment may have played a role without having to search for information in multiple places.
+Now, the next time a deployment occurs on the configured pipeline, you should see a nice marker with rich data that you can trace back to your deployments inside Azure Devops. This is very useful in situations where your production environment metrics begin to act strange and you have to decide if a recent deployment may have played a role without having to search for information in multiple places.
 
 {% include figure image_path="/assets/images/grafana-azure-devops/deployment-annotation.png" alt="Azure Devops Deployment Annotations" caption="Azure Devops Deployment Annotations" %}

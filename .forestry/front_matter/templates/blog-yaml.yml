@@ -33,5 +33,3 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
-pages:
-- _posts/azure-devops-annotations-for-grafana.md
