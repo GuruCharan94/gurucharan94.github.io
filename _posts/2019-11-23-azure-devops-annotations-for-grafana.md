@@ -7,11 +7,11 @@ header:
   og_image: "/assets/images/grafana-azure-devops/teaser.png"
   image: "/assets/images/grafana-azure-devops/teaser.png"
 categories:
-- azure devops
+- azure-devops
 - grafana
 tags:
 - grafana
-- azure devops
+- azure-devops
 - devops
 - azure
 - pipelines
@@ -35,7 +35,7 @@ Now that we have covered the basics of annotations, we can look at how to depict
 
 {% include figure image_path="/assets/images/grafana-azure-devops/grafana-annotation-1.png" alt="Adding Grafana Service Hooks on Azure Devops - Step 1" caption="Adding Grafana Service Hooks on Azure Devops - Step 1" %}
 
-_If the Grafana option does not show up, try refreshing a couple of times. The new UI for Service Hooks has some bugs._
+_If the Grafana option does not show up, try refreshing a couple of times. The new UI for Service Hooks has some bugs._ For example, take a look at the screenshot below where Grafana is not listed.
 
 {% include figure image_path="/assets/images/grafana-azure-devops/grafana-404.png" alt="Grafana option missing on Azure Devops" caption="Grafana Option missing on Azure Devops" %}
 
