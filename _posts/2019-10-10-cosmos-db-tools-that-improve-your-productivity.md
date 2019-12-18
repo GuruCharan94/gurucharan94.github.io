@@ -5,7 +5,6 @@ header:
   teaser: "/assets/images/cosmos-tools/teaser.png"
   thumbnail: "/assets/images/cosmos-tools/teaser-thumbnail.png"
   og_image: "/assets/images/cosmos-tools/teaser.png"
-  image: "/assets/images/cosmos-tools/teaser.png"
 categories:
   - Azure
 tags:
@@ -64,24 +63,24 @@ There is no command-line options to automate this process and more importantly t
 
 ## 3. Cosmos Capacity Calculator
 
-IMO, this should have been called cost calculator and not capacity calculator. Anyway, you can check out the calculator [here](https://cosmos.azure.com/capacitycalculator/). The estimate takes into account a lot of different factors when calculating the final cost.
+IMO, this should have been called cost calculator and not capacity calculator. Anyway, you can check out the calculator [here](https://cosmos.azure.com/capacitycalculator/). The estimate takes into account a lot of different factors when calculating the final cost and is more accurate when compared to [the Azure Pricing Calculator](https://azure.microsoft.com/en-in/pricing/calculator/).
 
-When you sign-in with your email account after **ignoring the unverified warning on the sign-in page**, more form fields are available and you can specify more details about your workload to get better, more accurate estimates.
+When you sign-in with your email account after **ignoring the unverified warning on the sign-in page**, more form fields are available and you can specify more details about your workload to get better estimates.
+
+The **Save Estimate** button which simply downloads a csv file and the ability to specify more advanced information is available only when you sign-in. Otherwise, the cost calculator is a useful tool to estimate costs up-front.
 
 {% include figure image_path="/assets/images/cosmos-tools/cosmos-count-advanced.png" alt="Cosmos DB Cost Calculator" caption="Cosmos DB Cost Calculator" %}
 
-The **Save Estimate** button just downloads a csv file. I don't know why the save estimate button and the ability to specify advanced information is available only when you sign-in. Otherwise, the cost calculator is a useful tool to estimate costs up-front and is more advanced than [the Azure Pricing Calculator](https://azure.microsoft.com/en-in/pricing/calculator/).
-
 ## 4. Cosmos DB Explorer
 
- [Cosmos Db Explorer](https://www.bruttin.com/CosmosDbExplorer/) is the best way to explore the contents of your Cosmos DB. There are a lot of features available for you such as the ability get the query metrics and request units (RU) automatically for each query.
+ [Cosmos Db Explorer](https://www.bruttin.com/CosmosDbExplorer/) is the best way to explore the contents of your Cosmos DB. There are a lot of features available for you such as the ability get the query metrics and request units (RU) automatically for each query. You can even export the data in JSON format. The Cosmos DB explorer is a fanatastic piece of software to query and explore the data inside your Cosmos DB.
 
 {% include figure image_path="/assets/images/cosmos-tools/cosmos-db-explorer.png" alt="Cosmos DB Explorer" caption="Cosmos DB Explorer" %}
 
-You can [download the latest version here](https://github.com/sachabruttin/CosmosDbExplorer/releases) or you can `choco install cosmosdbexplorer` if you have chocolatey installed. (You should have [chocolatey](https://chocolatey.org/) installed).
+You can [download the latest version here](https://github.com/sachabruttin/CosmosDbExplorer/releases) or you can go `choco install cosmosdbexplorer` if you have chocolatey installed. (You should have [chocolatey](https://chocolatey.org/) installed).
 
 ## 5. Visual Studio Code Extension for Cosmos DB
 
 The [VS Code Extension for Cosmos DB](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb) enables you to explore the data inside Cosmos DB without having to leave your IDE. The extension features a Cosmos DB Explorer to CRUD documents, collections, databases and there is also support for Mongo Scrapbooks which allows you to run mongo commands with rich intellisense. Haven't tried the scrapbooks yet.
 
-These are my favourite Cosmos DB tools. With these tools, I can explore my data, migrate data, back-up and anonymize the contents of my databases and calculate the estimated cost of running a Cosmos DB instance on Azure.
+With these Cosmos DB tools, you can explore data, back-up, migrate and anonymize the contents of my databases and calculate the estimated cost of running a Cosmos DB instance on Azure and be more effective when working with Cosmos DB.
