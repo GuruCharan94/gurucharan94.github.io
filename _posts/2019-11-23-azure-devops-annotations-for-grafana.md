@@ -7,14 +7,14 @@ header:
   og_image: "/assets/images/grafana-azure-devops/teaser.png"
   image: "/assets/images/grafana-azure-devops/teaser.png"
 categories:
-- azure-devops
-- grafana
+- Azure-devops
+- Grafana
 tags:
-- grafana
-- azure-devops
-- devops
-- azure
-- pipelines
+- Grafana
+- Azure-devops
+- Devops
+- Azure
+- Pipelines
 excerpt: A complete guide on how to annotate Grafana Dashboards with rich information
   about your deployments in Azure Pipelines. This feature is extremely useful in situations
   where your production environment metrics begins to act strange and you have to
