@@ -20,7 +20,7 @@ excerpt: In this post, we look at how to setup a Lighthouse server on Azure so t
   CI inside Azure Pipelines.
 
 ---
-In the previous part (Part 1), we learnt about how to get started with Lighthouse CI, what are the different commands available, how to run your first scan and compare the results against a baseline. In this part (Part 2), we continue to look at how to set up a Lighthouse server on Azure so that we can upload the scan results, see trends and compare the scores of your site at different points in time.
+In the [previous part (Part 1)](https://www.gurucharan.in/web/nodejs/lighthouse-ci-the-complete-guide-part-1/), we learnt about how to get started with Lighthouse CI, what are the different commands available, how to run your first scan and compare the results against a baseline. In this part (Part 2), we continue to look at how to set up a Lighthouse server on Azure so that we can upload the scan results, see trends and compare the scores of your site at different points in time.
 
 ## Server Command
 
@@ -124,6 +124,6 @@ You specify the command you want to run, point to the configuration file and the
 
 ![Azure Pipelines Demo](https://raw.githubusercontent.com/GuruCharan94/azure-devops-extensions/master/lighthouse-ci/images/demo-pipeline.png)
 
-In this 2 part lighthouse series, you have installed lighthouse-ci CLI, learnt how to  configure it, set up the lighthouse server on Azure and have a good understanding of the different commands (healthcheck, collect, assert, upload and autorun) that is available to you. Once the results are pushed to the server, you would then compare scores, see trends and compare the scores of your site at different points in time.
+In this 2 part Lighthouse series, you have installed Lighthouse-ci CLI, learnt how to  configure it, set up the Lighthouse server on Azure and have a good understanding of the different commands (healthcheck, collect, assert, upload and autorun) that is available to you. Once the results are pushed to the server, you would then compare scores, see trends and compare the scores of your site at different points in time.
 
 Right now, I am happy with all the features available considering that this is still in 0.x.y version. Once the server supports authentication and includes a project management UI, then it is ready for prime time. But overall, looks very good to me.
