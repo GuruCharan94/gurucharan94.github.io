@@ -2,10 +2,9 @@
 title: Getting Started with LightHouse CI - Part 1
 date: 2020-01-01
 header:
-  teaser: 
-  thumbnail: 
-  og_image: 
-  image: 
+  teaser: "/assets/images/lhci/lhci-help.png"
+  thumbnail: "/assets/images/lhci/lhci-help.png"
+  og_image: "/assets/images/lhci/lhci-help.png"
 categories:
 - Web
 - NodeJS
@@ -37,7 +36,7 @@ Each of the individual commands have accept some arguments. Run the help command
 3. Configuration Files
 4. Default Settings
 
-The [Github doc](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/configuration.md)umentation goes into great detail with examples of the different configuration options. Throughout this post, I will be using a configuration file to pass arguments. The JSON file structure has the below format and is called `lighthouserc.json` and is at the root of the current working directory.
+The [GitHub documentation](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/configuration.md) goes into great detail with examples of the different configuration options. Throughout this post, I will be using a configuration file to pass arguments. The JSON file structure has the below format and is called `lighthouserc.json` and is at the root of the current working directory.
 
 The final configuration file is available [in this repository on GitHub](https://github.com/GuruCharan94/lighthouse-ci-demo).
 

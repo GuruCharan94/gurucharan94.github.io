@@ -2,10 +2,9 @@
 title: Getting Started with LightHouse CI - Part 2
 date: 2020-01-01
 header:
-  teaser: 
-  thumbnail: 
-  og_image: 
-  image: 
+  teaser: "/assets/images/lhci/lhci-help.png"
+  thumbnail: "/assets/images/lhci/lhci-help.png"
+  og_image: "/assets/images/lhci/lhci-help.png"
 categories:
 - Web
 - NodeJS
@@ -91,7 +90,7 @@ Once you have all this configuration in place, you should be able to see the Lig
 
 As mentioned earlier, Lighthouse Server does not support any form of authentication or authorization as of now and consequently, there is no project management UI either. To set up a project on the server, run `lhci wizard` on your command prompt, complete the wizard and take note of the GUID token.
 
-![Lighthouse CI Wizard Screenshot](/assets/images/lhci/lhci-server.png)
+![Lighthouse CI Wizard Screenshot](/assets/images/lhci/lhci-wizard.png)
 
 Once you have configured a project on the server, you can update your Lighthouse configuration file as shown below
 
