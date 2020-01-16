@@ -33,7 +33,7 @@ and then run `lhci server` with the below configuration in place to start the se
       "port": 9001,
       "storage": {
         "storageMethod": "sql",
-        "sqlDialect": "sqllite",
+        "sqlDialect": "sqlite",
         "sqlDatabasePath": "lhci.db"
       }
     }
