@@ -132,8 +132,11 @@ author:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://medium.com/@gurucharan94"
-    - label: "Dev"
+    - label: "Dev.to"
       icon: "fab fa-fw fa-dev"
+      url: "https://dev.to/gurucharan94"
+    - label: "Speaker Deck"
+      icon: "fab fa fa-file-powerpoint-o"
       url: "https://dev.to/gurucharan94"
 # Site Footer
 footer:
