@@ -136,7 +136,7 @@ author:
       icon: "fab fa-fw fa-dev"
       url: "https://dev.to/gurucharan94"
     - label: "Speaker Deck"
-      icon: "fab fa fa-file-powerpoint-o"
+      icon: "fab fa-speaker-deck"
       url: "https://dev.to/gurucharan94"
 # Site Footer
 footer:
