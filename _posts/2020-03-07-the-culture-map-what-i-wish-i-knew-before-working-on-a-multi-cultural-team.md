@@ -3,16 +3,17 @@ title: The Culture Map - Read this before working on a distributed, multi-cultur
   team.
 date: 2020-03-07
 header:
-  teaser: ''
-  thumbnail: ''
-  og_image: ''
+  teaser: "/assets/images/culture-map.jpg"
+  thumbnail: "/assets/images/culture-map.jpg"
+  og_image: "/assets/images/culture-map.jpg"
 categories:
 - LifeSkills
+- BooksILove
 tags:
 - Culture
 - People
 - RemoteWork
-- Inclusion
+- Life
 excerpt: This blog post is on how much I appreciate The Culture Map, why it was such
   an amazing read and highly relevant to me as a remote employee on a distributed
   multi-cultural team.
@@ -24,7 +25,7 @@ The author breaks down the work culture into eight scales. And you have to consi
 
 To understand why I appreciate the book so much, why it was such an amazing read and highly relevant to me, let me tell you something about me. I work on a distributed team of about 15 people comprising of people from Germany, Netherlands, Finland, colleagues from China, two from the USA and me from India.
 
-Different people, different styles of communication, different ways of working and a truly international, distributed, multi-cultural team and I have to say the Culture Map nails it. I read the book AFTER working with the team for about a year and I could relate so well with the examples from the book. I wish I had read this in advance. It would have explained the "interesting" interactions.
+Different people, different styles of communication, different ways of working and a truly international, distributed, multi-cultural team and I have to say the Culture Map nails it. I read the book AFTER working with the team for about a year and I could relate so well with the examples from the book. I wish I had read this in advance. It would have certainly explained a lot the "interesting" interactions. At least, now I know. Better late than never, I guess.
 
 Let us look at the different scales
 
@@ -52,13 +53,13 @@ Take a look at the [Anglo-Dutch translation guide](https://www.reddit.com/r/then
 
 ![Anglo Dutch Translation Guide](https://external-preview.redd.it/u895OhFuhxzZ9zozBbpeTAoS4cc2JyImVaRm9YTulmA.jpg?auto=webp&s=828b5e3e2efc282f0bdf3b77651ebeff20c2640d)
 
-I am not going to go into detail with the rest of the factors. You'll have to read the book to get the details. I'll just list them for the sake of completeness. 
+I am not going to go into detail with the rest of the factors. You'll have to read the book to get the details. I'll just list them for the sake of completeness.
 
 * **Persuading: “Principles First vs. Applications First”**
-* **Leading: “Egalitarian vs. Hierarchical”** 
-* **Deciding: “Consensual vs. Top-Down”** 
-* **Trusting: “Task-based vs. Relationship-based”** 
-* **Disagreeing: “Confrontational vs. Avoids Confrontation”** 
+* **Leading: “Egalitarian vs. Hierarchical”**
+* **Deciding: “Consensual vs. Top-Down”**
+* **Trusting: “Task-based vs. Relationship-based”**
+* **Disagreeing: “Confrontational vs. Avoids Confrontation”**
 * **Scheduling: “Linear-time vs. Flexible-time”**
 
 While the author tries to make sense of the differences in cultures, she is very quick to make the point that people are different and unique in their own way and you should never generalize.
