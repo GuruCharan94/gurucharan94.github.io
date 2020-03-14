@@ -20,12 +20,10 @@ You can invite guest users on your tenant using the Azure Active Directory B2B c
 
 Make sure that you have the Azure AD PowerShell for Graph module (AzureADPreview) installed on your machine. Execute the below commands to check if they are already installed and to install them if they are not already installed.
 
-``` PowerShell
-
+```PowerShell
 Get-Module -ListAvailable AzureAD*
 Import-Module -Name AzureADPreview
 Get-Command -Module AzureADPreview
-
 ```
 
 ![Screenshot of AzureAD Preview PowerShell Module](/assets/images/guest-user-PowerShell.png)
@@ -41,8 +39,7 @@ The script allows you to
 - Customize the invitation message
 - Specify a Redirect URL
 
-``` PowerShell
-
+```PowerShell
 $invitationMessageBody = @"
 This is where you enter your custom invitation message.
 
@@ -64,7 +61,6 @@ For ($i = 0; $i -lt $users.Count; $i++) {
                                       -InvitedUserMessageInfo invitation -InviteRedirectUrl "https://www.my-super-fancy-app.com"
         }
 }
-
 ```
 
 Using this small script, you can connect to Azure AD and invite new users to the tenant using the Azure Active Directory B2B collaboration via PowerShell.
