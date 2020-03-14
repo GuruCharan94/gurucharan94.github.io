@@ -1,6 +1,6 @@
 ---
 title: How to Invite Guest Users in Azure Active Directory using PowerShell
-date: 2020-03-09
+date: 2020-03-14
 header:
   teaser: "/assets/images/guest-user-PowerShell.png"
   thumbnail: "/assets/images/guest-user-PowerShell.png"
@@ -30,7 +30,7 @@ Get-Command -Module AzureADPreview
 
 ![Screenshot of AzureAD Preview PowerShell Module](/assets/images/guest-user-PowerShell.png)
 
-This is a screenshot of how the results looks like. I have the `2.0.1.11` version installed. In case you have the `AzureAD` module or older versions of the `AzureADPreview` module installed, check out [the docs on how to proceed with the installation](https://docs.microsoft.com/en-us/azure/active-directory/b2b/b2b-quickstart-invite-powershell).
+This is a screenshot of how the results look like. I have the `2.0.1.11` version installed. In case you have the `AzureAD` module or older versions of the `AzureADPreview` module installed, check out [the docs on how to proceed with the installation](https://docs.microsoft.com/en-us/azure/active-directory/b2b/b2b-quickstart-invite-powershell).
 
 ## Show me the Code !!!
 
@@ -68,3 +68,5 @@ For ($i = 0; $i -lt $users.Count; $i++) {
 ```
 
 Using this small script, you can connect to Azure AD and invite new users to the tenant using the Azure Active Directory B2B collaboration via PowerShell.
+
+Cheers 😊😊😊
