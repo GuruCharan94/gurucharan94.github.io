@@ -26,7 +26,7 @@ Import-Module -Name AzureADPreview
 Get-Command -Module AzureADPreview
 ```
 
-![Screenshot of AzureAD Preview PowerShell Module](/assets/images/guest-user-PowerShell.png)
+![Screenshot of AzureAD Preview PowerShell Module](/assets/images/guest-user-powershell.png)
 
 This is a screenshot of how the results look like. I have the `2.0.1.11` version installed. In case you have the `AzureAD` module or older versions of the `AzureADPreview` module installed, check out [the docs on how to proceed with the installation](https://docs.microsoft.com/en-us/azure/active-directory/b2b/b2b-quickstart-invite-powershell).
 
