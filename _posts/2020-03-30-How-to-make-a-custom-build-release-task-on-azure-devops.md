@@ -1,6 +1,6 @@
 ---
 title: How to make a custom build or release task on Azure DevOps
-date: 2020-03-31
+date: 2020-04-11
 header:
   teaser: "assets/images/azure-devops-extension/release-pipeline.png"
   thumbnail: "assets/images/azure-devops-extension/release-pipeline.png"
