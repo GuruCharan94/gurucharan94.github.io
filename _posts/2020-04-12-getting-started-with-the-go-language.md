@@ -29,7 +29,7 @@ It looks like Go's strongest features are
 - Run-time Reflection
 - Garbage Collection
 
-There may a lot to unpack here. I will not be doing that here because I don't need these features now. I want to install Go successfully and get to "Hello, World !". Let's do that now and leave the advance bits for later.
+There may be a lot to unpack here. I will not be doing that here because I don't need these features now. I want to install Go successfully and get to "Hello, World !". Let's do that now and leave the advance bits for later.
 
 ## Installation of Go
 
