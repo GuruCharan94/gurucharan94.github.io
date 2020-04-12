@@ -9,7 +9,7 @@ categories:
 - go
 tags:
 - go
-excerpt: "This is part 1 of a multi-part series of blog posts on learning Go. In this blog post, we look at what is the Go programming languages, installing the Go binaries and running a simple 'Hello World' program in Go.
+excerpt: "This is part 1 of a multi-part series of blog posts on learning Go. In this blog post, we look at what is the Go programming languages, installing the Go binaries and running a simple 'Hello World' program in Go."
 ---
 
 This is part 1 of a [multi-part series of blog posts on learning Go](https://www.gurucharan.in/get-set-go/).
