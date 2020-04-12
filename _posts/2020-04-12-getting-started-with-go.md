@@ -1,6 +1,6 @@
 ---
-title: "Ready, Set, Go - Getting Started with the Go Programming Language"
-date: 2020-04-11
+title: "Let's Go - Part 1 : Getting Started with the Go Programming Language"
+date: 2020-04-12
 header:
   teaser: ""
   thumbnail: ""
