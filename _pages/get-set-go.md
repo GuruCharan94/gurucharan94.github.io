@@ -1,7 +1,7 @@
 ---
 title: "Get, Set, Go"
 layout: single
-permalink: /get-set-go/
+permalink: /lets-go/
 classes: wide
 author_profile: true
 header:
@@ -10,4 +10,4 @@ header:
 
 This is a collection of blog posts that are part of the multi-part series that I have decided to call "Get, Set, Go."
 
-- [Part 1](https://www.gurucharan.in/go/getting-started-with-go/) - Getting Started with Go
+- [Part 1](https://www.gurucharan.in/go/getting-started-with-the-go-language/) - Getting Started with Go

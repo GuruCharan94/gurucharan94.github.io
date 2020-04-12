@@ -1,5 +1,5 @@
 ---
-title: Getting Started with the Go Programming Language
+title: "Let's Go - Part 1 : Getting Started with the Go Programming Language"
 date: 2020-04-12
 header:
   teaser: ""
