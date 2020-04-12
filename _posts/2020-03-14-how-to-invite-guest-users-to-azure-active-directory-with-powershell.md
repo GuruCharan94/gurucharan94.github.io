@@ -2,9 +2,9 @@
 title: How to Invite Guest Users in Azure Active Directory using PowerShell
 date: 2020-03-14
 header:
-  teaser: "/assets/images/guest-user-PowerShell.png"
-  thumbnail: "/assets/images/guest-user-PowerShell.png"
-  og_image: "/assets/images/guest-user-PowerShell.png"
+  teaser: "/assets/images/guest-user-powershell.png"
+  thumbnail: "/assets/images/guest-user-powershell.png"
+  og_image: "/assets/images/guest-user-powershell.png"
 categories:
 - Azure
 - PowerShell
