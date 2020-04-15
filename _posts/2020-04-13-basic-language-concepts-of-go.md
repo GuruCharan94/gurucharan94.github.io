@@ -12,9 +12,9 @@ tags:
 excerpt: "This blog post contains the basic concepts and building blocks of the GO language such as Packages, DataTypes, Constants, Variables and Functions."
 ---
 
-This is part 2 of a [multi-part series of blog posts on learning Go](https://www.gurucharan.in/get-set-go/).
+This is part 2 of a [multi-part series of blog posts on learning Go](https://www.gurucharan.in/lets-go/).
 
-This blog post contains the basics of the GO language that is available on the official Go language tour and covers Packages, DataTypes, Constants, Variables and Functions.
+This blog post covers the basic concepts of the GO language and covers Packages, DataTypes, Constants, Variables and Functions.
 
 ## Package
 
@@ -36,9 +36,8 @@ import (
 )
 
 func main() {
-  fmt.Println(math.pi) // Throws Err
+  fmt.Println(math.pi) // Throws Error as pi is not exported
   
-  or as pi is not exported
   fmt.Println(math.Pi) // Works Fine
 
 }
@@ -165,3 +164,10 @@ func main() {
   fmt.Println(divide(42, 13))
 }
 ```
+
+In this blog post we looked at some of the basics concepts of the GO programming language such as Packages, DataTypes, Constants, Variables and Functions. In the next one, we will look at more concepts of the language such as
+
+- Conditionals
+- Loops
+- Switches and
+- Defers
