@@ -2,9 +2,9 @@
 title: "Let's Go - Part 2 : Basic Concepts of the Go Programming Language"
 date: 2020-04-15
 header:
-  teaser: ""
-  thumbnail: ""
-  og_image: ""
+  teaser: "/assets/images/golang.png"
+  thumbnail: "/assets/images/golang.png"
+  og_image: "/assets/images/golang.png"
 categories:
 - go
 tags:

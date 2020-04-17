@@ -2,9 +2,9 @@
 title: "Let's Go - Part 1 : Getting Started with the Go Programming Language"
 date: 2020-04-12
 header:
-  teaser: ""
-  thumbnail: ""
-  og_image: ""
+  teaser: "/assets/images/golang.png"
+  thumbnail: "/assets/images/golang.png"
+  og_image: "/assets/images/golang.png"
 categories:
 - go
 tags:
