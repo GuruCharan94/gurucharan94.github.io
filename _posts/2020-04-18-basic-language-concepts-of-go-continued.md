@@ -9,7 +9,7 @@ categories:
 - go
 tags:
 - go
-excerpt: ""
+excerpt: "In this post, we will understand how to control the flow of code with if conditionals, for loops, switches and defers."
 ---
 
 This is part 3 of a [multi-part series of blog posts on learning Go](https://www.gurucharan.in/lets-go/).
