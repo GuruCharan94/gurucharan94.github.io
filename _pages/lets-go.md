@@ -5,7 +5,9 @@ permalink: /lets-go/
 classes: wide
 author_profile: true
 header:
-  og_image: ""
+  teaser: "/assets/images/golang.png"
+  thumbnail: "/assets/images/golang.png"
+  og_image: "/assets/images/golang.png"
 ---
 
 This is a collection of blog posts that are part of the multi-part series that I have decided to call "Let's Go."

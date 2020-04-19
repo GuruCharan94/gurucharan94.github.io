@@ -2,5 +2,28 @@
     "cSpell.words": [
         "Println",
         "uintptr"
-    ]
+    ],
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/_drafts/2020-04-18-basic-language-concepts-of-go-continued.md"
+            ],
+            "config": {
+                "audience": "general",
+                "dialect": "american",
+                "domain": "technical",
+                "emotions": [
+                    "confident",
+                    "joyful",
+                    "friendly"
+                ],
+                "goals": [
+                    "inform",
+                    "describe"
+                ],
+                "emotion": "mild"
+            }
+        }
+    ],
+    "gitdoc.enabled": true
 }

@@ -31,6 +31,8 @@ It looks like Go's strongest features are
 
 There may be a lot to unpack here. I will not be doing that here because I don't need these features now. I want to install Go successfully and get to "Hello, World !". Let's do that now and leave the advance bits for later.
 
+If you want to use an online playground to practice Go, you can do so at [the Go playground](https://play.golang.org/)
+
 ## Installation of Go
 
 You can [download Go from the downloads page](https://golang.org/dl/). I have a Windows 10 machine and will download the Go binaries for windows. The installation was fairly simple. Next, Next, Accept the terms and conditions that I carefully spent 5 hours reading 🤣 and Finish. I see that Go is installed in `C:\Go`.
