@@ -108,4 +108,4 @@ func main() {
 
 You can build it with the Go tool by running `go build <filename>.go`. This creates a `<filename>.exe` in the same folder from where the command was run. Running `<filename>.exe` prints hello world on the console. For more details on the build command in Go, run `go help build`.
 
-In this blog post, we looked at what is the Go programming languages, installing the Go binaries and running a simple "Hello World" program in Go. But I don't really know what is happening in the program. In the next part, we will hopefully get to know more about the important concepts of the language and perhaps then words like  `package`,  `import` and others will make more sense.
+In this blog post, we looked at what is the Go programming languages, installing the Go binaries and running a simple "Hello World" program in Go. But I don't really know what is happening in the program. In the next part, we will hopefully get to know more about the important concepts of the language and perhaps words like  `package`,  `import` and others will make more sense then.
