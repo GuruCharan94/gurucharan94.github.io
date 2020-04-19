@@ -135,4 +135,9 @@ func main() {
 
 You can read more about `defer` and additional concepts like `panic` and `recover` [from this blog post](https://blog.golang.org/defer-panic-and-recover)
 
-In this post, we looked at how to control the flow of code with if conditionals, for loops, switches and defers.
+In this post, we looked at how to control the flow of code with if conditionals, for loops, switches and defers. In the next post, we will look at more data types available in the Go language such as 
+
+- Structs
+- Arrays
+- Slices and
+- Maps.
