@@ -12,6 +12,8 @@ tags:
 excerpt: ""
 ---
 
+In this post, we will understand how to control the flow of code with if conditionals, for loops, switches and defers.
+
 ## Loops in Go
 
 - Go has only one looping construct, the `for` loop. The basic for loop has three components separated by semicolons.
