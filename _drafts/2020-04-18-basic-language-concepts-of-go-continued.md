@@ -130,3 +130,5 @@ func main() {
   3. Deferred functions may read and assign to the returning function's named return values.
 
 You can read more about `defer` and additional concepts like `panic` and `recover` [from this blog post](https://blog.golang.org/defer-panic-and-recover)
+
+In this post, we looked at how to control the flow of code with if conditionals, for loops, switches and defers.
