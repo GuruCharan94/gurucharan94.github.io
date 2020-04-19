@@ -25,5 +25,5 @@
             }
         }
     ],
-    "gitdoc.enabled": true
+    "gitdoc.enabled": false
 }
