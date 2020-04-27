@@ -1,6 +1,6 @@
 ---
 title: How to Invite Guest Users in Azure Active Directory using Azure Logic Apps
-date: 2020-03-14
+date: 2020-04-27
 header:
   teaser: "/assets/images/guest-user-email.png"
   thumbnail: "/assets/images/guest-user-email.png"
