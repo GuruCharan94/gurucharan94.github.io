@@ -68,10 +68,10 @@ If you manually invoke the logic app, you will see that the run is successful an
 
 ![Guest Invitation Email](/assets/images/guest-user-email.png)
 
-Once you click on "Get Started" button, you will be guided to the invitation redemption steps and then be redirected to the application URL that was specified in `inviteRedirectUrl` in the request body.
+Once you click on "Get Started" button, you will be guided to the invitation redemption steps and then be redirected to the application URL that was specified in `inviteRedirectUrl` in the request body. After you have everything working, you can disable the logic app (or not).  
 
 ## Closing Remarks
 
-I have previously written about [inviting guest users using Powershell](https://www.gurucharan.in/azure/powershell/how-to-invite-guest-users-to-azure-active-directory-with-powershell/). The disadvantage with the PowerShell approach (and the Azure Portal approach) is that it requires me to log in and sends the invite as me. It would say Gurucharan has invited you to da da da.
+I have previously written about [inviting guest users using Powershell](https://www.gurucharan.in/azure/powershell/how-to-invite-guest-users-to-azure-active-directory-with-powershell/). The disadvantage with the PowerShell approach (and the Azure Portal approach) is that it requires me to log in and sends the invite as me. It would say Gurucharan has invited you to da da da. And I don't want that.
 
 With Logic Apps, you can easily invite application users as the application itself. Very useful in situations where this process needs to be fully automated. These are simple HTTP calls and so you can also do this as part of your core applications or have an Azure Function invite users as well. If Azure Functions excite you, take a look [at the Microsoft Graph bindings for Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-microsoft-graph).
