@@ -13,6 +13,6 @@ excerpt:
 
 ogImage:
   title: "Auto Generate OG image with GitHub Actions"
-  subtitle: "Gurucharan Subramani"
-  filename: "auto-generate-og-image"  
+  subtitle: ""
+  filename: "auto-generate-og-image-no-subtitle"  
 ---
