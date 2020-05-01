@@ -15,4 +15,5 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         with:
           path: assets/images/
-          commitMsg: Auto Generate OG image
+          commitMsg: Auto Generated OG image
+          fontColor : "#00695c"
