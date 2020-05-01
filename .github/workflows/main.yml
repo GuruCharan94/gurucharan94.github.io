@@ -16,5 +16,3 @@ jobs:
         with:
           path: assets/images/
           commitMsg: Auto Generate OG image
-          width: 1200
-          height: 1200

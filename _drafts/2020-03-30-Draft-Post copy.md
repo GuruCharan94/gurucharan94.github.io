@@ -14,6 +14,6 @@ excerpt:
 ogImage:
   title: "Auto Generate OG image with GitHub Actions"
   subtitle: "by Gurucharan Subramani"
-  filename: "auto-generate-og-image-no-subtitle" 
-  fontSize: 120%;  
+  filename: "auto-generate-og-image-no-subtitle-updated-font-size" 
+  fontSize: "200%";  
 ---
