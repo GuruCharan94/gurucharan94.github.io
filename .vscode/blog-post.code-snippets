@@ -1,0 +1,23 @@
+{
+  "blog-post": {
+    "scope" : "markdown",
+    "prefix": ["blog", "blog-post", "new-blog", "new-blog-post"],
+    "body": ["---","title: ${1:title}",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "header:",
+      "  teaser: \"/assets/images/${2:filename}.jpg\"",
+      "  thumbnail:  \"/assets/images/${2:filename}.jpg\"",
+      "  og_image: \"/assets/images/${2:filename}.jpg\"",
+      "categories:",
+      "- ${3:category} ",
+      "tags:",
+      "- ${4:category} ",
+      "excerpt: $0",
+      "ogImage:",
+      "  title: \"**${1:title}**\"",
+      "  subtitle: \"www.gurucharan.in | @gurucharan94\"",
+      "  filename: \"${2:filename}.jpg\"",
+      "  fontSize:  \"120%\"","---"],
+    "description": "Front Matter for a post on my blog"
+  }
+}
