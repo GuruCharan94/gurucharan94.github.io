@@ -90,6 +90,4 @@ Take a look at this [pull request](https://github.com/GuruCharan94/gurucharan94.
 
 The GitHub action merely generates a nice image for you. You need the appropriate meta tags in the `<head>` section of your HTML page if you need the preview to show up when you hit share on social media. If you are reading this from your laptop or computer, you can (should) hit F12 right now to open up the developer tools and browse the code for this page.
 
-With preview image generation automated, I'm hoping I will spend time more time ACTUALLY blogging 😉😉.
-
-Cheers 🙌🙌🙌🙌
+With preview image generation automated, I'm hoping I will spend time more time ACTUALLY blogging.
