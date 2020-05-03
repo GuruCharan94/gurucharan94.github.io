@@ -22,7 +22,7 @@ excerpt:
 
 [Building the Cosmos Data Source for Grafana](https://grafana.com/tutorials/build-a-data-source-plugin/#1)
 
-# Prerequisites
+## Prerequisites
 
 - Update to Grafana 7.0.
   - I have Grafana deployed on App Service. Update the docker image on the deployment slot. Easy.
@@ -33,3 +33,4 @@ excerpt:
 - YARN
     
 - There is also sample implementation at https://github.com/grafana/simple-datasource
+
