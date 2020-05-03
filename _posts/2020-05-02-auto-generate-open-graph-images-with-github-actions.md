@@ -14,18 +14,20 @@ tags:
 - productivity
 - automation
 - github-actions 
-excerpt: 
 
 ogImage:
   title: "**Auto Generate OG image with GitHub Actions**"
   subtitle: "www.gurucharan.in | @gurucharan94"
   filename: "auto-generate-og-image" 
   fontSize: "120%"
+
+excerpt: In this blog post, I show you how I auto-generate a simple, consistent preview image using GitHub Actions for my Jekyll powered blog hosted on GitHub pages.
+
 ---
 
 I spend more time making a social media preview image for my blog than actually writing my blog posts. And more often than not, I end up with a preview image that I am fully convinced about. And then I decide to spend more time on this on my next blog post to get a better preview and round and round it goes. Talk about #bikeshedding.
 
-In this blog post, I show you how to auto-generate a simple, consistent preview image using [GitHub Actions](https://github.com/features/actions) for my Jekyll powered blog hosted on GitHub pages.
+In this blog post, I show you how to auto-generate a simple, consistent preview image using [GitHub Actions](https://github.com/features/actions) for your Jekyll powered blog hosted on GitHub pages.
 
 ## What are GitHub Actions
 
