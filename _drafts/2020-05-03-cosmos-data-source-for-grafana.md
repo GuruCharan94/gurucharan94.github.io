@@ -1,6 +1,6 @@
 ---
 title: Building the Cosmos DB Data Source for Grafana
-date: 2020-05-03
+date: 2022-05-03
 header:
   teaser: "/assets/images/cosmos-db-grafana.jpg"
   thumbnail:  "/assets/images/cosmos-db-grafana.jpg"
@@ -22,15 +22,20 @@ excerpt:
 
 [Building the Cosmos Data Source for Grafana](https://grafana.com/tutorials/build-a-data-source-plugin/#1)
 
-## Prerequisites
+## Preparation
 
 - Update to Grafana 7.0.
   - I have Grafana deployed on App Service. Update the docker image on the deployment slot. Easy.
   - Link to previous blogs.
 
-- NodeJS. I have Node installed. Link ??
+- NodeJS and Yarn. See https://www.gurucharan.in/web/javascript/node/how-to-install-node-nvm-yarn-on-windows/
 
-- YARN
-    
-- There is also sample implementation at https://github.com/grafana/simple-datasource
+## Getting Started
 
+Run this command npx @grafana/toolkit plugin:create my-grafana-plugin
+
+Grafana Toolkit installation
+
+plugin.json
+
+https://grafana.com/docs/grafana/latest/plugins/developing/plugin.json/
