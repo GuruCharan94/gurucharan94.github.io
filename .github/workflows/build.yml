@@ -1,0 +1,13 @@
+name: Build 10 minutes
+
+on:
+  schedule:
+   - cron: '0 * * * *'
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: curl
+      uses: wei/curl@master
+      with:
+        args: "-X POST -H 'Authorization: token ${{ secrets.GITHUB_TOKEN }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/GuruCharan94/gurucharan94.github.io/pages/builds"
