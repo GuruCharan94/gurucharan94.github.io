@@ -17,4 +17,4 @@ jobs:
           path: assets/images/
           commitMsg: Auto Generated OG image
           fontColor : "#00695c"
-          background: 'url(https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/og-images/assets/images.png)'
+          background: 'url(https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/og-images/assets/white-background.jpg)'
