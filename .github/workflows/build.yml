@@ -2,7 +2,7 @@ name: Build 10 minutes
 
 on:
   schedule:
-   - cron: '*/5 * * * *'
+   - cron: '30 6 * * *'
 jobs:
   curl:
     runs-on: ubuntu-latest
