@@ -18,3 +18,5 @@ jobs:
           commitMsg: Auto Generated OG image
           fontColor : "#00695c"
           background: 'url(https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/master/assets/images/white-background.jpg)'
+          width : 1200
+          height : 600
