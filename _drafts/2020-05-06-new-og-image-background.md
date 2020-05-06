@@ -1,5 +1,5 @@
 ---
-title: New Blog Post OG Background
+title: New Blog Post OG White Background 
 date: 2020-05-06
 header:
   teaser: "/assets/images/og-background-new.jpg"
@@ -11,7 +11,7 @@ tags:
 - category 
 excerpt: 
 ogImage:
-  title: "**New Blog Post OG Background**"
+  title: "**New Blog Post OG White Background**"
   subtitle: "www.gurucharan.in | @gurucharan94"
   filename: "og-background-new.jpg"
   fontSize:  "120%"
