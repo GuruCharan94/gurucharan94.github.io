@@ -16,7 +16,7 @@ tags:
 ogImage:
   title: "**Side by Side install of multiple versions of NodeJS and NPM with NVM on Windows 10**"
   subtitle: "www.gurucharan.in | @gurucharan94"
-  filename: "node-on-windows-10.jpg"
+  filename: "node-on-windows-10"
   fontSize:  "120%"
 excerpt: This blog post shows you how to install and manage multiple versions of NodeJS, Node Package Manager (NPM) using Node Version Manager (NVM) on Windows 10
 ---
