@@ -11,7 +11,7 @@ tags:
 - category 
 excerpt: 
 ogImage:
-  title: "**New Blog Post OG White Background**"
+  title: "**New Blog Post OG a Custom Background 1200 x 630**"
   subtitle: "www.gurucharan.in | @gurucharan94"
   filename: "og-background-new-2"
   fontSize:  "120%"
