@@ -13,6 +13,6 @@ excerpt:
 ogImage:
   title: "**New Blog Post OG White Background**"
   subtitle: "www.gurucharan.in | @gurucharan94"
-  filename: "og-background-new"
+  filename: "og-background-new-2"
   fontSize:  "120%"
 ---
