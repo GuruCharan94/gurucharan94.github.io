@@ -19,14 +19,14 @@ ogImage:
   fontSize:  "120%"
 ---
 
-In this blog post, I write about how I set up my blog and show how you can set up a full-fledged blog for free in less than 30 minutes. On finishing reading this post, you will have a blog powered by markdown with a comments section, a full-text search where you can schedule posts to be published later automatically and optimized for social media and search engines.
+In this blog post, I write about how I set up a blog (yes, very meta) using the minimal mistakes templates for free in less than 30 minutes. On finishing reading this post, you will know how to set up a polished blog powered by markdown which includes features such as a comments section, a full-text search, the ability to schedule posts to be published later and out of the box ready for social media, search engines amd much more **FOR FREE**.
 
 Github Pages
 List of templates
 
-Why you should use this
+How are all the features
 
-- Full text search
+- Full-text search
 - Disqus Comments
 - RSS Feed
 - Categories and Tags
@@ -34,11 +34,7 @@ Why you should use this
 - Emoji Support
 - Pagination
 - Google Analytics
-- SEO Accessiblitly - Lighthouse
-
-
-How to fork this ? Rename ? Detach the head and done. Custom Domain, you have to pay.
-
+- SEO Accessibility - Lighthouse
 - Config.yml
 - Delete all the files in _posts
 - Checkout the `_pages` folder and `_data` folder
@@ -47,3 +43,5 @@ Drafts Folder
 Scheduling Posts - GH Actions
 OG Images - GH Actions
 Grammarly to do spelling and grammar check
+
+How to fork this ? Rename ? Detach the head and done. Custom Domain, you have to pay.
