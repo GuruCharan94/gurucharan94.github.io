@@ -1,5 +1,5 @@
 ---
-title: Lessons learnt blogging as a Developer
+title: Lessons learned by blogging as a Developer
 date: 2020-05-13
 header:
   teaser: "/assets/images/blogging-as-a-developer.jpg"
@@ -11,11 +11,11 @@ categories:
 - career 
 tags:
 - blog 
-excerpt: 
+excerpt: In this blog post, I write about why I set-up my blog (yes, very meta) using GitHub pages on my own domain. I write about cross-posting, SEO optimization, my blogging schedule and ultimately figuring out why I blog.
 ogImage:
-  title: "**Lessons learnt blogging as a Developer**"
+  title: "**Lessons learned by blogging as a Developer**"
   subtitle: "www.gurucharan.in | @gurucharan94"
-  filename: "/assets/images/blogging-as-a-developer"
+  filename: "blogging-as-a-developer"
   fontSize:  "120%"
 ---
 
