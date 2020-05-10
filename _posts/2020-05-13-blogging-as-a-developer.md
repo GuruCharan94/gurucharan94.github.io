@@ -7,10 +7,11 @@ header:
   og_image: "/assets/images/blogging-as-a-developer.jpg"
 categories:
 - blog
-- meta
-- career 
 tags:
-- blog 
+- blog
+- meta
+- career
+- lifeskills
 excerpt: In this blog post, I write about why I set-up my blog (yes, very meta) using GitHub pages on my own domain. I write about cross-posting, SEO optimization, my blogging schedule and ultimately figuring out why I blog.
 ogImage:
   title: "**Lessons learned by blogging as a Developer**"
