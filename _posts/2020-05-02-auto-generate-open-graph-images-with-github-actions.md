@@ -1,5 +1,5 @@
 ---
-title: "Auto Generate OG image for your blogs posts with GitHub Actions"
+title: "Auto Generate Open Graph Cover Images for your blogs posts with GitHub Actions"
 date: 2020-05-01
 header:
   teaser: "/assets/images/auto-generate-og-image.jpg"

@@ -16,7 +16,7 @@
       "ogImage:",
       "  title: \"**${1:title}**\"",
       "  subtitle: \"www.gurucharan.in | @gurucharan94\"",
-      "  filename: \"${2:filename}.jpg\"",
+      "  filename: \"${2:filename}\"",
       "  fontSize:  \"120%\"","---"],
     "description": "Front Matter for a post on my blog"
   }

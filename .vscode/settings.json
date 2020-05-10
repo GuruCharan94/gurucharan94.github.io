@@ -25,5 +25,15 @@
             }
         }
     ],
-    "gitdoc.enabled": false
+    "gitdoc.enabled": false,
+    "grammarly.userWords": [
+        "cli",
+        "devops",
+        "fontSize",
+        "json",
+        "ogImage",
+        "succesful",
+        "tfx",
+        "vsix"
+    ]
 }
