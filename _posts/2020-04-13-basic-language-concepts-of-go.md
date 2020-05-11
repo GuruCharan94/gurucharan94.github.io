@@ -6,9 +6,9 @@ header:
   thumbnail: "/assets/images/golang.png"
   og_image: "/assets/images/golang.png"
 categories:
-- go
+- Go
 tags:
-- go
+- Go
 excerpt: "This blog post contains the basic concepts and building blocks of the GO language such as Packages, DataTypes, Constants, Variables and Functions."
 ---
 

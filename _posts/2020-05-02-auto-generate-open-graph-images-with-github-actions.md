@@ -6,14 +6,14 @@ header:
   thumbnail: "/assets/images/auto-generate-og-image.jpg"
   og_image: "/assets/images/auto-generate-og-image.jpg"
 categories:
-- blog
-- github-actions
+- Blog
+- GitHub-Actions
 tags:
-- blogging
-- meta
-- productivity
-- automation
-- github-actions 
+- Blog
+- Meta
+- Productivity
+- Automation
+- GitHub-Actions
 
 ogImage:
   title: "**Auto Generate OG image with GitHub Actions**"

@@ -6,9 +6,9 @@ header:
   thumbnail: "/assets/images/golang.png"
   og_image: "/assets/images/golang.png"
 categories:
-- go
+- Go
 tags:
-- go
+- Go
 excerpt: "In this blog post, we look at what is the Go programming language, installing the Go binaries and running a simple 'Hello World' program in Go."
 ---
 

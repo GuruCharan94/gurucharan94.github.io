@@ -6,9 +6,9 @@ header:
   thumbnail: "/assets/images/golang.png"
   og_image: "/assets/images/golang.png"
 categories:
-- go
+- Go
 tags:
-- go
+- Go
 excerpt: "In this post, we will understand how to control the flow of code with if conditionals, for loops, switches and defers."
 ---
 

@@ -6,13 +6,11 @@ header:
   thumbnail:  "/assets/images/node-on-windows-10.jpg"
   og_image: "/assets/images/node-on-windows-10.jpg"
 categories:
-- web
-- javascript
-- node 
+- Node 
 tags:
-- node
-- javascript
-- web
+- Node
+- Web
+- Javascript
 ogImage:
   title: "**Side by Side install of multiple versions of NodeJS and NPM with NVM on Windows 10**"
   subtitle: "www.gurucharan.in | @gurucharan94"
