@@ -5,7 +5,10 @@ header:
   teaser: "/assets/images/public-speaking-tips.jpg"
   thumbnail:  "/assets/images/public-speaking-tips.jpg"
   og_image: "/assets/images/public-speaking-tips.jpg"
-catCareer 
+
+categories:
+- Career
+
 tags:
 - Speaking
 - Lifeskills
