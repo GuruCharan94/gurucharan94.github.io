@@ -16,7 +16,7 @@ excerpt:
 # ogImage:
   # title: "**Building the Cosmos DB Data Source for Grafana**"
   # subtitle: "www.gurucharan.in | @gurucharan94"
-  # filename: "cosmos-db-grafana.jpg"
+  # filename: "cosmos-db-grafana"
   # fontSize:  "120%"
 ---
 
