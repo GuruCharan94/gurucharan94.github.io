@@ -47,4 +47,4 @@ foreach ($collection in $cosmosCollections)
 }
 ```
 
-There is no value in keeping this hidden on a folder in my hard drive, is there ? So, I made it public so that I can do an internet search myself later 😎 and hopefully will find this useful as well.
+There is no value in keeping this hidden on a folder in my hard drive, is there ? So, I made it public. I am pretty sure that I will do an internet search for this later 😎. Hopefully will find this useful as well.
