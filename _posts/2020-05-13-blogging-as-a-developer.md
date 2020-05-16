@@ -1,5 +1,5 @@
 ---
-title: What you need to know about Blogging as a Developer
+title: The five things I learned about Blogging as a Developer
 date: 2020-05-13
 header:
   teaser: "/assets/images/blogging-as-a-developer.jpg"
