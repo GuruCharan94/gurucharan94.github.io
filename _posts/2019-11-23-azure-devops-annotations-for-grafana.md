@@ -1,6 +1,7 @@
 ---
 title: Annotate Grafana Dashboards with Deployment Details from Azure Pipelines
 date: 2019-11-23
+image: "/assets/images/grafana-azure-devops/teaser.png"
 header:
   teaser: "/assets/images/grafana-azure-devops/teaser.png"
   thumbnail: "/assets/images/grafana-azure-devops/teaser-thumbnail.png"

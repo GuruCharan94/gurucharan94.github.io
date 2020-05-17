@@ -2,6 +2,7 @@
 title: The Culture Map - Read this before working on a distributed, multi-cultural
   team.
 date: 2020-03-07
+image: "/assets/images/culture-map.jpg"
 header:
   teaser: "/assets/images/culture-map.jpg"
   thumbnail: "/assets/images/culture-map.jpg"

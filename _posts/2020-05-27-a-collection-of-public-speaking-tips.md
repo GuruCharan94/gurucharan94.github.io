@@ -1,6 +1,7 @@
 ---
 title: A Collection of Public Speaking Tips for Developers
 date: 2020-05-27
+image : "/assets/images/public-speaking-tips.jpg"
 header:
   teaser: "/assets/images/public-speaking-tips.jpg"
   thumbnail:  "/assets/images/public-speaking-tips.jpg"

@@ -1,6 +1,7 @@
 ---
 title: "Test Performance, Security and Accessibility Concerns of your website with Google Lighthouse"
 date: 2019-06-23
+image: "/assets/images/google-lighthouse/score.png"
 header:
   teaser: "/assets/images/google-lighthouse/score.png"
   thumbnail: "/assets/images/google-lighthouse/score-thumbnail.png"

@@ -1,6 +1,7 @@
 ---
 title: "Let's Go - Part 3 : Basic Concepts of the Go Programming Language (Contd.)"
 date: 2020-04-15
+image : "/assets/images/golang.png"
 header:
   teaser: "/assets/images/golang.png"
   thumbnail: "/assets/images/golang.png"

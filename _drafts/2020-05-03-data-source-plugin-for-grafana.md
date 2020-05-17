@@ -62,3 +62,6 @@ export const plugin = new DataSourcePlugin<DataSource, MyQuery, MyDataSourceOpti
 - DataSource - data source in Grafana must extend the `DataSourceApi` interface, which requires you to defines two methods: `query` and `testDatasource` - abstract methods in `DataSourceApi`
 
 - 
+Built a fake form for DataSource configuration.
+Added a cosmos DB. Migrated some fake data to here. Connected to Cosmos..
+Added health test.

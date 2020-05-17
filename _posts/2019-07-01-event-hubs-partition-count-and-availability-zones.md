@@ -1,6 +1,7 @@
 ---
 title: "Applying Blue / Green Deployment concepts to migrate / upgrade Azure Event Hubs"
 date: 2019-07-02
+image: "/assets/images/event-hub-migration/teaser.png"
 header:
   og_image: "/assets/images/event-hub-migration/teaser.png"
   teaser: "/assets/images/event-hub-migration/teaser.png"

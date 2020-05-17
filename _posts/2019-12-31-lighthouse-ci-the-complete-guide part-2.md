@@ -1,6 +1,7 @@
 ---
 title: Getting Started with LightHouse CI - Part 2
 date: 2020-01-01
+image: "/assets/images/lhci/lhci-help.png"
 header:
   teaser: "/assets/images/lhci/lhci-help.png"
   thumbnail: "/assets/images/lhci/lhci-help.png"

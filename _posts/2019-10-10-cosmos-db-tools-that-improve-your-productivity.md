@@ -1,6 +1,7 @@
 ---
 title: "Five Must Have CosmosDB tools to make you more productive"
 date: 2019-10-10
+image: "/assets/images/cosmos-tools/teaser.png"
 header:
   teaser: "/assets/images/cosmos-tools/teaser.png"
   thumbnail: "/assets/images/cosmos-tools/teaser-thumbnail.png"

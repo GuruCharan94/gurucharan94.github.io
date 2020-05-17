@@ -1,6 +1,7 @@
 ---
 title: "Accessibility, AI and Abstractions : How I (accidentally) built a podcast transcription service on Azure in a week"
 date: 2019-06-04
+image: "/assets/images/hanselminutes-clone/v1.jpg"
 header:
   teaser: "/assets/images/hanselminutes-clone/v1.jpg"
   thumbnail: "/assets/images/hanselminutes-clone/v1-thumbnail.jpg"
