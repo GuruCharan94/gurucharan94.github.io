@@ -1,8 +1,8 @@
 ---
-title: NewsLetter
+title: The PubSub
 layout: collection
 author_profile: true
-permalink: /newsletter/
+permalink: /the-pub-usb/
 collection: newsletter
 classes: wide
 ---
