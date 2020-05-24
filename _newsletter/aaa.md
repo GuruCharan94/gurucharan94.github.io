@@ -8,3 +8,5 @@ header:
   og_image: "/assets/images/golang.png"
 excerpt: "In this blog post, we look at what is the Go programming language, installing the Go binaries and running a simple 'Hello World' program in Go."
 ---
+
+This is my first newsletter issue.. 
