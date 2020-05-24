@@ -6,3 +6,5 @@ collection: newsletter
 entries_layout: grid
 classes: wide
 ---
+
+This is my newsletter archive section....
