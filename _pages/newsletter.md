@@ -1,12 +1,8 @@
 ---
-title: "Get, Set, Go"
-layout: single
-permalink: /newsletter/subscribe/
-redirect_to: https://lists.gurucharan.in/subscription/bqGyC2asD
+title: NewsLetter
+layout: collection
+permalink: /newsletter/
+collection: newsletter
+entries_layout: grid
 classes: wide
-author_profile: true
-header:
-  teaser: "/assets/images/golang.png"
-  thumbnail: "/assets/images/golang.png"
-  og_image: "/assets/images/golang.png"
 ---

@@ -283,6 +283,11 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  newsletter:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -290,6 +295,18 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      classes: wide
+  # _portfolio
+  - scope:
+      path: ""
+      type: newsletter
     values:
       layout: single
       author_profile: true
