@@ -1,6 +1,6 @@
 ---
 title: NewsLetter
-layout: home
+layout: collection
 author_profile: true
 permalink: /newsletter/
 collection: newsletter
