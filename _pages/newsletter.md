@@ -1,6 +1,7 @@
 ---
 title: NewsLetter
-layout: collection
+layout: home
+author_profile: true
 permalink: /newsletter/
 collection: newsletter
 entries_layout: grid
