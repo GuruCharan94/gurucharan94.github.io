@@ -1,5 +1,5 @@
 ---
-title: The five things I learned about starting Blogging as a Developer
+title: What you need to know about blogging as a developer
 date: 2020-05-13
 image : "/assets/images/blogging-as-a-developer.jpg"
 header:
