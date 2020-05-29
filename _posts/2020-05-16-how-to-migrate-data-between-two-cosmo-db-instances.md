@@ -48,4 +48,18 @@ foreach ($collection in $cosmosCollections)
 }
 ```
 
-There is no value in keeping this hidden on a folder in my hard drive, is there ? So, I made it public. I am pretty sure that I will do an internet search for this later 😎. Hopefully will find this useful as well.
+You can save this script in your computer. Once you execute this file, you will see logs that shows you how many records were migrated
+
+``` txt
+Transferred: 0; Failed: 0; Elapsed Time: 00:00:00
+Transferred: 250; Failed: 0; Elapsed Time: 00:00:04.8250522
+Transferred: 650; Failed: 0; Elapsed Time: 00:00:09.8259306
+Transferred: 1050; Failed: 0; Elapsed Time: 00:00:14.8389670
+Transferred: 1450; Failed: 0; Elapsed Time: 00:00:19.8393121
+Transferred: 1800; Failed: 0; Elapsed Time: 00:00:24.8405494
+Transferred: 2200; Failed: 0; Elapsed Time: 00:00:29.8413284
+Transferred: 2600; Failed: 0; Elapsed Time: 00:00:34.8423809
+Transferred: 3000; Failed: 0; Elapsed Time: 00:00:39.8551647
+```
+
+There is no value in keeping this hidden on a folder in my hard drive, is there ? So, I made it public. I am pretty sure that I will do an internet search for this later 😎. Hopefully, you will find this useful as well.
