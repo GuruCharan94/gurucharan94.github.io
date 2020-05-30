@@ -930,7 +930,7 @@ $(function() {
               success: function() {
                   // Enable button & show success message
                   $("#contactForm button").attr("disabled", false);
-                  $('#success').html("<div class='.notice--success'>");
+                  $('#success').html("<div class='notice--success'>");
                   $('#success > .notice--success').html("<strong> Almost Done. To complete the subscription process, please click the link in the email I just sent you.</strong>");
                   $('#success > .notice--success').append('</div>');
 
