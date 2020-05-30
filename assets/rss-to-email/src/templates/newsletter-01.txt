@@ -1,0 +1,35 @@
+# {{header.title}} 
+
+Issue #{{header.issueNumber}} dated {{header.dateOfIssue}}
+
+You can read this email from your browser.
+Link : {{newsletterBrowserLink}}
+
+{{#if sponsorName}}
+This issue is brought to you by {{sponsorName}}
+Link: ({{sponsorLink}})
+
+{{sponsorMessage}}
+{{/if}}
+
+
+{{#each feeds}}
+
+## {{this.title}}
+
+{{#each items}}
+
+### {{this.title}}
+Link : ({{this.link}})
+
+{{this.description}}
+
+{{/each}}
+{{/each}}
+
+Built with 💙 by Gurucharan Subramani.
+Link : https://www.gurucharan.in
+
+You received this email because you subscribed to this newsletter.
+
+You can unsubscribe at {{newsletterUnsubscribeLink}} but I hope you'll read previous editions at {{newsletterArchivesLink}} before deciding.

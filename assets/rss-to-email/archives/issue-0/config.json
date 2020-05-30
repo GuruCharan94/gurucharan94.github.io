@@ -1,0 +1,36 @@
+{
+  "accentColor": "#00695c",
+  "filename": "newsletter",
+
+  "MJMLtemplateUrl": "https://raw.githubusercontent.com/gurucharan94/rss-to-email/master/src/templates/newsletter-01.mjml",
+  "MDtemplateUrl" : "https://raw.githubusercontent.com/gurucharan94/rss-to-email/master/src/templates/newsletter-01.md",
+  "TXTtemplateUrl": "https://raw.githubusercontent.com/gurucharan94/rss-to-email/master/src/templates/newsletter-01.txt",
+
+  "header": {
+    "title": "The PubSub",
+    "issueNumber": "0",
+    "dateOfIssue": "30-05-2020"
+  },
+  
+  "sponsorName": "",
+  "sponsorLink": "",
+  "sponsorMessage": "",
+  "newsletterBrowserLink": "https://www.gurucharan.in/newsletter/0",
+  "twitterShareLink": "https://twitter.com/intent/tweet?text=https%3A//www.gurucharan.in/newsletter/0",
+
+  "feeds": [
+    {
+      "title": "Announcements / Updates",
+      "url": "http://www.feedforall.com/sample.xml",
+      "publishedSince": null,
+      "dataFile" : "./archives/issue-0/announcements.json" 
+    }
+  ],
+
+  
+
+  
+  "newsletterUnsubscribeLink": "[LINK_UNSUBSCRIBE]",
+  "newsletterArchivesLink": "https://www.gurucharan.in/newsletter"
+  
+}
