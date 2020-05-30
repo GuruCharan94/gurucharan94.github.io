@@ -19,8 +19,8 @@
     <!-- Header -->
     <mj-section >
       <mj-column>
-        <mj-text color="red" font-size="32px" padding-top="20px">{{header.title}}</mj-text>
-          <mj-text color="white" padding="24px">Issue {{header.issueNumber}} dated {{header.dateOfIssue}}</mj-text>
+        <mj-text color="red" font-size="24px" padding-top="20px">{{header.title}}</mj-text>
+          <mj-text color="white" padding="24px 0">Issue #{{header.issueNumber}} dated {{header.dateOfIssue}}</mj-text>
       </mj-column>
     </mj-section>
 

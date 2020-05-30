@@ -1,4 +1,4 @@
-# {{header.title}} 
+# {{header.title}}
 
 Issue #{{header.issueNumber}} dated {{header.dateOfIssue}}
 
@@ -27,7 +27,7 @@ Link : ({{this.link}})
 {{/each}}
 {{/each}}
 
-Built with 💙 by Gurucharan Subramani.
+Curated by Gurucharan Subramani.
 Link : https://www.gurucharan.in
 
 You received this email because you subscribed to this newsletter.
