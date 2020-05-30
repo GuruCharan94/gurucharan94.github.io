@@ -4,3 +4,21 @@ author_profile: true
 classes: wide
 title: "Gurucharan Subramani - Software Engineer"
 ---
+
+{% capture notice-text %}
+
+This is my newsletter announcement.
+
+- Bullet point 1
+- Bullet point 2
+
+{% endcapture %}
+
+<div class="notice--info">
+  <h2>Newsletter Announcement</h4>
+  {{ notice-text | markdownify }}
+  <form action="">
+    <input type="email" name="email" id="email">
+    <button type="submit"></button>
+  </form>
+</div>
