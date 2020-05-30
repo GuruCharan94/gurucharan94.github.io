@@ -61,9 +61,6 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
-
-      
-
       {% if page.share %}{% include social-share.html %}{% endif %}
     </div>
 
@@ -96,5 +93,5 @@ layout: default
     </div>
   {% endif %}
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
-  
+
 </div>

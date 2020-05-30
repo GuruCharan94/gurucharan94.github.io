@@ -10,12 +10,10 @@ categories:
 tags:
 - 
 excerpt: 
-ogImage:
-  title: "**What I learnt about building a successful career in tech**"
-  subtitle: "www.gurucharan.in | @gurucharan94"
-  filename: "filename"
-  fontSize:  "120%"
 ---
+
+If you sign up for this newsletter, you're not signing up for my blog content. Instead, you'll get about one email a month with a list of the Wonderful Things I've collected over the last month. YouTube videos, Images, Talks, Articles, and more. Personally curated by me. Your email will never be sold to used for any purpose other than this newsletter. Period. You may unsub at anytime and your email will be deleted completely.
+
 
 This month I complete FIVE YEARS as a Software Developer. Here is a collection of some of the top lessons in no specific order that I learned about building a successful career as a developer.
 

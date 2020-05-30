@@ -132,6 +132,9 @@ author:
     - label: "Speaker Deck"
       icon: "fab fa-speaker-deck"
       url: "https://dev.to/gurucharan94"
+    - label: "Buy me a Coffee"
+      icon: "fab fa fa-coffee"
+      url: "https://www.buymeacoffee.com/gurucharan94"
 # Site Footer
 footer:
   links:
@@ -147,6 +150,9 @@ footer:
     - label: "Dev"
       icon: "fab fa-fw fa-dev"
       url: "https://dev.to/gurucharan94"
+    - label: "Buy me a Coffee"
+      icon: "fab fa fa-coffee"
+      url: "https://www.buymeacoffee.com/gurucharan94"
 
 # Reading Files
 include:
