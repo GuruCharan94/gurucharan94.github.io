@@ -1,7 +1,7 @@
 ---
 title: "The Pub-Sub Newsletter"
 layout: single
-permalink: /the-pub-sub-newsletter/
+permalink: /newsletter/
 classes: wide
 author_profile: true
 header:
