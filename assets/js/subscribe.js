@@ -930,24 +930,18 @@ $(function() {
               success: function() {
                   // Enable button & show success message
                   $("#contactForm button").attr("disabled", false);
-                  $('#success').html("<div class='alert alert-success'>");
-                  $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                      .append("</button>");
-                  $('#success > .alert-success')
-                      .append("<strong>Your message has been sent. </strong>");
-                  $('#success > .alert-success')
-                      .append('</div>');
+                  $('#success').html("<div class='.notice--success'>");
+                  $('#success > .notice--success').html("<strong> Almost Done. To complete the subscription process, please click the link in the email I just sent you.</strong>");
+                  $('#success > .notice--success').append('</div>');
 
                   //clear all fields
                   $('#contactForm').trigger("reset");
               },
               error: function() {
                   $("#contactForm button").attr("disabled", false);
-                  $('#success').html("<div class='alert alert-danger'>");
-                  $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                      .append("</button>");
-                  $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
-                  $('#success > .alert-danger').append('</div>');
+                  $('#success').html("<div class='alert notice--danger'>");
+                  $('#success > .notice--danger').html("<strong>Sorry , it seems that my mail server is not responding. Please try again later!");
+                  $('#success > .notice--danger').append('</div>');
                   //clear all fields
                   $('#contactForm').trigger("reset");
               },
