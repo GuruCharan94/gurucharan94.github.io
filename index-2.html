@@ -14,11 +14,12 @@ This is my newsletter announcement.
 
 {% endcapture %}
 
-<div class="notice--info">
-  <h2>Newsletter Announcement</h4>
+<div class="notice--success">
+  <h2>Newsletter Announcement</h2>
   {{ notice-text | markdownify }}
   <form action="">
+    <label for="email">Email</label>
     <input type="email" name="email" id="email">
-    <button type="submit"></button>
+    <button type="submit">Subscribe</button>
   </form>
 </div>
