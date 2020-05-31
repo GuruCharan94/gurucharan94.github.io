@@ -952,7 +952,7 @@ $(function() {
                   $('#contactForm').trigger("reset");
                   setTimeout(function() {
                     $('.alert').remove();
-                  }, 10000);
+                  }, 3000);
               },
               error: function() {
                   $("#contactForm button").attr("disabled", false);
