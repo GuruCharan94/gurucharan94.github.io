@@ -91,7 +91,7 @@
           <mj-spacer height="25px" />
           <mj-text align="left" font-size="14px">
             You received this email because you subscribed to this newsletter.
-            You can <a href="{{newsletterUnsubscribeLink}}">unsubscribe here</a> but I hope you'll <a href="{{newsletterArchivesLink}}">read previous editions</a> before deciding.
+            You can <a href="{{newsletterUnsubscribeLink}}">unsubscribe here</a> but I hope you'll <a href="{{newsletterArchivesLink}}">checkout the archives</a> before deciding.
           </mj-text>
           <mj-spacer height="25px" />
         </mj-column>
