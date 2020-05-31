@@ -12,6 +12,4 @@ header:
 
 The Pub-Sub is a newsletter where I deliver to your inbox the **latest on Azure, .NET, DevOps and Container Technologies twice a month**. Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically.
 
-I **PUB**lish. You **SUB**scribe. For Free. Take a look at the archives and make a decision.
-
-{% include newsletter-subscription-form.html %}
+I **PUB**lish. You **SUB**scribe. For free. Fill the form below and let's get started
