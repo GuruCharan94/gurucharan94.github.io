@@ -950,7 +950,7 @@ $(function() {
                   //clear all fields
                   $('#contactForm').trigger("reset");
                   setTimeout(function() {
-                    $div2.hide();
+                    $('.alert').remove();
                   }, 10000);
               },
               error: function() {
