@@ -938,6 +938,7 @@ $(function() {
               url: $('#contactForm').attr( 'action' ),
               type: "POST",
               dataType : 'json',
+              contentType: 'application/json',
               data: data,
               cache: false,
               success: function() {
