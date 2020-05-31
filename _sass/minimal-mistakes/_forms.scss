@@ -391,9 +391,11 @@ select:focus {
 }
 
 input.form-control {
-   border: 1px solid green;
+   border: 1px solid #00695c;
    border-radius: 5px;
    width:100%;
+   font-size:14px;
+   padding: 10px;
 }
 
 #contactForm {
@@ -408,4 +410,6 @@ font-size:14px;
 
 .btn-subscribe {
   background-color: #00695c;
+  color:white;
+  font-size: 18px;
 }
