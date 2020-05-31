@@ -951,9 +951,6 @@ $(function() {
 
                   //clear all fields
                   $('#contactForm').trigger("reset");
-                  setTimeout(function() {
-                    $('.alert').remove();
-                  }, 3000);
               },
               error: function() {
                   $("#contactForm button").attr("disabled", false);
@@ -962,10 +959,6 @@ $(function() {
                   $('#success > .alert').append('</div>');
                   //clear all fields
                   $('#contactForm').trigger("reset");
-
-                  setTimeout(function() {
-                    $('.alert').hide();
-                  }, 3000);
               },
           });
       },
