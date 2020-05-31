@@ -939,7 +939,6 @@ $(function() {
           $.ajax({
               url: $('#contactForm').attr( 'action' ),
               type: 'POST',
-              dataType : 'json',
               contentType: 'application/json',
               data: data,
               cache: false,
@@ -966,7 +965,7 @@ $(function() {
 
                   setTimeout(function() {
                     $('.alert').hide();
-                  }, 10000);
+                  }, 3000);
               },
           });
       },
