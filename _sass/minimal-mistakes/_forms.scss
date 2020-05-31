@@ -3,7 +3,6 @@
    ========================================================================== */
 
 form {
-  background-color: $form-background-color;
 
   fieldset {
     margin-bottom: 5px;
@@ -401,7 +400,6 @@ input.form-control {
 #contactForm {
   width: 100%;
   max-width: 600px;
-  background-color: white;
 }
 
 .success, label, p.help-block{
