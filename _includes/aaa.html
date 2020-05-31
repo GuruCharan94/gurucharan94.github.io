@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="contact" class="notice--success" >
+    <h2 style="margin: 15px 0;">Subscribe to The Pub-Sub</h2>
+    <form id="contactForm" method="post"
+      action="https://getsimpleform.com/messages.json?form_api_token=6b74036d69c0b885256365847afd94d2" novalidate>
+      <div class="control-group">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" class="form-control" placeholder="Enter your email address" id="email" required
+            data-validation-required-message="Please enter your email address.">
+          <p class="help-block"></p>
+        </div>
+      </div>
+      <br>
+      <div id="success"></div>
+      <div class="form-group">
+        <button class="btn btn-subscribe" type="submit">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -918,7 +918,9 @@ function getFormData($form){
       indexed_array[n['name']] = n['value'];
   });
 
-  return indexed_array;
+  console.log(indexed_array);
+  console.log(JSON.stringify(indexed_array));
+  return JSON.stringify(indexed_array);
 }
 
 $(function() {
@@ -936,7 +938,7 @@ $(function() {
           var data = getFormData(form);
           $.ajax({
               url: $('#contactForm').attr( 'action' ),
-              type: "POST",
+              type: 'POST',
               dataType : 'json',
               contentType: 'application/json',
               data: data,
