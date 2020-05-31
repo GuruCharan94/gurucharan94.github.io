@@ -1,5 +1,5 @@
 ---
-title: "The Pub-Sub Newsletter"
+title: " The Pub-Sub Newsletter"
 layout: single
 permalink: /newsletter/
 classes: wide
@@ -10,10 +10,8 @@ header:
   og_image:
 ---
 
-The Pub-Sub is a newsletter where I bring to your inbox the **latest on Azure, .NET, DevOps and Container Technologies as a newsletter twice a month**. Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically.
+The Pub-Sub is a newsletter where I deliver to your inbox the **latest on Azure, .NET, DevOps and Container Technologies twice a month**. Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically.
 
-**I PUBlish. You SUBscribe. No misuse of your email address. Are you convinced ? Great !! Subscribe using the form below.**
-
-Not quite ? Take a look at previous editions. It might change your mind.
+I **PUB**lish. You **SUB**scribe. For Free. Take a look at the archives and make a decision.
 
 {% include newsletter-subscription-form.html %}
