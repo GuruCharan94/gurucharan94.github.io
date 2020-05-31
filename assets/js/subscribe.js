@@ -930,20 +930,27 @@ $(function() {
               success: function() {
                   // Enable button & show success message
                   $("#contactForm button").attr("disabled", false);
-                  $('#success').html("<div class='notice--success'>");
-                  $('#success > .notice--success').html("<strong> Almost Done. To complete the subscription process, please click the link in the email I just sent you.</strong>");
-                  $('#success > .notice--success').append('</div>');
+                  $('#success').html("<div class='alert'>");
+                  $('#success > .alert').html("Almost Done. To complete the subscription process, please click the link in the email I just sent you");
+                  $('#success > .alert').append('</div>');
 
                   //clear all fields
                   $('#contactForm').trigger("reset");
+                  setTimeout(function() {
+                    $div2.hide();
+                  }, 10000);
               },
               error: function() {
                   $("#contactForm button").attr("disabled", false);
-                  $('#success').html("<div class='alert notice--danger'>");
-                  $('#success > .notice--danger').html("<strong>Sorry , it seems that my mail server is not responding. Please try again later!");
-                  $('#success > .notice--danger').append('</div>');
+                  $('#success').html("<div class='alert'>");
+                  $('#success > .alert').html("Sorry , it seems that my mail server is not responding. Please try again later!");
+                  $('#success > .alert').append('</div>');
                   //clear all fields
                   $('#contactForm').trigger("reset");
+
+                  setTimeout(function() {
+                    $div2.hide();
+                  }, 10000);
               },
           });
       },
