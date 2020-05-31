@@ -962,7 +962,7 @@ $(function() {
                   $('#contactForm').trigger("reset");
 
                   setTimeout(function() {
-                    $div2.hide();
+                    $('.alert').hide();
                   }, 10000);
               },
           });
