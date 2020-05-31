@@ -933,7 +933,7 @@ $(function() {
           $("#contactForm button").attr("disabled", true);
           event.preventDefault();
           var form = $("#contactForm");
-          var data = getFormData($form);
+          var data = getFormData(form);
           $.ajax({
               url: $('#contactForm').attr( 'action' ),
               type: "POST",
