@@ -19,4 +19,4 @@ date: {{header.dateOfIssue}}
 
 {% include social-share.html %}
 
-{% include newsletter-subscribe.html %}
+{% include newsletter-subscription-form.html %}
