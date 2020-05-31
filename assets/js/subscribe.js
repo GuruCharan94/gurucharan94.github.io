@@ -910,6 +910,17 @@
 
 })( jQuery );
 
+function getFormData($form){
+  var unindexed_array = $form.serializeArray();
+  var indexed_array = {};
+
+  $.map(unindexed_array, function(n, i){
+      indexed_array[n['name']] = n['value'];
+  });
+
+  return indexed_array;
+}
+
 $(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -921,11 +932,13 @@ $(function() {
           // Prevent spam click and default submit behaviour
           $("#contactForm button").attr("disabled", true);
           event.preventDefault();
+          var form = $("#contactForm");
+          var data = getFormData($form);
           $.ajax({
               url: $('#contactForm').attr( 'action' ),
               type: "POST",
               dataType : 'json',
-              data: $('#contactForm').serialize(),
+              data: data,
               cache: false,
               success: function() {
                   // Enable button & show success message
