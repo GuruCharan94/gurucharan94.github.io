@@ -11,7 +11,6 @@
 
 - Create a new issue-N folder under archives.
 - Update the config.json with feeds and commentary files.
-- Generate output files.
 
 ### 2. Create the content
 
@@ -20,8 +19,8 @@
 
 ### 3. Post in Website
 
-- Add under Posts and scheduled Post on Website
-- Add under the archives page.
+- Add under Posts.
+- Add image.
 
 ### 4. Post in Email
 
