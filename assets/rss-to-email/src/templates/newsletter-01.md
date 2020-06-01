@@ -1,6 +1,7 @@
 ---
 title: "{{header.title}}"
 date: ""
+permalink: /newsletter/{{header.issue}}
 image : "/assets/images/newsletter/{{header.issue}}.jpg"
 header:
   teaser: "/assets/images/newsletter/{{header.issue}}.jpg"
@@ -8,7 +9,7 @@ header:
   og_image: "/assets/images/newsletter/{{header.issue}}.jpg"
 categories:
 - Newsletter
-excerpt: {{header.intro}}
+excerpt: "{{header.intro}}"
 ---
 
 {{header.intro}}
@@ -29,9 +30,6 @@ excerpt: {{header.intro}}
 {{this.description}}
 {{/each}}
 {{/each}}
-
-If you liked this issue of the newsletter, please tell your friends about it on social media using the icons below.
-{% include social-share.html %}
 
 If you have any feedback for me, feel free to share them in the comments section and if you like to receive these updates delivered straight to your inbox twice a month, subscribe using the form below.
 

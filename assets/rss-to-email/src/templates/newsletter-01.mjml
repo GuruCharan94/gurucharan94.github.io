@@ -45,8 +45,8 @@
     <mj-section>
       <mj-column>
         <mj-text font-size="14px">
-          Email not loading properly ? You can read <a href="{{newsletterBrowserLink}}">this from your browser</a> <br/>
-          If
+          Email not loading properly ? You can read <a href="{{newsletterBrowserLink}}">this from your browser</a> <br/> <br/>
+          If this email was forwarded to you, you can <a href="https://www.gurucharan.in/newsletter/"> subscribe to this newsletter here </a>
         </mj-text>
       </mj-column>
     </mj-section>

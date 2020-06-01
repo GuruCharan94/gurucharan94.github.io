@@ -64,9 +64,6 @@ The Azure Cosmos DB team had a lot of announcements at Build 2020. They had to m
 
 Azure Static Web Apps is a simplified hosting option for static site generators such as Hugo, Jekyll as well as frameworks like Angular, Vue, and React. Is this Microsoft&#x27;s answer to Netlify??
 
-If you liked this issue of the newsletter, please tell your friends about it on social media using the icons below.
-{% include social-share.html %}
-
 If you have any feedback for me, feel free to share them in the comments section and if you like to receive these updates delivered straight to your inbox twice a month, subscribe using the form below.
 
 {% include newsletter-subscription-form.html %}
