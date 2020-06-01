@@ -1,0 +1,183 @@
+<mjml>
+  <mj-head>
+    <mj-title>Important Updates from Microsoft Build 2020 - The Pub-Sub Issue #0</mj-title>
+    <mj-attributes>
+      <mj-all font-size="14px" color="black" font-family="Helvetica" align="left" />
+      <mj-body background-color="#ffffff"></mj-body>
+      <mj-section background-color="#f4f4f4" padding="10px 10px 0"></mj-section>
+      <mj-text padding="5px 15px" line-height="22px"></mj-text>
+      <mj-divider padding="10px 15px" border-width="1px" border-style="dashed" border-color="lightgrey"></mj-divider>
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        color: #00695c;
+        text-decoration: underline;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <!-- Header -->
+    <mj-section background-color="#00695c">
+      <mj-column>
+        <mj-text color="white" line-height="36px" font-size="20px" padding="20px">Important Updates from Microsoft Build 2020 - The Pub-Sub Issue #0</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro -->
+    <mj-section>
+      <mj-column>
+        <mj-text padding-top="20px">This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsors -->
+
+
+    <!-- Read from Browser -->
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="14px">
+          Email not loading properly ? You can read <a href="https://www.gurucharan.in/newsletter/0">this from your browser</a> <br/>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="24px" color="#333" padding-top="20px">.NET Updates from Build 2020</mj-text>
+          <mj-spacer height="25px" />
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/dotnet/welcome-to-c-9-0/">Welcome to C# 9.0</a>
+            </mj-text>
+            <mj-text>
+              C# 9.0 is here with Init Only Properties, Records, Data Memebers, Mutations and the very interesting top-level programs.
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/dotnet/announcing-net-5-preview-4-and-our-journey-to-one-net/">Announcing .NET 5 Preview 4 and our journey to one .NET</a>
+            </mj-text>
+            <mj-text>
+              .NET 5 Preview 4 is the next stop in the journey to one .NET. Scott Hunter takes you through all the new goodness.
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/">Introducing .NET Multi-platform App UI</a>
+            </mj-text>
+            <mj-text>
+              Announcing .NET MAUI - The .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/dotnet/introducing-yarp-preview-1/">Introducing YARP Preview 1</a>
+            </mj-text>
+            <mj-text>
+              YARP - Yet Another Reverse Proxy. A toolkit for developing high-performance HTTP reverse proxy applications. I know naming things is hard. But they could have at least tried :)
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/aspnet/introducing-project-tye/">Introducing Project Tye</a>
+            </mj-text>
+            <mj-text>
+              Tye is an EXPERIMENTAL tool that makes developing, testing, and deploying microservices easier. Tye includes a local orchestrator to make developing microservices easier and the ability to deploy to Kubernetes with minimal configuration.
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/aspnet/blazor-webassembly-3-2-0-now-available/">Blazor WebAssembly 3.2.0 now available</a>
+            </mj-text>
+            <mj-text>
+              Blazor Web Assembly 3.2.0 is officially released. Full stack web development with .NET is here for production use !!
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="24px" color="#333" padding-top="20px">Windows Update from Build 2020</mj-text>
+          <mj-spacer height="25px" />
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/commandline/windows-package-manager-preview/">Windows Package Manager Preview</a>
+            </mj-text>
+            <mj-text>
+              Windows now has a native package manager in Windows. You can winget install terminal, and then winget install powershell, and then winget install powertoys
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/">The Windows Subsystem for Linux BUILD 2020 Summary</a>
+            </mj-text>
+            <mj-text>
+              This blog post gives you a summary of all the WSL news, including what’s available now and what you can expect in the future.
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/commandline/windows-terminal-1-0/">Windows Terminal 1.0</a>
+            </mj-text>
+            <mj-text>
+              Windows Terminal has come a long way since its announcement at Microsoft Build 2019. v1.0 is officially out and the terminal will receive monthly updates from July 2020
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="24px" color="#333" padding-top="20px">Azure Announcements from Build 2020</mj-text>
+          <mj-spacer height="25px" />
+            <mj-text font-size="18px">
+              <a href="https://devblogs.microsoft.com/cosmosdb/build-2020-announcements/">Azure Cosmos DB wrap-up: May 2020 BUILD Announcements</a>
+            </mj-text>
+            <mj-text>
+              The Azure Cosmos DB team had a lot of announcements at Build 2020. They had to make a blog post recapping their announcements. Take a look. Autopilot mode, Point in Time preview, serverless mode and a lot of other things.
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+            <mj-text font-size="18px">
+              <a href="https://azure.microsoft.com/en-us/updates/static-web-apps-single-page-hosting-option-available-in-app-service-now-in-preview/">Static Web Apps single page hosting option available in App Service now in preview</a>
+            </mj-text>
+            <mj-text>
+              Azure Static Web Apps is a simplified hosting option for static site generators such as Hugo, Jekyll as well as frameworks like Angular, Vue, and React. Is this Microsoft's answer to Netlify??
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-divider></mj-divider>
+        </mj-column>
+      </mj-section>
+
+      <!-- Outro -->
+      <mj-section>
+        <mj-column>
+          <mj-text padding-bottom="20px">
+            If this newsletter was forwarded to you, you can <a href="https://www.gurucharan.in/newsletter/">
+            subscribe to this newsletter here </a> <br/> <br/>
+            If you liked this issue, please tell your friends about it on social media using the icons below.
+          </mj-text>
+          <mj-social padding="0 10px" font-size="10px" icon-size="30px" mode="horizontal">
+            <mj-social-element alt="facebook icon" name="facebook" href="https://www.gurucharan.in/newsletter/0">
+            </mj-social-element>
+            <mj-social-element alt="twitter icon" name="twitter-noshare" href="https://twitter.com/intent/tweet?text&#x3D;https%3A//www.gurucharan.in/newsletter/0">
+            </mj-social-element>
+            <mj-social-element alt="linkedin icon" name="linkedin" href="https://www.gurucharan.in/newsletter/0">
+            </mj-social-element>
+          </mj-social>
+          <mj-spacer height="25px" />
+          <mj-text align="center">
+            Curated by <a href="https://www.gurucharan.in"> Gurucharan Subramani </a>
+          </mj-text>
+          <mj-spacer height="25px" />
+          <mj-divider></mj-divider>
+          <mj-spacer height="25px" />
+          <mj-text align="left" font-size="14px">
+            You received this email because you subscribed to this newsletter.
+            You can <a href="[LINK_UNSUBSCRIBE]">unsubscribe here</a> but I hope you'll <a href="https://www.gurucharan.in/newsletter">checkout the archives</a> before deciding.
+          </mj-text>
+          <mj-spacer height="25px" />
+        </mj-column>
+      </mj-section>
+  </mj-body>
+</mjml>

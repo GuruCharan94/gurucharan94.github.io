@@ -1,0 +1,85 @@
+# Important Updates from Microsoft Build 2020 - The Pub-Sub Issue #0
+
+You can read this email from your browser.
+Link : https://www.gurucharan.in/newsletter/0
+
+## .NET Updates from Build 2020
+
+### Welcome to C# 9.0
+Link : (https://devblogs.microsoft.com/dotnet/welcome-to-c-9-0/)
+
+C# 9.0 is here with Init Only Properties, Records, Data Memebers, Mutations and the very interesting top-level programs.
+
+
+### Announcing .NET 5 Preview 4 and our journey to one .NET
+Link : (https://devblogs.microsoft.com/dotnet/announcing-net-5-preview-4-and-our-journey-to-one-net/)
+
+.NET 5 Preview 4 is the next stop in the journey to one .NET. Scott Hunter takes you through all the new goodness.
+
+
+### Introducing .NET Multi-platform App UI
+Link : (https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/)
+
+Announcing .NET MAUI - The .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
+
+
+### Introducing YARP Preview 1
+Link : (https://devblogs.microsoft.com/dotnet/introducing-yarp-preview-1/)
+
+YARP - Yet Another Reverse Proxy. A toolkit for developing high-performance HTTP reverse proxy applications. I know naming things is hard. But they could have at least tried :)
+
+
+### Introducing Project Tye
+Link : (https://devblogs.microsoft.com/aspnet/introducing-project-tye/)
+
+Tye is an EXPERIMENTAL tool that makes developing, testing, and deploying microservices easier. Tye includes a local orchestrator to make developing microservices easier and the ability to deploy to Kubernetes with minimal configuration.
+
+
+### Blazor WebAssembly 3.2.0 now available
+Link : (https://devblogs.microsoft.com/aspnet/blazor-webassembly-3-2-0-now-available/)
+
+Blazor Web Assembly 3.2.0 is officially released. Full stack web development with .NET is here for production use !!
+
+
+## Windows Update from Build 2020
+
+
+### Windows Package Manager Preview
+Link : (https://devblogs.microsoft.com/commandline/windows-package-manager-preview/)
+
+Windows now has a native package manager in Windows. You can winget install terminal, and then winget install powershell, and then winget install powertoys
+
+
+### The Windows Subsystem for Linux BUILD 2020 Summary
+Link : (https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/)
+
+This blog post gives you a summary of all the WSL news, including what’s available now and what you can expect in the future.
+
+
+### Windows Terminal 1.0
+Link : (https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)
+
+Windows Terminal has come a long way since its announcement at Microsoft Build 2019. v1.0 is officially out and the terminal will receive monthly updates from July 2020
+
+
+## Azure Announcements from Build 2020
+
+
+### Azure Cosmos DB wrap-up: May 2020 BUILD Announcements
+Link : (https://devblogs.microsoft.com/cosmosdb/build-2020-announcements/)
+
+The Azure Cosmos DB team had a lot of announcements at Build 2020. They had to make a blog post recapping their announcements. Take a look. Autopilot mode, Point in Time preview, serverless mode and a lot of other things.
+
+
+### Static Web Apps single page hosting option available in App Service now in preview
+Link : (https://azure.microsoft.com/en-us/updates/static-web-apps-single-page-hosting-option-available-in-app-service-now-in-preview/)
+
+Azure Static Web Apps is a simplified hosting option for static site generators such as Hugo, Jekyll as well as frameworks like Angular, Vue, and React. Is this Microsoft&#x27;s answer to Netlify??
+
+
+Curated by Gurucharan Subramani.
+Link : https://www.gurucharan.in
+
+You received this email because you subscribed to this newsletter.
+
+You can unsubscribe at [LINK_UNSUBSCRIBE] but I hope you'll read previous editions at https://www.gurucharan.in/newsletter before deciding.
