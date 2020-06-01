@@ -63,3 +63,5 @@ Transferred: 3000; Failed: 0; Elapsed Time: 00:00:39.8551647
 ```
 
 There is no value in keeping this hidden on a folder in my hard drive, is there ? So, I made it public. I am pretty sure that I will do an internet search for this later 😎. Hopefully, you will find this useful as well.
+
+{% include ad.html %}

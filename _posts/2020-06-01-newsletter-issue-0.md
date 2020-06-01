@@ -12,6 +12,8 @@ categories:
 excerpt: "This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps"
 ---
 
+The [Pub-Sub](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+
 This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps
 
 ## .NET Updates from Build 2020
