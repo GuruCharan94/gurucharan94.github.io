@@ -31,6 +31,6 @@ excerpt: "{{header.intro}}"
 {{/each}}
 {{/each}}
 
-If you have any feedback for me, feel free to share them in the comments section and if you like to receive these updates delivered straight to your inbox twice a month, subscribe using the form below.
+If you like to receive this [newsletter](https://www.gurucharan.in/newsletter/) delivered straight to your inbox twice a month, subscribe using the form below.
 
 {% include newsletter-subscription-form.html %}
