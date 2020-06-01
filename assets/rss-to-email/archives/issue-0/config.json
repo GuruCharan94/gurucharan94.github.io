@@ -7,9 +7,9 @@
   "TXTtemplateUrl": "https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/master/assets/rss-to-email/src/templates/newsletter-01.txt",
 
   "header": {
-    "title": "The PubSub",
-    "issueNumber": "0",
-    "dateOfIssue": "30-05-2020"
+    "title": "Important Updates from Microsoft Build 2020 - The Pub-Sub Issue #0",
+    "intro": "This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps",
+    "issue": "0"
   },
 
   "sponsorName": "",
@@ -20,10 +20,22 @@
 
   "feeds": [
     {
-      "title": "Announcements / Updates",
-      "url": "http://www.feedforall.com/sample.xml",
+      "title": ".NET Updates from Build 2020",
+      "url": "https://www.inoreader.com/stream/user/1004616087/tag/0-net",
       "publishedSince": null,
-      "dataFile" : "./archives/issue-0/announcements.json"
+      "dataFile" : "./archives/issue-0/net.json"
+    },
+    {
+      "title": "Windows Update from Build 2020",
+      "url": "https://www.inoreader.com/stream/user/1004616087/tag/0-win",
+      "publishedSince": null,
+      "dataFile" : "./archives/issue-0/win.json"
+    },
+    {
+      "title": "Azure Announcements from Build 2020",
+      "url": "https://www.inoreader.com/stream/user/1004616087/tag/0-az",
+      "publishedSince": null,
+      "dataFile" : "./archives/issue-0/az.json"
     }
   ],
 

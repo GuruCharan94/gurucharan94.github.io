@@ -7,15 +7,12 @@ header:
   thumbnail:  "/assets/images/sf-restart-powershell.jpg"
   og_image: "/assets/images/sf-restart-powershell.jpg"
 categories:
-- category 
+- Azure
 tags:
-- category 
-excerpt: 
-ogImage:
-  title: "**Restart A Service Fabric Application Replica using PowerShell**"
-  subtitle: "www.gurucharan.in | @gurucharan94"
-  filename: "sf-restart-powershell"
-  fontSize:  "120%"
+- PowerShell
+- Azure
+- Service Fabric
+excerpt: Here is a PowerShell script to restart replicas where specific applications / services are deployed to.
 ---
 
 Here is a PowerShell script to restart replicas where specific applications / services are deployed to.

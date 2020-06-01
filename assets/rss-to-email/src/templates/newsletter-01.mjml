@@ -17,17 +17,16 @@
   </mj-head>
   <mj-body>
     <!-- Header -->
-    <mj-section >
+    <mj-section background-color="{{accentColor}}">
       <mj-column>
-        <mj-text color="red" font-size="24px" padding-top="20px">{{header.title}}</mj-text>
-          <mj-text color="white" padding="24px 0">Issue #{{header.issueNumber}} dated {{header.dateOfIssue}}</mj-text>
+        <mj-text color="white" line-height="36px" font-size="20px" padding="20px">{{header.title}}</mj-text>
       </mj-column>
     </mj-section>
 
     <!-- Intro -->
     <mj-section>
       <mj-column>
-        <mj-text padding-top="20px">Thank you for opening the email. Here are some things that I think you will find interesting... </mj-text>
+        <mj-text padding-top="20px">{{header.intro}}</mj-text>
       </mj-column>
     </mj-section>
 
@@ -45,7 +44,10 @@
     <!-- Read from Browser -->
     <mj-section>
       <mj-column>
-        <mj-text font-size="14px">Email not loading properly ? You can read <a href="{{newsletterBrowserLink}}">this from your browser<a></mj-text>
+        <mj-text font-size="14px">
+          Email not loading properly ? You can read <a href="{{newsletterBrowserLink}}">this from your browser</a> <br/>
+          If
+        </mj-text>
       </mj-column>
     </mj-section>
 
@@ -72,7 +74,9 @@
       <mj-section>
         <mj-column>
           <mj-text padding-bottom="20px">
-            If you liked this issue, please, pleeease, pleeeeease tell your friends using the buttons below.
+            If this newsletter was forwarded to you, you can <a href="https://www.gurucharan.in/newsletter/">
+            subscribe to this newsletter here </a> <br/> <br/>
+            If you liked this issue, please tell your friends about it on social media using the icons below.
           </mj-text>
           <mj-social padding="0 10px" font-size="10px" icon-size="30px" mode="horizontal">
             <mj-social-element alt="facebook icon" name="facebook" href="{{newsletterBrowserLink}}">

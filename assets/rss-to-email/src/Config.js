@@ -9,8 +9,8 @@ const DEFAULT_TXT_TEMPLATE_URL = 'https://raw.githubusercontent.com/gurucharan94
 const HeaderConfig = stampit({
   props: {
     title: undefined,
-    issueNumber: undefined,
-    dateOfIssue: undefined,
+    intro: undefined,
+    issue: undefined
   },
   /**
   * Initialize
@@ -47,9 +47,9 @@ const DEFAULT_CONFIG_OBJECT = {
   MDtemplateUrl: DEFAULT_MD_TEMPLATE_URL,
   TXTtemplateUrl: DEFAULT_TXT_TEMPLATE_URL,
   header: HeaderConfig({
-    description: '',
     title: 'title',
-    url: 'http://www.feedforall.com/sample.xml',
+    intro: '',
+    issue: 0
   }),
   feeds: [FeedConfig({
     publishedSince: undefined,
