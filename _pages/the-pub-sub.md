@@ -14,6 +14,6 @@ The Pub-Sub is a newsletter where I deliver to your inbox the **latest on Azure,
 
 I **PUB**lish. You **SUB**scribe.
 
-For FREE. Fill the form below and let's get started. Still not convinced ? Take a [look at the archives](https://www.gurucharan.in/categories/#newsletter)
+Fill the form below and let's get started. Still not convinced ? Take a [look at the archives](https://www.gurucharan.in/categories/#newsletter)
 
 {% include newsletter-subscription-form.html %}
