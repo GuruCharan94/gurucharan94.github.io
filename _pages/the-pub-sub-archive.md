@@ -10,6 +10,6 @@ header:
   og_image:
 ---
 
-## Archives
+## The Pub-Sub Archives
 
 {% include newsletter-archives.html %}
