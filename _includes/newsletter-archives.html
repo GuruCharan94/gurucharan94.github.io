@@ -3,7 +3,7 @@
     {% for post in site.categories.Newsletter %}
     {% if post.url %}
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}">{{post.date}} - {{ post.title }}</a></li>
     </div>
     {% endif %}
     {% endfor %}
