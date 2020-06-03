@@ -1,0 +1,15 @@
+---
+layout: archive
+---
+
+<section class="taxonomy__section">
+  <ul>
+    {% for post in site.categories.newsletter %}
+    {% if post.url %}
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>
