@@ -18,4 +18,6 @@ Fill the form below and let's get started. Still not convinced ? Take a [look at
 
 {% include newsletter-subscription-form.html %}
 
+## Archives
+
 {% include newsletter-archives.html %}
