@@ -1,5 +1,5 @@
 ---
-title: "Important Updates from Microsoft Build 2020 - The Pub-Sub Issue #0"
+title: "Important Updates from Microsoft Build 2020 - The Pub-Sub"
 date: "2020-06-01"
 permalink: /newsletter/0
 image : "/assets/images/newsletter/0.jpg"
@@ -14,7 +14,7 @@ excerpt: "This is Issue #0 of the Pub-Sub. This issue covers all the important u
 
 The [Pub-Sub](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
 
-This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps
+This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps.
 
 ## .NET Updates from Build 2020
 
@@ -46,7 +46,7 @@ Blazor Web Assembly 3.2.0 is officially released. Full stack web development wit
 
 ### [Windows Package Manager Preview](https://devblogs.microsoft.com/commandline/windows-package-manager-preview/)
 
-Windows now has a native package manager in Windows. You can winget install terminal, and then winget install powershell, and then winget install powertoys
+Windows now has a native package manager in Windows. You can winget install terminal, and then winget install powershell, and then winget install powertoys.
 
 ### [The Windows Subsystem for Linux BUILD 2020 Summary](https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/)
 
@@ -54,7 +54,7 @@ This blog post gives you a summary of all the WSL news, including what’s avail
 
 ### [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)
 
-Windows Terminal has come a long way since its announcement at Microsoft Build 2019. v1.0 is officially out and the terminal will receive monthly updates from July 2020
+Windows Terminal has come a long way since its announcement at Microsoft Build 2019. v1.0 is officially out and the terminal will receive monthly updates from July 2020.
 
 ## Azure Announcements from Build 2020
 
