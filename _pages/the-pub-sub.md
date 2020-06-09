@@ -1,5 +1,5 @@
 ---
-title: " The Pub-Sub Newsletter"
+title: " The Curated Bytes"
 layout: single
 permalink: /newsletter/
 classes: wide
@@ -12,7 +12,7 @@ header:
 excerpt: "The latest on Azure, .NET, DevOps, Container Technologies and other interesting things delivered straight to your inbox twice a month"
 ---
 
-The Pub-Sub is a newsletter where I deliver to your inbox the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things twice a month**. Tutorials, blog posts, interesting projects straight to your inbox. Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically.
+The Curated Bytes is a newsletter where I deliver to your inbox the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things twice a month**. Tutorials, blog posts, interesting projects straight to your inbox. Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically.
 
 I **PUB**lish. You **SUB**scribe.
 

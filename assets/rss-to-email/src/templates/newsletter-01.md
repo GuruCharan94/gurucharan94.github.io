@@ -12,7 +12,7 @@ categories:
 excerpt: "{{header.intro}}"
 ---
 
-The [Pub-Sub](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
 
 {{header.intro}}
 

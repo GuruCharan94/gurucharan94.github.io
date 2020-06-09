@@ -1,0 +1,18 @@
+{
+  "blog-post": {
+    "scope" : "markdown",
+    "prefix": ["newsletter"],
+    "body": ["---","title: ${1:title} - The Curated Bytes",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "permalink: /newsletter/${2:filename}",
+      "header:",
+      "  teaser: \"/assets/images/newsletter/${2:filename}.jpg\"",
+      "  thumbnail:  \"/assets/images/newsletter/${2:filename}.jpg\"",
+      "  og_image: \"/assets/images/newsletter/${2:filename}.jpg\"",
+      "categories:",
+      "- Newsletter",
+      "excerpt: $0",
+      "---"],
+    "description": "Front Matter for a post on my blog"
+  }
+}

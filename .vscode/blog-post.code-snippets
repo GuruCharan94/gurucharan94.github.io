@@ -4,6 +4,7 @@
     "prefix": ["blog", "blog-post", "new-blog", "new-blog-post"],
     "body": ["---","title: ${1:title}",
       "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "image : \"/assets/images/${2:filename}.jpg\"",
       "header:",
       "  teaser: \"/assets/images/${2:filename}.jpg\"",
       "  thumbnail:  \"/assets/images/${2:filename}.jpg\"",
@@ -13,11 +14,7 @@
       "tags:",
       "- ${4:category} ",
       "excerpt: $0",
-      "ogImage:",
-      "  title: \"**${1:title}**\"",
-      "  subtitle: \"www.gurucharan.in | @gurucharan94\"",
-      "  filename: \"${2:filename}\"",
-      "  fontSize:  \"120%\"","---"],
-    "description": "Front Matter for a post on my blog"
+      "---"],
+    "description": "Front Matter for newsletter"
   }
 }

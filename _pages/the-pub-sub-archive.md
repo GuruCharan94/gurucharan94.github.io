@@ -1,5 +1,5 @@
 ---
-title: " The Pub-Sub Newsletter"
+title: " The Curated Bytes"
 layout: archive
 permalink: /newsletter/archives
 classes: wide
@@ -9,9 +9,9 @@ header:
   teaser: "/assets/images/newsletter/intro.jpg"
   thumbnail:  "/assets/images/newsletter/intro.jpg"
   og_image: "/assets/images/newsletter/intro.jpg"
-excerpt: "The latest on Azure, .NET, DevOps, Container Technologies and other interesting things delivered straight to your inbox twice a month"
+excerpt: "The Curated Bytes is a newsletter with the latest on Azure, .NET, DevOps, Container Technologies and other interesting things delivered straight to your inbox twice a month"
 ---
 
-## The Pub-Sub Archives
+## The Curated Bytes Archives
 
 {% include newsletter-archives.html %}
