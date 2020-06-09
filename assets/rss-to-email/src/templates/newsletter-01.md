@@ -33,6 +33,4 @@ The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that 
 {{/each}}
 {{/each}}
 
-If you like to receive this [newsletter](https://www.gurucharan.in/newsletter/) delivered straight to your inbox twice a month, subscribe using the form below.
-
 {% include newsletter-subscription-form.html %}
