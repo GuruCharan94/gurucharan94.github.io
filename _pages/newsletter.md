@@ -16,7 +16,7 @@ The Curated Bytes is a newsletter that I deliver to your inbox twice a month wit
 
 New announcements, tutorials, blog posts, technical deep-dives, interesting projects and all the stuff that you need to know about - curated with context and commentary.
 
-If you like to stay up to date on these technologies, fill the form below and let's get started.
+Fill the form below and stay up to date with the ever changing world of tech.
 
 {% include newsletter-subscription-form-temp.html %}
 
