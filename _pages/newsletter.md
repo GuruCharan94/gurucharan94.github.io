@@ -12,19 +12,13 @@ header:
 excerpt: "The latest on Azure, .NET, DevOps, Container Technologies and other interesting things delivered straight to your inbox twice a month"
 ---
 
-The Curated Bytes is a newsletter that I deliver to your inbox twice a month with the latest news on
-
-- Azure
-- .NET
-- DevOps
-- Container Technologies
-- and other interesting things I read on the interwebs.
+The Curated Bytes is a newsletter that I deliver to your inbox twice a month with the latest news on Azure, .NET, DevOps, Container Technologies and other interesting things I read on the interwebs.
 
 New announcements, tutorials, blog posts, technical deep-dives, interesting projects and all the stuff that you need to know about - curated with context and commentary.
 
 If you like to stay up to date on these technologies, fill the form below and let's get started. Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically.
 
-{% include newsletter-subscription-form.html %}
+{% include newsletter-subscription-form-temp.html %}
 
 Still not convinced ? Take a [look at the archives](#archives)
 
