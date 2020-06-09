@@ -1,5 +1,5 @@
 ---
-title: "Important Updates from Microsoft Build 2020 - The Pub-Sub"
+title: "Important Updates from Microsoft Build 2020 - The Curated Bytes"
 date: "2020-06-01"
 permalink: /newsletter/0
 image : "/assets/images/newsletter/0.jpg"
@@ -9,12 +9,12 @@ header:
   og_image: "/assets/images/newsletter/0.jpg"
 categories:
 - Newsletter
-excerpt: "This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps"
+excerpt: "This is Issue #0 of the Curated Bytes. This issue covers all the important updates from build that you cannot miss like .NET 5, C# 9, The Terminal and Azure Static Web Apps"
 ---
 
-The [Pub-Sub](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things I read**.
 
-This is Issue #0 of the Pub-Sub. This issue covers all the important updates from build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps.
+This is Issue #0 of the Curated Bytes. This issue covers all the important updates from Microsoft Build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps.
 
 ## .NET Updates from Build 2020
 
