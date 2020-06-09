@@ -16,11 +16,11 @@ The Curated Bytes is a newsletter that I deliver to your inbox twice a month wit
 
 New announcements, tutorials, blog posts, technical deep-dives, interesting projects and all the stuff that you need to know about - curated with context and commentary.
 
-If you like to stay up to date on these technologies, fill the form below and let's get started. Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically.
+If you like to stay up to date on these technologies, fill the form below and let's get started.
 
 {% include newsletter-subscription-form-temp.html %}
 
-Still not convinced ? Take a [look at the archives](#archives)
+Your email will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email gets deleted automatically. Still not convinced ? Take a look at the archives below.
 
 ## Archives
 
