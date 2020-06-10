@@ -2,8 +2,6 @@
 
 - cd <folder>
 - npm install
-- node cli.js ./archives/issue-0/config.json ./archives/issue-0
-- See html, md and mjml files created in output folder.
 
 ## Curation Process
 
@@ -11,6 +9,8 @@
 
 - Create a new issue-N folder under archives.
 - Update the config.json with feeds and commentary files.
+  - node cli.js ./archives/issue-0/config.json ./archives/issue-0
+  - See html, md and mjml files created in output folder.
 
 ### 2. Create the content
 
@@ -21,7 +21,6 @@
 
 - Add under Posts.
 - Add image.
-- RSS available at 06:00 am every second week
 
 ### 4. Scheduled Post in Mailtrain
 
