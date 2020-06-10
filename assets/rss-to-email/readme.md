@@ -1,11 +1,11 @@
-## Running this
+# Running this
 
 - cd <folder>
 - npm install
 - node cli.js ./archives/issue-0/config.json ./archives/issue-0
 - See html, md and mjml files created in output folder.
 
-## Process
+## Curation Process
 
 ### 1. Preparation of Newsletter
 
@@ -17,12 +17,20 @@
 - node cli.js ./archives/issue-0/config.json ./archives/issue-0
 - See html, md and mjml files created in output folder.
 
-### 3. Post in Website
+### 3. Scheduled Post in Website
 
 - Add under Posts.
 - Add image.
 
-### 4. Post in Email
+### 4. Scheduled Post in Mailtrain
 
 - Post on Mailtrain.
 - Test and Send.
+
+## Marketing Process
+
+1. Scheduled Post on Buffer
+   1. Twitter
+   2. LinkedIn
+
+2. Post to FB Groups

@@ -9,6 +9,8 @@ header:
   og_image: "/assets/images/newsletter/{{header.issue}}.jpg"
 categories:
 - Newsletter
+tags:
+- Newsletter
 excerpt: "{{header.intro}}"
 ---
 

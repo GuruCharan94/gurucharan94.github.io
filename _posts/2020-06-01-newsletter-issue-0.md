@@ -9,6 +9,8 @@ header:
   og_image: "/assets/images/newsletter/0.jpg"
 categories:
 - Newsletter
+tags:
+- Newsletter
 excerpt: "This is Issue #0 of the Curated Bytes. This issue covers all the important updates from build that you cannot miss like .NET 5, C# 9, The Terminal and Azure Static Web Apps"
 ---
 
