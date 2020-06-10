@@ -21,16 +21,14 @@
 
 - Add under Posts.
 - Add image.
+- RSS available at 06:00 am every second week
 
 ### 4. Scheduled Post in Mailtrain
 
 - Post on Mailtrain.
-- Test and Send.
+- Test and Schedule to be sent at 09:00am every 2nd week.
 
 ## Marketing Process
 
-1. Scheduled Post on Buffer
-   1. Twitter
-   2. LinkedIn
-
-2. Post to FB Groups
+1. Schedule a post on Twitter, LinkedIn using Buffer to be published at 10:00 am every 2nd week.
+2. Post to FB Groups.
