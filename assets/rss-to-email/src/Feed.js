@@ -49,7 +49,7 @@ const Feed = stampit({
                               .sort((a, b) => (a.isoDate > b.isoDate) ? 1 : -1);
 
       this.applyFilters();
-      this.title = this.config.title || feedObject.title;
+      this.title = this.config.title;
       this.description = this.config.description || feedObject.description;
       this.url = this.config.url || feedObject.feedUrl;
 

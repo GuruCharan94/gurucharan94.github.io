@@ -1,6 +1,6 @@
 # {{header.title}}
 
-Issue #{{header.issueNumber}} dated {{header.dateOfIssue}}
+Issue #{{header.issueNumber}}
 
 You can read this email from your browser.
 Link : {{newsletterBrowserLink}}
