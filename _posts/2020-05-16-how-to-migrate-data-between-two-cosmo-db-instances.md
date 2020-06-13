@@ -1,11 +1,11 @@
 ---
 title: How to migrate data between two Cosmos DB instances using PowerShell
 date: 2020-05-16
-image : "/assets/images/cosmos-db-migrator-script.jpg"
+image : "/assets/images/cover-images/cosmos-db-migrator-script.jpg"
 header:
-  teaser: "/assets/images/cosmos-db-migrator-script.jpg"
-  thumbnail:  "/assets/images/cosmos-db-migrator-script.jpg"
-  og_image: "/assets/images/cosmos-db-migrator-script.jpg"
+  teaser: "/assets/images/cover-images/cosmos-db-migrator-script.jpg"
+  thumbnail:  "/assets/images/cover-images/cosmos-db-migrator-script.jpg"
+  og_image: "/assets/images/cover-images/cosmos-db-migrator-script.jpg"
 categories:
 - PowerShell 
 tags:

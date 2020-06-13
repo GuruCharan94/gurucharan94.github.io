@@ -5,7 +5,7 @@ permalink: /about/
 classes: wide
 author_profile: true
 header:
-  og_image: "/assets/images/undraw/about-me.png"
+  og_image: "/assets/images/stock-pics/about-me.png"
 ---
 
 ## Short Version

@@ -1,11 +1,11 @@
 ---
 title: Restart A Service Fabric Application Replica using PowerShell
 date: 2020-06-10
-image : "/assets/images/sf-restart-powershell.jpg"
+image : "/assets/images/cover-images/sf-restart-powershell.jpg"
 header:
-  teaser: "/assets/images/sf-restart-powershell.jpg"
-  thumbnail:  "/assets/images/sf-restart-powershell.jpg"
-  og_image: "/assets/images/sf-restart-powershell.jpg"
+  teaser: "/assets/images/cover-images/sf-restart-powershell.jpg"
+  thumbnail:  "/assets/images/cover-images/sf-restart-powershell.jpg"
+  og_image: "/assets/images/cover-images/sf-restart-powershell.jpg"
 categories:
 - Azure
 tags:

@@ -1,11 +1,11 @@
 ---
 title: Side by Side install of multiple versions of NodeJS and NPM with NVM on Windows 10
 date: 2020-05-03
-image : "/assets/images/node-on-windows-10.jpg"
+image : "/assets/images/cover-images/node-on-windows-10.jpg"
 header:
-  teaser: "/assets/images/node-on-windows-10.jpg"
-  thumbnail:  "/assets/images/node-on-windows-10.jpg"
-  og_image: "/assets/images/node-on-windows-10.jpg"
+  teaser: "/assets/images/cover-images/node-on-windows-10.jpg"
+  thumbnail:  "/assets/images/cover-images/node-on-windows-10.jpg"
+  og_image: "/assets/images/cover-images/node-on-windows-10.jpg"
 categories:
 - Node 
 tags:

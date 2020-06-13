@@ -5,7 +5,7 @@ permalink: /speaking-engagements/
 classes: wide
 author_profile: true
 header:
-  og_image: "/assets/images/undraw/conf.png"
+  og_image: "/assets/images/stock-pics/conf.png"
 ---
 
 
