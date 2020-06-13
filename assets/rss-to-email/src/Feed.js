@@ -8,7 +8,6 @@ const fs = require('fs');
  * @return {Object}
  */
 function cleanItem(item, itemDescription) {
-  console.log(itemDescription);
   const cleanedItem = Object.assign({}, item);
   cleanedItem.title = item.title.replace(/\bhttps?:\/\/\S+/gi, '');
   cleanedItem.description = itemDescription;
@@ -45,11 +44,14 @@ const Feed = stampit({
 
       const itemDescription = JSON.parse(fs.readFileSync(this.config.dataFile, 'utf8'));
 
-      this.items = feedObject.items.map((item,index) => cleanItem(item,itemDescription[index]));
+      this.items = feedObject.items
+                              .map((item,index) => cleanItem(item,itemDescription[index]))
+                              .sort((a, b) => (a.isoDate > b.isoDate) ? 1 : -1);
+
       this.applyFilters();
       this.title = this.config.title || feedObject.title;
       this.description = this.config.description || feedObject.description;
-      this.url = this.config.url || feedObject.feedUrl;      
+      this.url = this.config.url || feedObject.feedUrl;
 
       return this;
     },

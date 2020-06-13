@@ -15,8 +15,9 @@ Link: ({{sponsorLink}})
 
 {{#each feeds}}
 
+{{#if this.title}}
 ## {{this.title}}
-
+{{/if}}
 {{#each items}}
 
 ### {{this.title}}

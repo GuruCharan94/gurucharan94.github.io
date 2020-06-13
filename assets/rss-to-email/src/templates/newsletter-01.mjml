@@ -54,7 +54,9 @@
     {{#each feeds}}
       <mj-section>
         <mj-column>
+        {{#if this.title}}
           <mj-text font-size="24px" color="#333" padding-top="20px">{{{this.title}}}</mj-text>
+        {{/if}}
           <mj-spacer height="25px" />
           {{#each items}}
             <mj-text font-size="18px">

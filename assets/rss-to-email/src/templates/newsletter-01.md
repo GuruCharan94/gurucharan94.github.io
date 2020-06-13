@@ -25,7 +25,9 @@ The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that 
 
 {{#each feeds}}
 
+{{#if this.title}}
 ## {{this.title}}
+{{/if}}
 
 {{#each items}}
 
