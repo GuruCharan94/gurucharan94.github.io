@@ -23,7 +23,7 @@ description              : "I am Gurucharan Subramani from Bangalore, India. I'm
 url                      : "https://www.gurucharan.in"
 baseurl                  : ""
 repository               : "GuruCharan94/gurucharan94.github.io"
-og_image                 : "assets/images/stock-pics/blog.png"
+og_image                 : "assets/images/cover-images/blog.png"
 logo                     : "assets/images/logo.png"
 masthead_title           : print("Guru is typing....")
 # breadcrumbs            : false # true, false (default)
