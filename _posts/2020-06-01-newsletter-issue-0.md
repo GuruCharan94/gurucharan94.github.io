@@ -1,5 +1,5 @@
 ---
-title: "Important Updates from Microsoft Build 2020 - The Curated Bytes"
+title: "The Curated Bytes #0 - Important Updates from Microsoft Build 2020"
 date: "2020-06-01"
 permalink: /newsletter/0
 image : "/assets/images/newsletter/0.jpg"
