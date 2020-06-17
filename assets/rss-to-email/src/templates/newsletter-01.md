@@ -31,7 +31,7 @@ The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that 
 
 {{#each items}}
 
-## [{{this.title}}]({{this.link}})
+### [{{this.title}}]({{this.link}})
 
 {{this.description}}
 {{/each}}
