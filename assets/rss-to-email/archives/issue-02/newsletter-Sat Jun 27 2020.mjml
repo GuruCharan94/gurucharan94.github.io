@@ -26,7 +26,7 @@
     <!-- Intro -->
     <mj-section>
       <mj-column>
-        <mj-text padding-top="20px"></mj-text>
+        <mj-text padding-top="20px">This is Issue #2 of the Curated Bytes. In this issue of The Curated Bytes, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps.</mj-text>
       </mj-column>
     </mj-section>
 
@@ -97,7 +97,7 @@
               <a href="https://dev.to/azure/azure-event-hubs-role-based-access-control-in-action-32f0">Azure Event Hubs &quot;Role Based Access Control&quot; in action</a>
             </mj-text>
             <mj-text>
-              Azure Event Hub now supports Azure AD based RBAC using Managed Identity or using a Service Principal. No more worrying about SAS token
+              Azure Event Hub now supports Azure AD based RBAC using Managed Identity or using a Service Principal. No more worrying about SAS tokens.
             </mj-text>
             <mj-spacer height="10px" />
             <mj-divider></mj-divider>
@@ -113,7 +113,7 @@
               <a href="https://devblogs.microsoft.com/dotnet/announcing-net-5-0-preview-6/">Announcing .NET 5.0 Preview 6</a>
             </mj-text>
             <mj-text>
-              .NET 5.0 preview 6 is released. As usual, Entity Framework Core and ASP.NET Core are also shipped
+              .NET 5.0 preview 6 is released. As usual, Entity Framework Core and ASP.NET Core are also shipped.
             </mj-text>
             <mj-spacer height="10px" />
             <mj-divider></mj-divider>

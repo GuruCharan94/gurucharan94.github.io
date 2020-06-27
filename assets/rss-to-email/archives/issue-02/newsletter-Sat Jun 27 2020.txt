@@ -1,6 +1,6 @@
 # The Curated Bytes #2
 
-Issue #
+Issue #2
 
 You can read this email from your browser.
 Link : https://www.gurucharan.in/newsletter/2
@@ -48,7 +48,7 @@ Dotnet-Monitor aims to simplify the process of getting access to diagnostics inf
 ### Azure Event Hubs &quot;Role Based Access Control&quot; in action
 Link : (https://dev.to/azure/azure-event-hubs-role-based-access-control-in-action-32f0)
 
-Azure Event Hub now supports Azure AD based RBAC using Managed Identity or using a Service Principal. No more worrying about SAS token
+Azure Event Hub now supports Azure AD based RBAC using Managed Identity or using a Service Principal. No more worrying about SAS tokens.
 
 
 ### Azure Pipelines now supports Linux/ARM64
@@ -60,7 +60,7 @@ Azure Pipelines now supports Linux/ARM64. A few other highly requested features 
 ### Announcing .NET 5.0 Preview 6
 Link : (https://devblogs.microsoft.com/dotnet/announcing-net-5-0-preview-6/)
 
-.NET 5.0 preview 6 is released. As usual, Entity Framework Core and ASP.NET Core are also shipped
+.NET 5.0 preview 6 is released. As usual, Entity Framework Core and ASP.NET Core are also shipped.
 
 
 Curated by Gurucharan Subramani.
