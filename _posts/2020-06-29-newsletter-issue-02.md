@@ -1,5 +1,5 @@
 ---
-title: "The Curated Bytes #2 - NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps."
+title: "The Compiled Bytes #2 - NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps."
 date: "2020-06-29"
 permalink: /newsletter/2
 image : "/assets/images/newsletter/2.jpg"
@@ -11,7 +11,7 @@ categories:
 - Newsletter
 tags:
 - Newsletter
-excerpt: "In this issue of The Curated Bytes, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps"
+excerpt: "In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps"
 ---
 
 The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.

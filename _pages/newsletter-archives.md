@@ -1,5 +1,5 @@
 ---
-title: " The Curated Bytes"
+title: "The Compiled Bytes"
 layout: archive
 permalink: /newsletter/archives
 classes: wide
@@ -9,9 +9,9 @@ header:
   teaser: "/assets/images/newsletter/intro.jpg"
   thumbnail:  "/assets/images/newsletter/intro.jpg"
   og_image: "/assets/images/newsletter/intro.jpg"
-excerpt: "The Curated Bytes is a newsletter with the latest on Azure, .NET, DevOps, Container Technologies and other interesting things delivered straight to your inbox twice a month"
+excerpt: "The Compiled Bytes is a newsletter with the latest on Azure, .NET, DevOps, Container Technologies and other interesting things delivered straight to your inbox twice a month"
 ---
 
-## The Curated Bytes Archives
+## The Compiled Bytes Archives
 
 {% include newsletter-archives.html %}

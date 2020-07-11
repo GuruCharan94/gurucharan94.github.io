@@ -1,5 +1,5 @@
 ---
-title: " The Curated Bytes"
+title: " The Compiled Bytes"
 layout: single
 permalink: /newsletter/
 classes: wide
@@ -12,7 +12,7 @@ header:
 excerpt: "The latest on Azure, .NET, DevOps, Container Technologies and other interesting things delivered straight to your inbox twice a month"
 ---
 
-The Curated Bytes is a newsletter that I deliver to your inbox twice a month with the latest news on Azure, .NET, DevOps, Container Technologies and other interesting things I read on the interwebs.
+The Compiled Bytes is a newsletter that I deliver to your inbox twice a month with the latest news on Azure, .NET, DevOps, Container Technologies and other interesting things I read on the interwebs.
 
 New announcements, tutorials, blog posts, technical deep-dives, interesting projects and all the stuff that you need to know about - curated with context and commentary.
 
