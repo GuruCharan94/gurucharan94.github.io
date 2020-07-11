@@ -25,7 +25,7 @@ baseurl                  : ""
 repository               : "GuruCharan94/gurucharan94.github.io"
 og_image                 : "assets/images/cover-images/blog.png"
 logo                     : "assets/images/logo.png"
-masthead_title           : print("Guru is typing....")
+masthead_title           : print("Guru is typing...")
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -111,7 +111,7 @@ analytics:
 # Site Author
 author:
   name             : "Gurucharan Subramani"
-  avatar           : "assets/images/gurucharan94.jpeg"
+  avatar           : "assets/images/gurucharan94.png"
   bio              : "Code | Debug | Ship | Speak | Blog"
   location         : "Bangalore, India"
   twitter          :
