@@ -1,11 +1,11 @@
 ---
 title: What you need to know about blogging as a developer
 date: 2020-05-13
-image : "/assets/images/cover-images/blogging-as-a-developer.jpg"
+image : "/assets/images/cover-images/blogging-as-a-developer.gif"
 header:
-  teaser: "/assets/images/cover-images/blogging-as-a-developer.jpg"
-  thumbnail:  "/assets/images/cover-images/blogging-as-a-developer.jpg"
-  og_image: "/assets/images/cover-images/blogging-as-a-developer.jpg"
+  teaser: "/assets/images/cover-images/blogging-as-a-developer.gif"
+  thumbnail:  "/assets/images/cover-images/blogging-as-a-developer.gif"
+  og_image: "/assets/images/cover-images/blogging-as-a-developer.gif"
 categories:
 - Blog
 tags:
