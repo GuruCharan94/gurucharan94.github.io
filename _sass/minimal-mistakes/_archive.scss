@@ -227,10 +227,6 @@
     @include breakpoint($small) {
       max-height: 200px;
     }
-
-    @include breakpoint($medium) {
-      height: 120px;
-    }
   }
 }
 
