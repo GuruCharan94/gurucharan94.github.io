@@ -19,10 +19,12 @@
 }
 
 .list__item{
-  width: 29%;
-  float: left;
-  margin: 0 2%;
-  height:700px;
+  @include breakpoint($x-large) {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+    height:700px;
+  }
 }
 
 .archive__item {
