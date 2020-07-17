@@ -17,6 +17,10 @@
     padding-right: $right-sidebar-width;
   }
 }
+.list__item{
+  width: 45%;
+  float: left;
+}
 
 .archive__item {
   position: relative;
