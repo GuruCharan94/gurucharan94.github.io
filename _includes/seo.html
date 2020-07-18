@@ -177,8 +177,8 @@
               "@type": [
                   "WebPage"
               ],
-              "@id": "{{ canonical_url }}categories",
-              "url": "{{ canonical_url }}",
+              "@id": "{{ site.url }}/categories",
+              "url": "{{ site.url }}",
               "name": "{{ seo_title | default: site.title }}",
               "isPartOf": {
                 "@id": "https://www.gurucharan.in/"
@@ -194,7 +194,7 @@
               "@type": "Article",
               "@id": "{{ canonical_url }}",
               "isPartOf": {
-                "@id": "{{ canonical_url }}categories"
+                "@id": "{{ site.url }}/categories",
               },
               "author": {
                 "@id": "https://www.gurucharan.in/about"
