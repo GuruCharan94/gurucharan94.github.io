@@ -14,7 +14,7 @@ tags:
 excerpt: "In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world"
 ---
 
-The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+The [Compiled Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
 
 In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world
 

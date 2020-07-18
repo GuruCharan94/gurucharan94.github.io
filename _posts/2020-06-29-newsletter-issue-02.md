@@ -14,7 +14,7 @@ tags:
 excerpt: "In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps"
 ---
 
-The [Curated Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+The [Compiled Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
 
 ### [Applied Cloud Stories: Winning Entries](https://dev.to/azure/applied-cloud-stories-winning-entries-3n66)
 
