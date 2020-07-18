@@ -139,12 +139,85 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name": {{ site.social.name | default: site.name | jsonify }},
-      "alternateName":{{ site.social.alternateName | default: site.name | jsonify }},
-      "url": {{ seo_url | jsonify }},
-      "sameAs": {{ site.social.links | jsonify }}
-    }
+      "@graph": [
+          {
+              "@type": [
+                  "Person"
+              ],
+              "@id": "https://www.gurucharan.in/about",
+              "name": {{ site.social.name | default: site.name | jsonify }},
+              "image": {
+                  "@type": "ImageObject",
+                  "@id": "https://www.gurucharan.in/assets/images/gurucharan94.png",
+                  "inLanguage": "en-US",
+                  "url": "https://www.gurucharan.in/assets/images/gurucharan94.png",
+                  "caption": {{ site.social.name | default: site.name | jsonify }}
+              },
+              "description": {{ site.description | jsonify }},
+              "sameAs": {{ site.social.links | jsonify }}
+          },
+          {
+              "@type": "WebSite",
+              "@id": "https://www.gurucharan.in/",
+              "url": {{ site.url | jsonify }},
+              "name": "{{ site.social.name | default: site.name | jsonify }}",
+              "description": {{ site.description | jsonify }},
+              "publisher": {
+                  "@id": "https://www.gurucharan.in/about",
+              },
+              "inLanguage": "en-US"
+          },
+          {
+              "@type": "ImageObject",
+              "@id": {{ page_large_image | jsonify }},
+              "inLanguage": "en-US",
+              "url": {{ page_large_image | jsonify }},
+              "width": 2240,
+              "height": 1260,
+              "caption": "Cover Image for {{ seo_title | default: site.title }}"
+          },
+          {
+              "@type": [
+                  "WebPage"
+              ],
+              "@id": {{ canonical_url }}/categories,
+              "url": {{ canonical_url }},
+              "name": "{{ seo_title | default: site.title }}",
+              "isPartOf": {
+                "@id": "https://www.gurucharan.in/",
+              },
+              "primaryImageOfPage": {
+                  "@id": {{ page_large_image | jsonify }}
+              },
+              "datePublished": ""{{ page.date | date_to_xmlschema }}",
+              "description": "{{ seo_description }}",
+              "inLanguage": "en-US"
+          },
+          {
+              "@type": "Article",
+              "@id": {{ canonical_url }},
+              "isPartOf": {
+                "@id": {{ canonical_url }}/categories,
+              },
+              "author": {
+                "@id": "https://www.gurucharan.in/about",
+              },
+              "headline": "{{ seo_description }}",
+              "datePublished": "{{ page.date | date_to_xmlschema }}",
+              "mainEntityOfPage": {
+                "@id": {{ canonical_url }}/categories,
+              },
+              "publisher": {
+                "@id": "https://www.gurucharan.in/about",
+              },
+              "image": {
+                "@id": {{ page_large_image | jsonify }}
+              },
+              "keywords": "Schema.org,Software releases and updates,Technical SEO",
+              "inLanguage": "en-US",
+          }
+      ]
+  }
   </script>
 {% endif %}
 
