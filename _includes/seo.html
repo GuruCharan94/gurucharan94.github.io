@@ -180,7 +180,7 @@
               "@type": [
                   "WebPage"
               ],
-              "@id": "{{ canonical_url }}/categories",
+              "@id": "{{ canonical_url }}categories",
               "url": "{{ canonical_url }}",
               "name": "{{ seo_title | default: site.title }}",
               "isPartOf": {
@@ -197,7 +197,7 @@
               "@type": "Article",
               "@id": "{{ canonical_url }}",
               "isPartOf": {
-                "@id": "{{ canonical_url }}/categories"
+                "@id": "{{ canonical_url }}categories"
               },
               "author": {
                 "@id": "https://www.gurucharan.in/about"
@@ -205,7 +205,7 @@
               "headline": "{{ seo_description }}",
               "datePublished": "{{ page.date | date_to_xmlschema }}",
               "mainEntityOfPage": {
-                "@id": "{{ canonical_url }}/categories"
+                "@id": "{{ canonical_url }}categories"
               },
               "publisher": {
                 "@id": "https://www.gurucharan.in/about"
