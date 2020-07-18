@@ -162,9 +162,6 @@
               "url": {{ site.url | jsonify }},
               "name": {{ site.social.name | default: site.name | jsonify }},
               "description": {{ site.description | jsonify }},
-              "publisher": {
-                  "@id": "https://www.gurucharan.in/about"
-              },
               "inLanguage": "en-US"
           },
           {
@@ -189,7 +186,7 @@
               "primaryImageOfPage": {
                   "@id": {{ page_large_image | jsonify }}
               },
-              "datePublished": "{{ page.date | date_to_xmlschema }}",
+              "datePublished": "{{ site.date | date_to_xmlschema }}",
               "description": "{{ seo_description }}",
               "inLanguage": "en-US"
           },
