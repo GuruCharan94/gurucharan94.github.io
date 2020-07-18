@@ -206,7 +206,7 @@
               "datePublished": "{{ page.date | date_to_xmlschema }}",
               "dateModified": "{{ page.date | date_to_xmlschema }}",
               "mainEntityOfPage": {
-                "@id": "{{ canonical_url }}categories"
+                "@id": "{{ site.url }}/categories"
               },
               "image": {
                 "@id": {{ page_large_image | jsonify }}
