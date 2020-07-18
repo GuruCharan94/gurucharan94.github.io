@@ -163,7 +163,7 @@
               "name": {{ site.social.name | default: site.name | jsonify }},
               "description": {{ site.description | jsonify }},
               "publisher": {
-                  "@id": "https://www.gurucharan.in/about",
+                  "@id": "https://www.gurucharan.in/about"
               },
               "inLanguage": "en-US"
           },
@@ -184,7 +184,7 @@
               "url": "{{ canonical_url }}",
               "name": "{{ seo_title | default: site.title }}",
               "isPartOf": {
-                "@id": "https://www.gurucharan.in/",
+                "@id": "https://www.gurucharan.in/"
               },
               "primaryImageOfPage": {
                   "@id": {{ page_large_image | jsonify }}
@@ -197,18 +197,18 @@
               "@type": "Article",
               "@id": "{{ canonical_url }}"",
               "isPartOf": {
-                "@id": "{{ canonical_url }}/categories",
+                "@id": "{{ canonical_url }}/categories"
               },
               "author": {
-                "@id": "https://www.gurucharan.in/about",
+                "@id": "https://www.gurucharan.in/about"
               },
               "headline": "{{ seo_description }}",
               "datePublished": "{{ page.date | date_to_xmlschema }}",
               "mainEntityOfPage": {
-                "@id": "{{ canonical_url }}/categories",
+                "@id": "{{ canonical_url }}/categories"
               },
               "publisher": {
-                "@id": "https://www.gurucharan.in/about",
+                "@id": "https://www.gurucharan.in/about"
               },
               "image": {
                 "@id": {{ page_large_image | jsonify }}
