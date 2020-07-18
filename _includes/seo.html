@@ -161,6 +161,7 @@
               "@id": "https://www.gurucharan.in/",
               "url": {{ site.url | jsonify }},
               "name": {{ site.social.name | default: site.name | jsonify }},
+              "datePublished": "{{ site.date | date_to_xmlschema }}",
               "description": {{ site.description | jsonify }},
               "inLanguage": "en-US"
           },
@@ -189,7 +190,9 @@
               "datePublished": "{{ site.date | date_to_xmlschema }}",
               "description": "{{ seo_description }}",
               "inLanguage": "en-US"
-          },
+          }
+          {% if og_type == "article" and page.last_modified_at %}
+          ,
           {
               "@type": "Article",
               "@id": "{{ canonical_url }}",
@@ -201,6 +204,7 @@
               },
               "headline": "{{ seo_description }}",
               "datePublished": "{{ page.date | date_to_xmlschema }}",
+              "dateModified": "{{ page.date | date_to_xmlschema }}",
               "mainEntityOfPage": {
                 "@id": "{{ canonical_url }}categories"
               },
@@ -209,6 +213,7 @@
               },
               "inLanguage": "en-US"
           }
+          {% endif %}
       ]
   }
   </script>
