@@ -160,7 +160,7 @@
               "@type": "WebSite",
               "@id": "https://www.gurucharan.in/",
               "url": {{ site.url | jsonify }},
-              "name": "{{ site.social.name | default: site.name | jsonify }}",
+              "name": {{ site.social.name | default: site.name | jsonify }},
               "description": {{ site.description | jsonify }},
               "publisher": {
                   "@id": "https://www.gurucharan.in/about",
@@ -180,8 +180,8 @@
               "@type": [
                   "WebPage"
               ],
-              "@id": {{ canonical_url }}/categories,
-              "url": {{ canonical_url }},
+              "@id": "{{ canonical_url }}/categories",
+              "url": "{{ canonical_url }}",
               "name": "{{ seo_title | default: site.title }}",
               "isPartOf": {
                 "@id": "https://www.gurucharan.in/",
@@ -189,15 +189,15 @@
               "primaryImageOfPage": {
                   "@id": {{ page_large_image | jsonify }}
               },
-              "datePublished": ""{{ page.date | date_to_xmlschema }}",
+              "datePublished": "{{ page.date | date_to_xmlschema }}",
               "description": "{{ seo_description }}",
               "inLanguage": "en-US"
           },
           {
               "@type": "Article",
-              "@id": {{ canonical_url }},
+              "@id": "{{ canonical_url }}"",
               "isPartOf": {
-                "@id": {{ canonical_url }}/categories,
+                "@id": "{{ canonical_url }}/categories",
               },
               "author": {
                 "@id": "https://www.gurucharan.in/about",
@@ -205,7 +205,7 @@
               "headline": "{{ seo_description }}",
               "datePublished": "{{ page.date | date_to_xmlschema }}",
               "mainEntityOfPage": {
-                "@id": {{ canonical_url }}/categories,
+                "@id": "{{ canonical_url }}/categories",
               },
               "publisher": {
                 "@id": "https://www.gurucharan.in/about",
@@ -213,7 +213,6 @@
               "image": {
                 "@id": {{ page_large_image | jsonify }}
               },
-              "keywords": "Schema.org,Software releases and updates,Technical SEO",
               "inLanguage": "en-US",
           }
       ]
