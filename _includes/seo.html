@@ -202,7 +202,7 @@
               "author": {
                 "@id": "https://www.gurucharan.in/about"
               },
-              "headline": "{{ seo_title }}",
+              "headline": "{{ seo_title | truncate:100 }}",
               "datePublished": "{{ page.date | date_to_xmlschema }}",
               "dateModified": "{{ page.date | date_to_xmlschema }}",
               "mainEntityOfPage": {
@@ -210,6 +210,9 @@
               },
               "image": {
                 "@id": {{ page_large_image | jsonify }}
+              },
+              "publisher": {
+                "@id": "https://www.gurucharan.in/about"
               },
               "inLanguage": "en-US"
           }
