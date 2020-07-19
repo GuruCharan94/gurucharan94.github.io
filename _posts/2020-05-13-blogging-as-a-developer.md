@@ -4,7 +4,7 @@ date: 2020-05-13
 image : "/assets/images/cover-images/blogging-as-a-developer.jpg"
 header:
   teaser: "/assets/images/cover-images/blogging-as-a-developer.jpg"
-  thumbnail:  "/assets/images/cover-images/blogging-as-a-developer-thumbnail.jpg"
+  thumbnail:  "/assets/images/cover-images/blogging-as-a-developer-thumbnail.png"
   og_image: "/assets/images/cover-images/blogging-as-a-developer.jpg"
 categories:
 - Blog
