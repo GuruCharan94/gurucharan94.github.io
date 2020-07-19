@@ -5,7 +5,7 @@ permalink: /newsletter/1
 image : "/assets/images/newsletter/1.jpg"
 header:
   teaser: "/assets/images/newsletter/1.jpg"
-  thumbnail:  "/assets/images/newsletter/1.jpg"
+  thumbnail:  "/assets/images/newsletter/1-thumbnail.jpg"
   og_image: "/assets/images/newsletter/1.jpg"
 categories:
 - Newsletter

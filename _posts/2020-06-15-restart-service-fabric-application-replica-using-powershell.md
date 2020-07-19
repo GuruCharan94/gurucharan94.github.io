@@ -4,7 +4,7 @@ date: 2020-06-10
 image : "/assets/images/cover-images/sf-restart-powershell.jpg"
 header:
   teaser: "/assets/images/cover-images/sf-restart-powershell.jpg"
-  thumbnail:  "/assets/images/cover-images/sf-restart-powershell.jpg"
+  thumbnail:  "/assets/images/cover-images/sf-restart-powershell-thumbnail.jpg"
   og_image: "/assets/images/cover-images/sf-restart-powershell.jpg"
 categories:
 - Azure

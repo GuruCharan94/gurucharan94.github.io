@@ -4,7 +4,7 @@ date: 2020-05-27
 image : "/assets/images/cover-images/public-speaking-tips.jpg"
 header:
   teaser: "/assets/images/cover-images/public-speaking-tips.jpg"
-  thumbnail:  "/assets/images/cover-images/public-speaking-tips.jpg"
+  thumbnail:  "/assets/images/cover-images/public-speaking-tips-thumbnail.jpg"
   og_image: "/assets/images/cover-images/public-speaking-tips.jpg"
 
 categories:

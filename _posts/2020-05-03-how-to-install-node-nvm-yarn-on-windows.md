@@ -4,7 +4,7 @@ date: 2020-05-03
 image : "/assets/images/cover-images/node-on-windows-10.jpg"
 header:
   teaser: "/assets/images/cover-images/node-on-windows-10.jpg"
-  thumbnail:  "/assets/images/cover-images/node-on-windows-10.jpg"
+  thumbnail:  "/assets/images/cover-images/node-on-windows-10-thumbnail.jpg"
   og_image: "/assets/images/cover-images/node-on-windows-10.jpg"
 categories:
 - Node 
