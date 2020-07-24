@@ -1,5 +1,5 @@
 ---
-title: "The Compiled Bytes #2 - NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps."
+title: "The Compiled Bytes - Issue #2"
 date: "2020-06-29"
 permalink: /newsletter/2
 image : "/assets/images/newsletter/2.jpg"

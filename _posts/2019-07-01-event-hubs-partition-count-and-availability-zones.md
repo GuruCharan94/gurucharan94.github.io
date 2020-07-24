@@ -1,5 +1,5 @@
 ---
-title: "Applying Blue / Green Deployment concepts to migrate / upgrade Azure Event Hubs"
+title: "Applying Blue / Green Deployment concepts to upgrade your Azure Event Hub to use Availability Zones"
 date: 2019-07-02
 image: "/assets/images/event-hub-migration/teaser.png"
 header:
@@ -12,7 +12,7 @@ tags:
   - Azure Event Hub
   - High Availability
   - Migration
-excerpt: "How to upgrade / migrate to new event hub when you want to change partition count and / or utilize availability zones using the blue / green deployment strategy."
+excerpt: "Azure Event Hubs support availability zones.Availability Zones will not work with existing Event Hubs and you will need to provision new ones to use this feature. This blog posts shows you a simple strategy to upgrade / migrate to a new event hub when you want to change partition count and / or utilize availability zones using the blue / green deployment strategy."
 ---
 
 [Azure Event Hub](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about) is a **scalable** event processing service that ingests and processes large volumes of events and data, with low latency and **high reliability**. After you collect data into Event Hubs, you can store the data or [transform it using a real-time analytics provider](https://docs.microsoft.com/en-us/azure/data-explorer/ingest-data-event-hub). This large-scale event collection and processing capability is a key part of modern applications.

@@ -15,12 +15,6 @@ tags:
 - Lifeskills
 
 excerpt: This blog post is a collection of public speaking tips for developers. The tips include how to respond to a CFP (Call for Papers), how to structure your talk, how to design your slides, preparing good demos and how to deal with anxiety and prepare for failure.
-
-ogImage:
-  title: "**A Collection of Public Speaking Tips for Developers**"
-  subtitle: "www.gurucharan.in | @gurucharan94"
-  filename: "public-speaking-tips"
-  fontSize:  "120%"
 ---
 
 This blog post is a collection of public speaking tips for developers. The tips include how to respond to a CFP (Call for Papers), how to structure your talk, how to design your slides, preparing good demos and how to deal with anxiety and prepare for failure.

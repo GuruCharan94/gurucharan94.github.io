@@ -12,7 +12,7 @@ tags:
   - Azure Monitor
   - Grafana
   - Application Insights
-excerpt: "An end-to-end guide covering everything you need to know about using Azure Monitor Data Source for Grafana to create rich, interactive and dynamic dashboards to visualize and monitor metrics from your Azure Resources."
+excerpt: "An end-to-end guide covering everything you need to know about using Azure Monitor Data Source for Grafana to create rich, interactive and dynamic dashboards to visualize and monitor metrics from your Azure Resources. Shows you how to host Grafana inside an Azure Virtual Machine, configuring the Azure Monitor Data Source, creating dashboards with data coming in from Azure Monitor, Application Insights and Azure Log Analytics and using variables to create dynamic dashboards."
 ---
 
 [Grafana](https://grafana.com/grafana) is the leading open source platform for beautiful time series analytics, visualization and monitoring. The Azure Monitor Data Source for Grafana is a Grafana plugin which lets you consume and visualize metrics from Azure Monitor, Application Insights and Log Analytics on Grafana. With the Azure Data Source, you can easily and quickly build rich, eye-catching & impactful dashboards **without making any changes to your application / infrastructure.**

@@ -15,9 +15,7 @@ tags:
 - Security
 - Accessibility
 - Performance
-excerpt: This blog post shows you how to get started with Lighthouse CI, what are
-  the different configurations and commands available to you and how to run your first
-  scan and compare the results against a baseline that you specify.
+excerpt: Lighthouse CI is a node CLI that make continuously running, asserting, saving, and retrieving Lighthouse results as easy as possible. This blog post shows you how to get started with Lighthouse CI, what are the different configurations and commands available to you and how to run your first scan and compare the results against a set of rules that you specify.
 
 ---
 This blog post shows you how to get started with Lighthouse CI, what are the different configurations and commands available to you and how to run your first scan and compare the results against a baseline that you specify.
@@ -123,4 +121,4 @@ When checking the results of runs against multiple URLs, different assertions ca
 
 In this example, we run tests against the built-in preset which ignores PWA (Progressive Web App) evaluation. We also assert against said performance and accessibility against a baseline score of 0.70 for performance and 0.90 for accessibility. Since we ran the scan against each URL thrice, we specify optimistic as aggregation method which instructs Lighthouse to take the score that has the highest chance of success.
 
-This post showed the basics of getting started with Lighthouse CI and how to run your first scan and compare results against a baseline. In [part 2](https://www.gurucharan.in/web/nodejs/lighthouse-ci-the-complete-guide-part-2/), we continue to look at how to set up a Lighthouse server so that we can upload the scan results, see trends and compare the scores of your site at different points in time.
+This post showed the basics of getting started with Lighthouse CI and how to run your first scan and compare results against a baseline. In [part 2](https://www.gurucharan.in/web/nodejs/lighthouse-ci-the-complete-guide-part-2/), we continue to look at how to set up a Lighthouse server on Azure so that we can upload the scan results, see trends and compare the scores of your site at different points in time.

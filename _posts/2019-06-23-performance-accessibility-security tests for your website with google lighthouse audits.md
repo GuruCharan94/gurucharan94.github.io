@@ -12,7 +12,7 @@ tags:
   - Accessibility
   - SEO
   - Security
-excerpt: "This post shows you how to check your website for accessibility, performance and security issues and fix them with Google LightHouse"
+excerpt: "This post shows you how to check your website for accessibility, performance and security issues and fix them with Google LightHouse."
 ---
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source tool for auditing performance,accessibility and SEO of your web-pages. You give Lighthouse a URL to audit, it runs a series of audits against the page, and then it generates a report on how well the page did.

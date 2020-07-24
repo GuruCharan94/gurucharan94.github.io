@@ -13,7 +13,7 @@ tags:
 - Meta
 - Career
 - Lifeskills
-excerpt: In this blog post, I write about why I set-up my blog (yes, very meta) using GitHub pages on my own domain. I write about cross-posting, SEO optimization, my blogging schedule and ultimately figuring out why I blog.
+excerpt: I write about why I set-up my blog (yes, very meta) using GitHub pages on my own domain. I write about cross-posting, SEO optimization, my blogging schedule and ultimately figuring out why I blog.
 ogImage:
   title: "**Lessons learned by blogging as a Developer**"
   subtitle: "www.gurucharan.in | @gurucharan94"

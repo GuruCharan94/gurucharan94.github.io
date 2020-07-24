@@ -1,5 +1,5 @@
 ---
-title: "The Compiled Bytes #1 - .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices"
+title: "The Compiled Bytes - Issue #1"
 date: "2020-06-15"
 permalink: /newsletter/1
 image : "/assets/images/newsletter/1.jpg"

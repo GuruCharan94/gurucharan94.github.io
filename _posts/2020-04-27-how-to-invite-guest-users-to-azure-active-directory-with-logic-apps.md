@@ -12,7 +12,7 @@ categories:
 tags:
 - Logic App
 - Active Directory
-excerpt: You can invite guest users on your tenant using the Azure Active Directory B2B collaboration. This blog post shows you how to invite guest users using Azure Logic Apps.
+excerpt: You can invite guest users on your tenant using the Azure Active Directory B2B collaboration.  This blog post shows you how to invite a list of users as guests to your Azure Active Directory programmatically using Azure Logic Apps, customize the invitation message and configure a redirect URL.
 ---
 
 You can invite guest users on your tenant using the Azure Active Directory B2B collaboration. This blog post shows you how to invite guest users using Azure Logic Apps by invoking the `/invitation` endpoint from the Microsoft Graph API.

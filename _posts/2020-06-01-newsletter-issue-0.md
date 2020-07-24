@@ -1,5 +1,5 @@
 ---
-title: "The Compiled Bytes #0 - Important Updates from Microsoft Build 2020"
+title: "The Compiled Bytes -Issue #0"
 date: "2020-06-01"
 permalink: /newsletter/0
 image : "/assets/images/newsletter/0.jpg"

@@ -1,5 +1,5 @@
 ---
-title: "Five Must Have CosmosDB tools to make you more productive"
+title: "Five Azure CosmosDB tools that you cannot miss"
 date: 2019-10-10
 image: "/assets/images/cosmos-tools/teaser.png"
 header:
@@ -10,7 +10,7 @@ categories:
   - Azure
 tags:
   - CosmosDB
-excerpt: "Cosmos DB tools that are a must-have to explore data, back-up, restore and anonymize the contents of your databases and calculate estimated cost of a Cosmos DB instance"
+excerpt: "Azure CosmosDB is Microsoft's globally distributed, multi-model, NoSQL database service. Using these tools, you can ultra productive with Cosmos DB. I show you tools to easily explore data, back-up and anonymize data, restore and calculate estimated cost of a Cosmos DB instance."
 ---
 
 [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction) is Microsoft's globally distributed, multi-model, NoSQL database service. Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwide. Here are some of the tools that are available to make you more productive with CosmosDB.

@@ -16,9 +16,7 @@ tags:
 - Accessibility
 - Performance
 - Azure
-excerpt: In this post, we look at how to setup a Lighthouse server on Azure so that
-  we can upload the scan results, see trends and compare the scores and run Lighthouse
-  CI inside Azure Pipelines.
+excerpt: Lighthouse CI is a node CLI that make continuously running, asserting, saving, and retrieving Lighthouse results as easy as possible. In this post, we look at how to setup a Lighthouse Server on Azure where we can upload the scan results, see trends and compare the scores and how to run Lighthouse CI inside Azure Pipelines.
 
 ---
 In the [previous part (Part 1)](https://www.gurucharan.in/web/nodejs/lighthouse-ci-the-complete-guide-part-1/), we learnt about how to get started with Lighthouse CI, what are the different commands available, how to run your first scan and compare the results against a baseline. In this part (Part 2), we continue to look at how to set up a Lighthouse server on Azure so that we can upload the scan results, see trends and compare the scores of your site at different points in time.

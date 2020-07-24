@@ -1,6 +1,5 @@
 ---
-title: The Culture Map - Read this before working on a distributed, multi-cultural
-  team.
+title: Book Review - The Culture Map
 date: 2020-03-07
 image: "/assets/images/culture-map.jpg"
 header:
@@ -26,9 +25,9 @@ The author breaks down the work culture into eight scales. And you have to consi
 
 To understand why I appreciate the book so much, why it was such an amazing read and highly relevant to me, let me tell you something about me. I work on a distributed team of about 15 people comprising of people from Germany, Netherlands, Finland, colleagues from China, two from the USA and me from India.
 
-Different people, different styles of communication, different ways of working and a truly international, distributed, multi-cultural team and I have to say the Culture Map nails it. I read the book AFTER working with the team for about a year and I could relate so well with the examples from the book. I wish I had read this in advance. It would have certainly explained a lot the "interesting" interactions. At least, now I know. Better late than never, I guess.
+Different people, different styles of communication, different ways of working and a truly international, distributed, multi-cultural team and I have to say the Culture Map nails it. I read the book *after* working with the team for about a year and I could relate so well with the examples from the book. I wish I had read this in advance. It would have certainly explained a lot the "interesting" interactions. At least, now I know. Better late than never, I guess.
 
-Let us look at the different scales
+Let us look at the different scales that Erin talks about
 
 ## 1. Communicating: “Low-Context vs. High Context”
 

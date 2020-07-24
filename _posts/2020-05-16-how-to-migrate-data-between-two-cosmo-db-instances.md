@@ -12,12 +12,8 @@ tags:
 - Azure
 - PowerShell
 - CosmosDB 
-excerpt: 
-ogImage:
-  title: "**How to migrate data between two Cosmos DB instances using PowerShell**"
-  subtitle: "www.gurucharan.in | @gurucharan94"
-  filename: "cosmos-db-migrator-script"
-  fontSize:  "120%"
+excerpt: Here is a simple script I wrote to migrate data from the source database to a target instance of Azure Cosmos DB using CosmosDB Migrator
+
 ---
 
 I have previously written about [Cosmos DB utility tools that you cannot miss](https://www.gurucharan.in/azure/cosmos-db-tools-that-improve-your-productivity/). Cosmos DB Data Migrator is the one I use most if I have to move data around across multiple instances of CosmosDB. Here is a simple script I wrote to migrate data from the source database to a target instance of Azure Cosmos DB.

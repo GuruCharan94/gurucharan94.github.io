@@ -13,7 +13,7 @@ tags:
   - Security
   - Log Analytics
   - PowerShell
-excerpt: "An quick guide to help you get started with the different features of the Secure DevOps Kit for Azure (AzSK) to help improve the security posture of your Azure Workloads and adopt a security first mindset."
+excerpt: "The Secure DevOps Kit for Azure (AzSK) helps you automate the verification of end-to-end security best practices for your Azure Workloads. You can configure security policies, auto generate fixes and integrate this in your DevOps pipelines. You can prevent security Drift by scanning resources at scale using Central Scan Mode and send the results to Azure Log Analytics. The Secure DevOps Kit for Azure is a must have tool for teams working with Azure to adopt a security first mindset, create secure workloads on Azure at scale."
 ---
 
 [The Secure DevOps Kit for Azure (AzSK)](https://azsk.azurewebsites.net/) is a free and open source toolkit that checks your Azure resources for operational and security best practices. The kit in it's core is a Powershell Module that caters to the end to end Azure subscription and resource security needs by checking key areas like
