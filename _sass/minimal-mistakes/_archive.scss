@@ -18,6 +18,15 @@
   }
 }
 
+.list__item {
+  h1.archive__item-title {
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 30px;
+    }
+  }
+}
 
 
 .archive__item {
@@ -31,7 +40,7 @@
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -42,7 +51,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-top:0;
+  margin-top: 0;
 
   a::before {
     content: '';
@@ -56,10 +65,10 @@
   a {
     text-decoration: none;
     font-weight: 600;
-    font-size:20px;
+    font-size: 20px;
   }
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -76,7 +85,7 @@
   margin-top: 0;
   font-size: 16px;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 
@@ -168,8 +177,10 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
+    margin-left: 0;
+    /* override margin*/
+    margin-right: 0;
+    /* override margin*/
     width: span(3 of 12);
 
     &:nth-child(2n + 1) {
@@ -430,7 +441,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
