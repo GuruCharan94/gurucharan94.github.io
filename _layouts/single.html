@@ -75,6 +75,9 @@ layout: default
       <div class="grid__wrapper">
         {% assign related_post_count = 0 %}
         {% for post in site.posts %}
+          {% if post.id == page.id %}
+            {% continue %}
+          {% endif %}
           {% if related_post_count == 4 %}
             {% break %}
           {% endif %}
@@ -90,6 +93,9 @@ layout: default
         {% assign posts_left = 4 | minus: related_post_count %}
         {% unless posts_left == 0 %}
           {% for post in site.posts %}
+            {% if post.id == page.id %}
+              {% continue %}
+            {% endif %}
             {% if posts_left == 0 %}
               {% break %}
             {% endif %}
@@ -116,6 +122,9 @@ layout: default
       <div class="grid__wrapper">
         {% assign related_post_count = 0 %}
         {% for post in site.posts %}
+          {% if post.id == page.id %}
+            {% continue %}
+          {% endif %}
           {% if related_post_count == 4 %}
             {% break %}
           {% endif %}
@@ -131,6 +140,9 @@ layout: default
         {% assign posts_left = 4 | minus: related_post_count %}
         {% unless posts_left == 0 %}
           {% for post in site.posts %}
+            {% if post.id == page.id %}
+              {% continue %}
+            {% endif %}
             {% if posts_left == 0 %}
               {% break %}
             {% endif %}
