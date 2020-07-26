@@ -4,7 +4,7 @@ date: 2019-04-30
 image: assets/images/cover-images/azsk.jpg
 header:
   teaser: assets/images/cover-images/azsk.jpg
-  thumbnail: assets/images/cover-images/azsk.jpg
+  thumbnail: assets/images/cover-images/azsk-thumbnail.jpg
   og_image: assets/images/cover-images/azsk.jpg
 categories:
   - Azure
