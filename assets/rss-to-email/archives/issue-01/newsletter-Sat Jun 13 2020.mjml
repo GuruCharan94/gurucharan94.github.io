@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>The Compiled Bytes #1</mj-title>
+    <mj-title>The Bytes' Watch #1</mj-title>
     <mj-attributes>
       <mj-all font-size="14px" color="black" font-family="Helvetica" align="left" />
       <mj-body background-color="#ffffff"></mj-body>
@@ -19,7 +19,7 @@
     <!-- Header -->
     <mj-section background-color="#00695c">
       <mj-column>
-        <mj-text color="white" align="center" font-size="28px" padding="20px">The Compiled Bytes #1</mj-text>
+        <mj-text color="white" align="center" font-size="28px" padding="20px">The Bytes' Watch #1</mj-text>
       </mj-column>
     </mj-section>
 
@@ -35,7 +35,7 @@
 
     <mj-section>
       <mj-column>
-        <mj-text padding-top="20px">In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world.</mj-text>
+        <mj-text padding-top="20px">In this issue of The Bytes' Watch, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world.</mj-text>
       </mj-column>
     </mj-section>
 

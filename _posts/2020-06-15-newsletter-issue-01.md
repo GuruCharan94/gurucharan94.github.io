@@ -1,5 +1,5 @@
 ---
-title: "The Compiled Bytes - Issue #1"
+title: "The Bytes' Watch - Issue #1"
 date: "2020-06-15"
 permalink: /newsletter/1
 image : "/assets/images/newsletter/1.jpg"
@@ -11,12 +11,12 @@ categories:
 - Newsletter
 tags:
 - Newsletter
-excerpt: "In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world"
+excerpt: "In this issue of The Bytes' Watch, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world"
 ---
 
-The [Compiled Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
 
-In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world
+In this issue of The Bytes' Watch, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world
 
 ### [Introducing the CNCF Technology Radar](https://www.cncf.io/blog/2020/06/12/introducing-the-cncf-technology-radar/)
 

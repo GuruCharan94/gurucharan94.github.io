@@ -1,5 +1,5 @@
 ---
-title: "The Compiled Bytes -Issue #0"
+title: "The Bytes' Watch -Issue #0"
 date: "2020-06-01"
 permalink: /newsletter/0
 image : "/assets/images/newsletter/0.jpg"
@@ -11,12 +11,12 @@ categories:
 - Newsletter
 tags:
 - Newsletter
-excerpt: "This is Issue #0 of The Compiled Bytes. This issue covers all the important updates from build that you cannot miss like .NET 5, C# 9, The Terminal and Azure Static Web Apps"
+excerpt: "This is Issue #0 of The Bytes' Watch. This issue covers all the important updates from build that you cannot miss like .NET 5, C# 9, The Terminal and Azure Static Web Apps"
 ---
 
-The [Compiled Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things I read**.
+The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things I read**.
 
-This is Issue #0 of The Compiled Bytes. This issue covers all the important updates from Microsoft Build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps.
+This is Issue #0 of The Bytes' Watch. This issue covers all the important updates from Microsoft Build that you cannot miss. .NET 5, C# 9, The Terminal and Azure Static Web Apps.
 
 ## .NET Updates from Build 2020
 

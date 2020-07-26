@@ -5,8 +5,8 @@
   "MDtemplateUrl": "https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/master/assets/rss-to-email/src/templates/newsletter-01.md",
   "TXTtemplateUrl": "https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/master/assets/rss-to-email/src/templates/newsletter-01.txt",
   "header": {
-    "title": "The Compiled Bytes #2",
-    "intro": "This is Issue #2 of The Compiled Bytes. In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps.",
+    "title": "The Bytes' Watch #2",
+    "intro": "This is Issue #2 of The Bytes' Watch. In this issue of The Bytes' Watch, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps.",
     "issue": "2"
   },
   "sponsorName": "",

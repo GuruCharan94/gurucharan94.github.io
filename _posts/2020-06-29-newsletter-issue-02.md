@@ -1,5 +1,5 @@
 ---
-title: "The Compiled Bytes - Issue #2"
+title: "The Bytes' Watch - Issue #2"
 date: "2020-06-29"
 permalink: /newsletter/2
 image : "/assets/images/newsletter/2.jpg"
@@ -11,10 +11,10 @@ categories:
 - Newsletter
 tags:
 - Newsletter
-excerpt: "In this issue of The Compiled Bytes, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps"
+excerpt: "In this issue of The Bytes' Watch, we take a look at .NET 5.0 preview 6, gRPC-Web, dotnet monitor, and Terraform Provider for Azure DevOps"
 ---
 
-The [Compiled Bytes](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
 
 ### [Applied Cloud Stories: Winning Entries](https://dev.to/azure/applied-cloud-stories-winning-entries-3n66)
 
