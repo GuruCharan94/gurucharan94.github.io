@@ -1,11 +1,11 @@
 ---
 title: "Five Azure CosmosDB tools that you cannot miss"
 date: 2019-10-10
-image: "/assets/images/cosmos-tools/teaser.png"
+image: "/assets/images/cover-images/cosmos-tools.jpg"
 header:
-  teaser: "/assets/images/cosmos-tools/teaser.png"
-  thumbnail: "/assets/images/cosmos-tools/teaser-thumbnail.png"
-  og_image: "/assets/images/cosmos-tools/teaser.png"
+  teaser: "/assets/images/cover-images/cosmos-tools.jpg"
+  thumbnail: "/assets/images/cover-images/cosmos-tools-thumbnail.jpg"
+  og_image: "/assets/images/cover-images/cosmos-tools.jpg"
 categories:
   - Azure
 tags:

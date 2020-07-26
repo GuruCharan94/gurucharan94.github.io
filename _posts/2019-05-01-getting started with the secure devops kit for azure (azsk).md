@@ -1,11 +1,11 @@
 ---
 title: "How to Improve Your Azure Security with the Secure DevOps Kit for Azure (AzSK)"
 date: 2019-04-30
-image: assets/images/AzSK/AzSK-LogAnalytics.png
+image: assets/images/cover-images/azsk.jpg
 header:
-  teaser: assets/images/AzSK/AzSK-LogAnalytics.png
-  thumbnail: assets/images/AzSK/AzSK-LogAnalytics-thumbnail.png
-  og_image: assets/images/AzSK/AzSK-LogAnalytics.png
+  teaser: assets/images/cover-images/azsk.jpg
+  thumbnail: assets/images/cover-images/azsk.jpg
+  og_image: assets/images/cover-images/azsk.jpg
 categories:
   - Azure
 tags:
@@ -34,7 +34,7 @@ I have further provided links to the official docs if you want to try out some o
 - Continuous security monitoring post deployment.
 
 <figure>
-  <img class="lazyload" data-src="/assets/images/AzSK/AzSK-LogAnalytics.png" 
+  <img class="lazyload" data-src="/assets/images/cover-images/azsk.jpg" 
   src="/assets/images/loadingicon.gif" alt="AzSK-Log Analytics"/>
   <figcaption>AzSK-Log Analytics</figcaption>
 </figure>

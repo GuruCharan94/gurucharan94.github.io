@@ -1,11 +1,11 @@
 ---
-title: "Applying Blue / Green Deployment concepts to upgrade your Azure Event Hub to use Availability Zones"
+title: "How to upgrade your Azure Event Hub to use Availability Zones"
 date: 2019-07-02
-image: "/assets/images/event-hub-migration/teaser.png"
+image: "/assets/images/cover-images/event-hub-az.jpg"
 header:
-  og_image: "/assets/images/event-hub-migration/teaser.png"
-  teaser: "/assets/images/event-hub-migration/teaser.png"
-  thumbnail: "/assets/images/event-hub-migration/teaser-thumbnail.png"
+  og_image: "/assets/images/cover-images/event-hub-az.jpg"
+  teaser: "/assets/images/cover-images/event-hub-az.jpg"
+  thumbnail: "/assets/images/cover-images/event-hub-az-thumbnail.jpg"
 categories:
   - Azure
 tags:
