@@ -5,8 +5,8 @@
   "MDtemplateUrl": "https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/master/assets/rss-to-email/src/templates/newsletter-01.md",
   "TXTtemplateUrl": "https://raw.githubusercontent.com/GuruCharan94/gurucharan94.github.io/master/assets/rss-to-email/src/templates/newsletter-01.txt",
   "header": {
-    "title": "The Bytes' Watch #1",
-    "intro": "In this issue of The Bytes' Watch, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world",
+    "title": "The Bytes Watch #1",
+    "intro": "In this issue of The Bytes Watch, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world",
     "issue": "1"
   },
   "sponsorName": "",

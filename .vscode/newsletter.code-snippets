@@ -2,7 +2,7 @@
   "blog-post": {
     "scope" : "markdown",
     "prefix": ["newsletter"],
-    "body": ["---","title: ${1:title} - The Bytes' Watch",
+    "body": ["---","title: ${1:title} - The Bytes Watch",
       "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
       "permalink: /newsletter/${2:filename}",
       "header:",
