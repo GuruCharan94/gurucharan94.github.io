@@ -11,7 +11,7 @@ categories:
 - Newsletter
 tags:
 - Newsletter
-excerpt: "This is Issue #0 of The Bytes Watch. This issue covers all the important updates from build that you cannot miss like .NET 5, C# 9, The Terminal and Azure Static Web Apps"
+excerpt: "The Bytes Watch is a collection of links to all the interesting things I read on Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership published as a blog post and also available as a newsletter. This issue covers all the important updates from Microsoft Build that you cannot miss like .NET 5, C# 9, The Terminal and Azure Static Web Apps"
 ---
 
 The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a collection of links to some of the things I found new and interesting in the tech world. Usually has links about Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership published as a blog post and also available as a newsletter.
