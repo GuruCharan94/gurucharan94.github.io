@@ -11,7 +11,7 @@ categories:
 - Newsletter
 tags:
 - Newsletter
-excerpt: "The Bytes Watch is a collection of links to all the interesting things I read on Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership published as a blog post and also available as a newsletter. This edition features gRPC-Web for .NET, Terraform Provider for Azure DevOps"
+excerpt: "The Bytes Watch is a collection of links to all the interesting things I read on Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership published as a blog post and also available as a newsletter. This edition features gRPC-Web for .NET, Terraform Provider for Azure DevOps and .NET monitor"
 ---
 
 The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a collection of links to some of the things I found new and interesting in the tech world. Usually has links about Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership published as a blog post and also available as a newsletter.
