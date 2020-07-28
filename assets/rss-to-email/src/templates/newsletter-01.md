@@ -30,9 +30,7 @@ The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a newsletter that I
 {{/if}}
 
 {{#each items}}
-
 ### [{{{this.title}}}]({{{this.link}}})
-
 {{{this.description}}}
 {{/each}}
 {{/each}}

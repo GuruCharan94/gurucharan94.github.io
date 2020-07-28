@@ -45,8 +45,8 @@ const Feed = stampit({
       const itemDescription = JSON.parse(fs.readFileSync(this.config.dataFile, 'utf8'));
 
       this.items = feedObject.items
-                              .map((item,index) => cleanItem(item,itemDescription[index]))
-                              .sort((a, b) => (a.isoDate > b.isoDate) ? 1 : -1);
+                              .sort((a, b) => (a.isoDate > b.isoDate) ? 1 : -1)
+                              .map((item,index) => cleanItem(item,itemDescription[index]));
 
       this.applyFilters();
       this.title = this.config.title;

@@ -12,7 +12,6 @@
 - View Oldest First to verify the order.
 - Set to View newest first and add commentary.
 
-
 ### 2. Create the content
 
 - Create a new issue-N folder under archives.

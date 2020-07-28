@@ -1,0 +1,89 @@
+# The Bytes Watch #3
+
+Issue #
+
+You can read this email from your browser.
+Link : https://www.gurucharan.in/newsletter/3
+
+
+
+
+
+### Data Modeling and Partitioning for Relational Workloads
+Link : (https://devblogs.microsoft.com/cosmosdb/data-modeling-and-partitioning-for-relational-workloads/)
+
+
+
+
+### Announcing Azure Functions extension for Dapr
+Link : (https://cloudblogs.microsoft.com/opensource/2020/07/01/announcing-azure-functions-extension-for-dapr/)
+
+
+
+
+### Azure Firewall Manager is now generally available
+Link : (https://azure.microsoft.com/blog/azure-firewall-manager-is-now-generally-available/)
+
+
+
+
+### Change Feed – Unsung Hero of Azure Cosmos DB
+Link : (https://devblogs.microsoft.com/cosmosdb/change-feed-unsung-hero-of-azure-cosmos-db/)
+
+
+
+
+### Introducing Azure Load Balancer Insights using Azure Monitor for Networks
+Link : (https://azure.microsoft.com/en-us/updates/introducing-azure-load-balancer-insights-using-azure-monitor-for-networks/)
+
+
+
+
+### When your coworker does great work, tell their manager
+Link : (https://jvns.ca/blog/2020/07/14/when-your-coworker-does-great-work-tell-their-manager/)
+
+
+
+
+### Azure Time Series Insights Gen2: Leading the next generation of industrial IoT analytics platforms
+Link : (https://azure.microsoft.com/blog/azure-time-series-insights-gen-2-leading-the-next-generation-of-industrial-iot-analytics-solutions/)
+
+
+
+
+### Which Kubernetes Certification Is Right For You?
+Link : (https://www.cncf.io/blog/2020/07/20/which-kubernetes-certification-is-right-for-you/)
+
+
+
+
+### Azure Monitor Logs connector is now generally available
+Link : (https://azure.microsoft.com/en-us/updates/azure-monitor-logs-connector-is-now-generally-available/)
+
+
+
+
+### Azure DevOps Roadmap update for 2020 Q3
+Link : (https://devblogs.microsoft.com/devops/azure-devops-roadmap-update-for-2020-q3/)
+
+
+
+
+### Your interviews shouldn’t be spoilable
+Link : (https://medium.com/@rafeco/your-interviews-shouldnt-be-spoilable-c9088ecea1ee)
+
+
+
+
+### Create space for others.
+Link : (https://lethain.com/create-space-for-others/)
+
+
+
+
+Curated by Gurucharan Subramani.
+Link : https://www.gurucharan.in
+
+You received this email because you subscribed to this newsletter.
+
+You can unsubscribe at [LINK_UNSUBSCRIBE] but I hope you'll read previous editions at https://www.gurucharan.in/newsletter/archives before deciding.

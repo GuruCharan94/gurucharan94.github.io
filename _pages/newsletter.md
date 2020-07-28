@@ -14,7 +14,7 @@ excerpt: "The Bytes Watch is a newsletter where I share with you interesting upd
 
 The Bytes Watch is a newsletter where I share with you interesting updates on Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership.
 
-When you subscribe, you will get 1-2 emails a month. Your email address will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email address gets deleted automatically.
+When you subscribe, you will get 1-2 emails a month. Your email address will not be used for any purpose other than this newsletter. You can unsubscribe at anytime and your email address gets deleted.
 
 Join the Bytes Watch to keep yourself updated on the latest bytes in the ever changing world of tech.
 
