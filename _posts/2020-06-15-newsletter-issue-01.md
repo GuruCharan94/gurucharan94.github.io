@@ -11,10 +11,10 @@ categories:
 - Newsletter
 tags:
 - Newsletter
-excerpt: "In this issue of The Bytes Watch, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world"
+excerpt: "The Bytes Watch is a collection of links to all the interesting things I read on Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership published as a blog post and also available as a newsletter."
 ---
 
-The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a newsletter that I publish twice a month with the **latest on Azure, .NET, DevOps, Container Technologies and other interesting things**.
+The [Bytes' Watch](https://www.gurucharan.in/newsletter/) is a collection of links to some of the things I found new and interesting in the tech world. Usually has links about Azure, .NET, DevOps, Container Technologies, Productivity, Career and Leadership published as a blog post and also available as a newsletter.
 
 In this issue of The Bytes Watch, we take a look at .NET 5.0 preview 5, The CNCF Technology Radar, Async / Await Best Practices and other interesting things in the cloud native world
 
