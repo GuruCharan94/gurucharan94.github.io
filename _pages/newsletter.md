@@ -2,7 +2,6 @@
 title: "The Bytes Watch"
 layout: single
 permalink: /newsletter/
-classes: wide
 author_profile: true
 image : "/assets/images/newsletter/intro.jpg"
 header:

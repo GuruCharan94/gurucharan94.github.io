@@ -2,7 +2,6 @@
 title: "Get, Set, Go"
 layout: single
 permalink: /lets-go/
-classes: wide
 author_profile: true
 header:
   teaser: "/assets/images/golang.png"
