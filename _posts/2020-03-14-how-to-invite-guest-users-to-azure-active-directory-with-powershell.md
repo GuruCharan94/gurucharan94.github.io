@@ -59,7 +59,7 @@ For ($i = 0; $i -lt $users.Count; $i++) {
 
         if ((Get-AzureADUser -SearchString $currentEmail).Length -le 0) {  # User not in AD. Send invite
             New-AzureADMSInvitation -InvitedUserEmailAddress $currentEmail -SendInvitationMessage $true `
-                                      -InvitedUserMessageInfo invitation -InviteRedirectUrl "https://www.my-super-fancy-app.com"
+                                      -InvitedUserMessageInfo $invitation -InviteRedirectUrl "https://www.my-super-fancy-app.com"
         }
 }
 ```
