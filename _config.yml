@@ -20,7 +20,7 @@ date                     : 2019-05-01
 title                    : "Gurucharan94"
 title_separator          : "-"
 name                     : "Gurucharan Subramani"
-description              : "I am Gurucharan Subramani. I am a Software Engineer. I work with .NET, Azure, Azure DevOps and little JavaScript. On some days I am Dev, on other days I am Ops and frequently many things in between."
+description              : "I am Gurucharan Subramani. I am a Software Engineer. I work with .NET, Azure and Azure DevOps. On some days I am Dev, on other days I am Ops and frequently many things in between."
 url                      : "https://www.gurucharan.in"
 baseurl                  : ""
 repository               : "GuruCharan94/gurucharan94.github.io"
@@ -113,7 +113,7 @@ author:
   name             : "Gurucharan Subramani"
   avatar           : "assets/images/gurucharan94.png"
   bio              : "Code | Debug | Ship | Speak | Blog"
-  location         : "Bangalore, India"
+  location         : "Eindhoven,NL"
   twitter          :
   email            :
   links:
