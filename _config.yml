@@ -84,7 +84,7 @@ search_provider          : lunr
 
 # Social Sharing
 twitter:
-  username               :
+  username               : gurucharan94
 facebook:
   username               :
   app_id                 :
@@ -114,7 +114,7 @@ author:
   avatar           : "assets/images/gurucharan94.png"
   bio              : "Software Engineer"
   location         : "Eindhoven,NL"
-  twitter          :
+  twitter          : gurucharan94
   email            :
   links:
     - label: "GitHub"
