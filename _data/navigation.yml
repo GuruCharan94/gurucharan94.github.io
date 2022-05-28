@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "About Me"
-    url: /about/
-  - title: "Talks"
-    url: /speaking-engagements/
+  # - title: "About Me"
+  #   url: /about/
+  # - title: "Talks"
+  #   url: /speaking-engagements/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
