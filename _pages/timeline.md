@@ -34,6 +34,8 @@ gallery2:
 
 ## Gallery 2
 
+Test text
+
 {% include gallery id="gallery2" class="full" caption="This is a third gallery example with two images and fills the entire content container." %}
 
 ## Gallery 3
